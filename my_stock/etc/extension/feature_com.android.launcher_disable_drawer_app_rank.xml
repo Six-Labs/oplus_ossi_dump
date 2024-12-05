@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <!-- tianjicun@APP.Launcher, 2021/10/13, disable app rank in drawer -->
+    <app_feature name="com.android.launcher.DRAW_MODE_APP_RANK_DISABLED" />
+</extend_features>

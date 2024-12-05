@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--Only for RMX phone !!! -->
+
+<LegalInfos version="1.0">
+    <MODEL_RMX1946>
+        <CE/>
+    </MODEL_RMX1946>
+
+    <MODEL_RMX1901>
+        <CE/>
+        <INA number="61590" year="2019"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1901>
+
+    <MODEL_RMX1903>
+        <CE/>
+        <INA number="62045" year="2019"/>
+    </MODEL_RMX1903>
+
+    <MODEL_RMX1911>
+        <CE/>
+        <AUS/>
+        <MAS/>
+        <INA number="62303" year="2019"/>
+        <THA number="B38523-19-1590"/>
+        <PHI number="1905612"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1911>
+
+    <MODEL_RMX1921>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <AUS/>
+        <MAS/>
+        <INA number="62634" year="2019"/>
+        <THA number="B38577-19-1590"/>
+        <PHI number="1905622"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1921>
+
+    <MODEL_RMX1922>
+        <CE/>
+    </MODEL_RMX1922>
+
+    <MODEL_RMX1919>
+        <CE/>
+    </MODEL_RMX1919>
+
+    <MODEL_RMX1925>
+        <CE/>
+        <MAS/>
+        <INA number="64327" year="2019"/>
+        <THA number="B38700-19-1590"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1925>
+
+    <MODEL_RMX1926>
+        <CE/>
+    </MODEL_RMX1926>
+
+    <MODEL_RMX1927>
+        <CE/>
+    </MODEL_RMX1927>
+
+    <MODEL_RMX1929>
+        <CE/>
+    </MODEL_RMX1929>
+
+    <MODEL_RMX1971>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <MAS/>
+        <AUS/>
+        <INA number="62595" year="2019"/>
+        <THA number="B38553-19-1590"/>
+        <PHI number="1905645"/>
+        <KSA number="2019-2705"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1971>
+
+    <MODEL_RMX1973>
+        <CE/>
+    </MODEL_RMX1973>
+
+    <MODEL_RMX1993>
+        <CE/>
+    </MODEL_RMX1993>
+
+    <MODEL_RMX1931>
+        <CE/>
+        <MAS/>
+        <THA number="B38679-19-1590"/>
+        <INA number="64163" year="2019"/>
+        <KSA number="2019-2582"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1931>
+
+    <MODEL_RMX2030>
+        <CE/>
+        <THA number="B38793-19-1590"/>
+        <MAS/>
+        <INA number="64997" year="2019"/>
+        <PHI number="1905816"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2030>
+
+    <MODEL_RMX2031>
+        <CE/>
+    </MODEL_RMX2031>
+
+    <MODEL_RMX2032>
+        <CE/>
+    </MODEL_RMX2032>
+
+    <MODEL_RMX2111>
+        <CE/>
+        <AUS/>
+        <MAS/>
+        <THA number="B38718-20-1590"/>
+        <KSA number="2020-2055"/>
+    </MODEL_RMX2111>
+
+    <MODEL_RMX2075>
+        <CE/>
+        <MAS/>
+        <THA number="B38305-20-1590"/>
+        <PHI number="2006035"/>
+        <INA number="68635" year="2020" made_in_number="6813" made_in_place="China"/>
+        <KSA number="2020-1189"/>
+    </MODEL_RMX2075>
+
+    <MODEL_RMX2020>
+        <CE/>
+        <AUS/>
+        <THA number="B38001-20-1590"/>
+        <INA number="65370" year="2019"/>
+        <PHI number="2005840"/>
+        <MAS/>
+        <KSA number="2020-639"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2020>
+
+    <MODEL_RMX2040>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <AUS/>
+        <PHI number="2005839"/>
+        <MAS/>
+        <THA number="B38053-20-1590"/>
+        <INA number="65832" year="2020"/>
+        <KSA number="2020-637"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2040>
+
+    <MODEL_RMX2027>
+        <CE/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+        <elabel factory_no="CN-" region="India"/>
+    </MODEL_RMX2027>
+
+    <MODEL_RMX2001>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <AUS/>
+        <MAS/>
+        <PHI number="2005883"/>
+        <INA number="65831" year="2020"/>
+        <THA number="B38092-20-1590"/>
+        <KSA number="2020-636"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+        <elabel factory_no="CN-" region="India"/>
+    </MODEL_RMX2001>
+
+    <MODEL_RMX2061>
+        <CE/>
+        <MAS/>
+        <INA number="65973" year="2020"/>
+        <PHI number="2005905"/>
+        <THA number="B38085-20-1590"/>
+        <KSA number="2020-638"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2061>
+
+    <MODEL_RMX2063>
+        <MEX r_old_style="true"/>
+        <CE/>
+    </MODEL_RMX2063>
+
+    <MODEL_RMX2086>
+        <CE/>
+        <MAS/>
+        <AUS/>
+        <INA number="67620" year="2020"/>
+        <THA number="B38216-20-1590"/>
+        <PHI number="2006034"/>
+    </MODEL_RMX2086>
+
+    <MODEL_RMX2002>
+        <CE/>
+        <INA number="67702" year="2020"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2002>
+
+    <MODEL_RMX2185>
+        <CE/>
+        <MAS/>
+        <AUS/>
+        <PHI number="2006033"/>
+        <INA number="70114" year="2020" made_in_number="6813"/>
+        <THA number="B38389-20-1590"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+        <elabel factory_no="CN-" region="India"/>
+    </MODEL_RMX2185>
+
+    <MODEL_RMX2121>
+        <CE/>
+        <MAS/>
+        <THA number="B38617-20-1590"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2121>
+
+    <MODEL_RMX2144>
+        <CE/>
+        <THA number="B38430-20-1590"/>
+    </MODEL_RMX2144>
+
+    <MODEL_RMX2170>
+        <CE/>
+        <MAS/>
+        <AUS/>
+        <PHI number="2006179"/>
+        <INA number="69718" year="2020" made_in_number="6813"/>
+        <THA number="B38530-20-1590"/>
+        <KSA number="2020-1475"/>
+        <MEX/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2170>
+
+    <MODEL_RMX2101>
+        <CE/>
+        <MAS/>
+        <INA number="70113" year="2020" made_in_number="6813"/>
+        <THA number="B38533-20-1590"/>
+    </MODEL_RMX2101>
+
+    <MODEL_RMX2103>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <MAS/>
+        <PHI number="2006174"/>
+        <INA number="70042" year="2020" made_in_number="6813"/>
+        <THA number="B38532-20-1590"/>
+        <KSA number="2020-1460"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2103>
+
+    <MODEL_RMX2193>
+        <CE/>
+        <MAS/>
+        <PHI number="2006273"/>
+        <INA number="70642" year="2020" made_in_number="6813"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2193>
+
+    <MODEL_RMX2195>
+        <CE/>
+        <MAS/>
+        <PHI number="2006272"/>
+        <INA number="70643" year="2020" made_in_number="6813"/>
+        <MEX/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2195>
+
+    <MODEL_RMX1825>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1825>
+
+    <MODEL_RMX1992>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1992>
+
+    <MODEL_RMX1827>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1827>
+
+    <MODEL_RMX2076>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2076>
+
+    <MODEL_RMX2085>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2085>
+
+    <MODEL_RMX2081>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2081>
+
+    <MODEL_RMX2161>
+        <CE/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2161>
+
+    <MODEL_RMX2163>
+        <CE/>
+        <MAS/>
+        <THA number="B38605-20-1590"/>
+        <INA number="70472" year="2020" made_in_number="6813"/>
+    </MODEL_RMX2163>
+
+    <MODEL_RMX1821>
+        <CE/>
+        <INA number="59465" year="2018" made_in_number="none"/>
+        <PHI number="1905306"/>
+        <THA number="B38032-19-1590"/>
+        <MAS/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1821>
+
+    <MODEL_RMX1822>
+        <CE/>
+    </MODEL_RMX1822>
+
+    <MODEL_RMX1851>
+        <CE/>
+        <INA number="60262" year="2019"/>
+        <THA number="B38136-19-1590"/>
+        <PHI number="1905380"/>
+        <MAS/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX1851>
+
+    <MODEL_RMX2151>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <PHI number="2006116"/>
+        <INA number="70079" year="2020" made_in_number="6813"/>
+        <MAS/>
+        <KSA number="2020-1461"/>
+        <elabel factory_no="IN-04" region="India"/>
+        <elabel factory_no="CN-" region="India"/>
+    </MODEL_RMX2151>
+
+    <MODEL_RMX2180>
+        <CE/>
+        <MAS/>
+        <INA number="70044" year="2020" made_in_number="6813"/>
+        <PHI number="2006105"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2180>
+
+    <MODEL_RMX2189>
+        <CE/>
+        <AUS/>
+        <MAS/>
+        <INA number="70080" year="2020" made_in_number="6813"/>
+        <PHI number="2006117"/>
+        <THA number="B38513-20-1590"/>
+        <KSA number="2020-1474"/>
+        <elabel factory_no="IN-02" region="India"/>
+        <elabel factory_no="IN-04" region="India"/>
+        <elabel factory_no="CN-" region="India"/>
+    </MODEL_RMX2189>
+
+    <MODEL_RMX1941>
+        <CE/>
+        <INA number="61156" year="2019"/>
+        <THA number="B38278-19-1590"/>
+        <PHI number="1905461"/>
+        <MAS/>
+        <AUS/>
+        <KSA number="2019-2704"/>
+        <elabel factory_no="IN-02" region="India"/>
+    </MODEL_RMX1941>
+
+    <MODEL_RMX1942>
+        <CE/>
+    </MODEL_RMX1942>
+
+    <MODEL_RMX1943>
+        <CE/>
+    </MODEL_RMX1943>
+
+    <MODEL_RMX1945>
+        <CE/>
+        <INA number="63477" year="2019"/>
+        <elabel factory_no="IN-04" region="India"/>
+        <elabel factory_no="IN-02" region="India"/>
+    </MODEL_RMX1945>
+
+    <MODEL_RMX2050>
+        <elabel factory_no="IN-04" region="India"/>
+        <elabel factory_no="IN-02" region="India"/>
+    </MODEL_RMX2050>
+
+    <MODEL_RMX2155>
+        <CE/>
+        <MEX r_old_style="true"/>
+    </MODEL_RMX2155>
+
+    <MODEL_RMX2176>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2176>
+
+    <MODEL_RMX2156>
+        <CE/>
+        <MAS/>
+        <MEX/>
+        <INA number="72611" year="2021" made_in_number="6813"/>
+        <PHI number="2106485"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2156>
+
+    <MODEL_RMX3061>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <MAS/>
+        <PHI number="2006411"/>
+        <INA number="71434" year="2020" made_in_number="6813"/>
+        <THA number="B38811-20-1590"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX3061>
+
+    <MODEL_RMX3063>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <MAS/>
+        <PHI number="2006430"/>
+        <INA number="71635" year="2020" made_in_number="6813"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX3063>
+
+    <MODEL_RMX2117>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX2117>
+
+    <MODEL_RMX3081>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <PHI number="2106561"/>
+        <INA number="72798" year="2021" made_in_number="6813"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+        <IMG drawable="@drawable/regulatory_image_brazil_anatel_rmx3081"/>
+    </MODEL_RMX3081>
+
+    <MODEL_RMX3092>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX3092>
+
+    <MODEL_RMX3171>
+        <CE/>
+        <MAS/>
+        <INA number="72298" year="2020" made_in_number="6813"/>
+        <THA number="B38029-21-1590"/>
+        <PHI number="2106490"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX3171>
+
+    <MODEL_RMX3201>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <AUS/>
+        <MAS/>
+        <THA number="B38011-21-1590"/>
+        <INA number="72635" year="2021" made_in_number="6813"/>
+        <PHI number="2106489"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX3201>
+
+    <MODEL_RMX3203>
+        <MEX r_old_style="true"/>
+    </MODEL_RMX3203>
+
+    <MODEL_RMX3085>
+        <CE/>
+        <THA number="B38112-21-1590"/>
+        <PHI number="2106613"/>
+        <INA number="73500" year="2021" made_in_number="6813"/>
+        <elabel factory_no="IN-04" region="India"/>
+    </MODEL_RMX3085>
+
+    <MODEL_RMX2202>
+        <CE/>
+        <THA number="B38321-21-1590"/>
+        <MEX r_old_style="true"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX2202>
+
+    <MODEL_RMX3191>
+        <CE/>
+        <THA number="B38094-21-1590"/>
+        <INA number="73168" year="2021" made_in_number="6813"/>
+        <PHI number="2106577"/>
+        <IMG drawable="@drawable/regulatory_image_brazil_anatel_rmx3191"/>
+    </MODEL_RMX3191>
+
+    <MODEL_RMX3193>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+        <elabel brand="Realme" factory_no="IN-ODM-WT-01" region="India"/>
+        <elabel brand="Realme" factory_no="IN-ODM-WT-02" region="India"/>
+    </MODEL_RMX3193>
+
+    <MODEL_RMX3242>
+        <CE/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3242>
+
+    <MODEL_RMX3241>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <MAS/>
+        <PHI number="2106632"/>
+        <INA number="73884" year="2021" made_in_number="6813"/>
+        <THA number="B38141-21-1590"/>
+        <KSA number="2021-994"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3241>
+
+    <MODEL_RMX3031>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3031>
+
+    <MODEL_RMX3195>
+        <CE/>
+        <MAS/>
+        <KSA number="2021-1451"/>
+        <INA number="74905" year="2021" made_in_number="6813"/>
+        <THA number="B38230-21-1590"/>
+        <PHI number="2106682"/>
+    </MODEL_RMX3195>
+
+    <MODEL_RMX3197>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+        <elabel brand="Realme" factory_no="IN-ODM-WT-01" region="India"/>
+        <elabel brand="Realme" factory_no="IN-ODM-WT-02" region="India"/>
+    </MODEL_RMX3197>
+
+    <MODEL_RMX3231>
+        <MEX r_old_style="true"/>
+    </MODEL_RMX3231>
+
+    <MODEL_RMX3151>
+        <CE/>
+        <PHI number="2106892"/>
+        <INA number="76661" year="2021" made_in_number="6813"/>
+        <MEX r_old_style="true"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3151>
+
+    <MODEL_RMX3363>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <THA number="B38421-21-1590"/>
+        <PHI number="2106862"/>
+        <MAS/>
+        <IMG drawable="@drawable/regulatory_image_brazil_anatel_rmx3363"/>
+        <INA number="76325" year="2021" made_in_number="6813"/>
+    </MODEL_RMX3363>
+
+    <MODEL_RMX3360>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3360>
+
+    <MODEL_RMX3430>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <MAS/>
+        <INA number="77441" year="2021" made_in_number="6813"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3430>
+
+    <MODEL_RMX3381>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3381>
+
+    <MODEL_RMX3370>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <MAS/>
+        <INA number="77808" year="2021" made_in_number="6813"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3370>
+
+    <MODEL_RMX3371>
+        <CE/>
+        <MAS/>
+        <INA number="81648" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3371>
+
+    <MODEL_RMX3491>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <KSA number="2022-96"/>
+        <MAS/>
+        <PHI number="2107110"/>
+        <INA number="79305/R" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3491>
+
+    <MODEL_RMX3493>
+        <CE/>
+    </MODEL_RMX3493>
+
+    <MODEL_RMX3311>
+        <CE/>
+        <MAS/>
+        <THA number="B38661-21-1590"/>
+        <PHI number="2107159"/>
+        <MEX r_old_style="true"/>
+        <KSA number="2022-220" new_style="true"/>
+        <INA number="80462" year="2022" made_in_number="6813"/>
+    </MODEL_RMX3311>
+
+    <MODEL_RMX3312>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3312>
+
+    <MODEL_RMX3392>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3392>
+
+    <MODEL_RMX3393>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <PHI number="2107140"/>
+        <MAS/>
+        <KSA number="2022-234" new_style="true"/>
+        <INA number="79167" year="2021" made_in_number="6813"/>
+    </MODEL_RMX3393>
+
+    <MODEL_RMX3395>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3395>
+
+    <MODEL_RMX3396>
+        <CE/>
+        <PHI number="2207427"/>
+    </MODEL_RMX3396>
+
+    <MODEL_RMX3472>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <PHI number="2107158"/>
+        <MAS/>
+        <KSA number="2022-235" new_style="true"/>
+        <INA number="79538" year="2021" made_in_number="6813"/>
+    </MODEL_RMX3472>
+
+    <MODEL_RMX3471>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3471>
+
+    <MODEL_RMX3286>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <MAS/>
+        <KSA number="2022-94" new_style="true"/>
+        <PHI number="2107157"/>
+        <INA number="79306" year="2021" made_in_number="6813"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3286>
+
+    <MODEL_RMX3388>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <MAS/>
+        <PHI number="2207257"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3388>
+
+    <MODEL_RMX3301>
+        <CE/>
+        <MAS/>
+        <PHI number="2207236"/>
+        <KSA number="2022-222" new_style="true"/>
+        <INA number="79625" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3301>
+
+    <MODEL_RMX3461>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3461>
+
+    <MODEL_RMX3474>
+        <CE/>
+        <MEX r_old_style="true"/>
+    </MODEL_RMX3474>
+
+    <MODEL_RMX3521>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <PHI number="2207316"/>
+        <KSA number="2022-830" new_style="true"/>
+        <elabel brand="Realme" factory_no="IN-ODM-WT-02" region="India"/>
+        <INA number="81038/R" year="2022" made_in_number="6813" made_in_place="none"/>
+    </MODEL_RMX3521>
+
+    <MODEL_RMX3561>
+        <MAS/>
+        <CE/>
+        <PHI number="2207382"/>
+        <KSA number="2022-974" new_style="true"/>
+        <INA number="81039" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3561>
+
+    <MODEL_RMX3563>
+        <CE/>
+        <INA number="82636" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3563>
+
+    <MODEL_RMX3571>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3571>
+
+    <MODEL_RMX3572>
+        <CE/>
+        <INA number="81615" year="2022" made_in_number="6813" made_in_place="none"/>
+        <PHI number="2207467"/>
+    </MODEL_RMX3572>
+
+    <MODEL_RMX3612>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <INA number="83184" year="2022" made_in_number="6813" made_in_place="none"/>
+        <KSA number="2022-1634" new_style="true"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3612>
+
+    <MODEL_RMX3630>
+        <CE/>
+        <KSA number="2022-2360" new_style="true"/>
+        <INA number="84687" year="2022" made_in_number="6813" made_in_place="none"/>
+        <MEX r_old_style="true"/>
+    </MODEL_RMX3630>
+
+    <MODEL_RMP2107>
+        <CE/>
+        <MAS/>
+        <PHI number="2207501"/>
+        <IMG drawable="@drawable/regulatory_image_india_anatel_rmp2107"/>
+    </MODEL_RMP2107>
+
+    <MODEL_RMP2108>
+        <CE/>
+        <PHI number="2229985"/>
+        <IMG drawable="@drawable/regulatory_image_india_anatel_rmp2108"/>
+    </MODEL_RMP2108>
+</LegalInfos>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.oplus.deepthinker.startup.defer.time" args="long:600000"/>
+
+	<app_feature name="com.oplus.efficient.conference.pagelist" args="StringList:pageList">
+		<StringList name="pageList" args="{&quot;version&quot;:&quot;0001&quot;,&quot;content&quot;:[{&quot;packageName&quot;:&quot;com.alibaba.android.rimet&quot;,&quot;pageName&quot;:[&quot;com.alibaba.android.teleconf.mozi.activity.TeleVideoConfActivity&quot;,&quot;com.alibaba.android.gray.teleconf.mozi.activity.TeleVideoConfActivity&quot;,&quot;com.alibaba.android.teleconf.activities.TeleConfHomeV2Activity&quot;]},{&quot;packageName&quot;:&quot;com.tencent.wework&quot;,&quot;pageName&quot;:[&quot;com.tencent.wework.multitalk.controller.VoipCallActivity&quot;,&quot;com.tencent.wework.multitalk.controller.meeting.MeetingVideoFullScreen&quot;,&quot;com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity&quot;]},{&quot;packageName&quot;:&quot;com.tencent.wemeet.app&quot;,&quot;pageName&quot;:[&quot;com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity&quot;]},{&quot;packageName&quot;:&quot;us.zoom.videomeetings&quot;,&quot;pageName&quot;:[&quot;com.zipow.videobox.ConfActivityNormal&quot;,&quot;com.zipow.videobox.conference.ui.ZmFoldableConfActivity&quot;]},{&quot;packageName&quot;:&quot;com.tencent.mm&quot;,&quot;pageName&quot;:[&quot;com.tencent.mm.plugin.multitalk.ui.MultiTalkMainUI&quot;]},{&quot;packageName&quot;:&quot;com.ss.android.lark&quot;,&quot;pageName&quot;:[&quot;com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivityInstance&quot;]},{&quot;packageName&quot;:&quot;com.larksuite.meeting.cn&quot;,&quot;pageName&quot;:[&quot;com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivity&quot;]},{&quot;packageName&quot;:&quot;com.microsoft.teams&quot;,&quot;pageName&quot;:[&quot;com.microsoft.skype.teams.views.activities.InCallActivity&quot;]}]}"/>
+	</app_feature>
+	<app_feature name="com.oplus.deepthinker.component.force_disable" args="StringList:disableFeature">
+		<StringList name="disableFeature" args="501;502;503;504;505;506;507;508;510;513;514;515;516;517;522;523;402;403;404;405;406"/>
+	</app_feature>
+</extend_features>

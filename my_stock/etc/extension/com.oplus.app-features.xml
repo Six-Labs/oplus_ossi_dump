@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="os.tool.onetrace.liteos.thermal.metric" args="boolean:false"/>
+	<app_feature name="os.tool.onetrace.liteos.performance.ottrace" args="boolean:false"/>
+	<app_feature name="os.tool.onetrace.liteos.performance.ood" args="boolean:false"/>
+	<app_feature name="os.tool.onetrace.liteos.thermal.ostats" args="boolean:false"/>
+	<app_feature name="os.tool.onetrace.liteos.thermal.detect" args="boolean:false"/>
+	<app_feature name="com.oplus.bootreg_global_search_feature_user_agreement" args="String:https://actimg.heytapimg.com/cdo-activity/static-page/channel73/index.html?lang="/>
+	<app_feature name="com.oplus.bootreg_global_search_feature_privacy_policy" args="String:https://actimg.heytapimg.com/cdo-activity/static-page/channel82/index.html?lang="/>
+	<app_feature name="com.oplus.screenrecorder.light_weight_os"/>
+	<app_feature name="com.oplus.alarmclock.light_weight_os"/>
+	<app_feature name="oplus.af.enable.quick_connect_swicth_statet" args="int:1"/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_more_all" args="String:https://support.oppo.com/en/vcomm-help/"/>
+	<app_feature name="com.oplus.floatassistant.light_weight_os"/>
+</extend_features>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <!-- Dongming.Shi@Apps.Launcher, 2022/3/24: Add feature for light weight os. -->
+    <app_feature name="com.android.launcher.light_weight_os" />
+</extend_features>

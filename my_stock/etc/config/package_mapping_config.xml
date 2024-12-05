@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pkgMappingConfig>
+    <!-- common config start -->
+    <pkgMappingItem sourcePkgName="com.heytap.appplatform" targetPkgName="com.oplus.appplatform" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.securitypermission" targetPkgName="com.oplus.securitypermission" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.apprecover" targetPkgName="com.oplus.apprecover" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.sau" targetPkgName="com.oplus.sau" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.sauhelper" targetPkgName="com.oplus.sauhelper" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.nearme.romupdate" targetPkgName="com.oplus.romupdate" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.cota" targetPkgName="com.oplus.cota" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.ota" targetPkgName="com.oplus.ota" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.logkit" targetPkgName="com.oplus.logkit" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.oppomultiapp" targetPkgName="com.oplus.multiapp" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.exserviceui" targetPkgName="com.oplus.exserviceui" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.gesture" targetPkgName="com.oplus.gesture" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.oppoguardelf" targetPkgName="com.oplus.battery" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.athena" targetPkgName="com.oplus.athena" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.deepthinker" targetPkgName="com.oplus.deepthinker" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.exsystemservice" targetPkgName="com.oplus.exsystemservice" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.gamespace" targetPkgName="com.oplus.cosa" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.heytap.synergy" targetPkgName="com.oplus.synergy" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.heytap.linker" targetPkgName="com.oplus.linker" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.multimedia.dolby" targetPkgName="com.oplus.audio.effectcenter" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.multimedia.dirac" targetPkgName="com.oplus.multimedia.dirac" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.atlas" targetPkgName="com.oplus.atlas" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.simsettings" targetPkgName="com.oplus.trafficmonitor" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.wirelesssettings" targetPkgName="com.oplus.wirelesssettings" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.screenshot" targetPkgName="com.oplus.screenshot" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.qualityprotect" targetPkgName="com.oplus.qualityprotect" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.eyeprotect" targetPkgName="com.oplus.eyeprotect" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.uxdesign" targetPkgName="com.oplus.uxdesign" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.color.uiengine" targetPkgName="com.oplus.uiengine" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.securitykeyboard" targetPkgName="com.oplus.securitykeyboard" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.wallpapers" targetPkgName="com.oplus.wallpapers" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.ovoicemanager" targetPkgName="com.oplus.ovoicemanager.wakeup" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.engineermode.camera" targetPkgName="com.oplus.engineercamera" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.launcher" targetPkgName="com.android.launcher" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.postmanservice" targetPkgName="com.oplus.postmanservice" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.oppopowermonitor" targetPkgName="com.oplus.powermonitor" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.notificationmanager" targetPkgName="com.oplus.notificationmanager" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.safecenter" targetPkgName="com.oplus.safecenter" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.gamespaceui" targetPkgName="com.oplus.games" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.wifibackuprestore" targetPkgName="com.oplus.wifibackuprestore" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.nearme.statistics.rom" targetPkgName="com.oplus.statistics.rom" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.screenrecorder" targetPkgName="com.oplus.screenrecorder" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.encryption" targetPkgName="com.oplus.encryption" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.videoeditor" targetPkgName="com.oplus.videoeditor" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.oppopods" targetPkgName="com.oplus.melody" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.nearme.atlas" targetPkgName="com.oplus.pay" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.blacklistapp" targetPkgName="com.oplus.blacklistapp" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.phonenoareainquire" targetPkgName="com.oplus.phonenoareainquire" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.nhs" targetPkgName="com.oplus.nhs" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.bttestmode" targetPkgName="com.oplus.bttestmode" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.coloros.healthservice" targetPkgName="com.oplus.healthservice" priority="10"/>
+    <!-- common config end -->
+
+    <!-- export config start -->
+    <pkgMappingItem sourcePkgName="com.heytap.openid" targetPkgName="com.oplus.stdid" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.heytap.themestore" targetPkgName="com.oplus.themestore" priority="10"/>
+    <!-- export config end -->
+
+    <!-- realme config start -->
+    <pkgMappingItem sourcePkgName="com.oppo.camera" targetPkgName="com.oplus.camera" priority="10"/>
+    <pkgMappingItem sourcePkgName="com.oppo.sos" targetPkgName="com.oplus.sos" priority="10"/>
+    <!-- realme config end -->
+</pkgMappingConfig>

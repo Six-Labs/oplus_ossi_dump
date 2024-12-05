@@ -1,0 +1,7 @@
+<oplus-config>
+    <!-- TangLinggang@ANDROID.PMS, 2020/07/05, Add for demo oplus feature -->
+    <oplus-feature name="oplus.software.pms_device_owner_uninstall_policy" />
+    <oplus-feature name="oplus.software.pms_install_statistics_no_silent" />
+    <!-- DaoXu.Hu@ANDROID.DEXOPT, 2022/11/15, Add for disable OplusOtaDexopt -->
+    <oplus-feature name="oplus.software.pms_oplus_otadexopt_disabled" />
+</oplus-config>

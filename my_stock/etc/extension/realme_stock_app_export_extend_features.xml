@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+  <app_feature name="com.oplus.lockassistant.lockcard_server_url_realme" args="String:https://ilockcardf.realme.com/post/"/>
+  <app_feature name="com.android.launcher.pullup_cse_url" args="String:https://iot-wiki.realme.com/search.html"/>
+</extend_features>

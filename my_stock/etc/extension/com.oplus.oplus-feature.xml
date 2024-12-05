@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.key_quickoperate_torch"/>
+	<oplus-feature name="oplus.software.notify_wellbeing"/>
+</oplus-config>

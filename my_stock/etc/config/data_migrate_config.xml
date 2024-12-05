@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migrateConfig>
+    <!-- common config start -->
+    <crossUpdateMigrateItem targetPkgName="com.oplus.ovoicemanager.wakeup" targetApkPath="/my_product/priv-app/OVoiceManagerService2Mic/OVoiceManagerService2Mic.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.oppo.ovoicemanager" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/files/gen/vprint.module" targetPath="/files/gen/vprint.module" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/OVMS.xml" targetPath="/shared_prefs/OVMS.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.screenrecorder" targetApkPath="/my_stock/priv-app/OplusScreenRecorder/OplusScreenRecorder.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.screenrecorder" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/last_float_view_pos.xml" targetPath="/shared_prefs/last_float_view_pos.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/recorder_permission_mux_audio_value.xml" targetPath="/shared_prefs/recorder_permission_mux_audio_value.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/recorder_permission_value.xml" targetPath="/shared_prefs/recorder_permission_value.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/recorder_welcome_nav.xml" targetPath="/shared_prefs/recorder_welcome_nav.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.screenshot" targetApkPath="/my_stock/priv-app/Screenshot/Screenshot.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.screenshot" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.coloros.screenshot_preferences.xml" targetPath="/shared_prefs/com.oplus.screenshot_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.screenshot_guide_flags.xml" targetPath="/shared_prefs/com.oplus.screenshot_guide_flags.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.screenshot_guide_preferences.xml" targetPath="/shared_prefs/com.oplus.screenshot_guide_preferences.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.ota" targetApkPath="/system_ext/app/OTA/OTA.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.oppo.ota" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/ota.db" targetPath="/databases/ota.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/enterprise_ota.db" targetPath="/databases/enterprise_ota.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/persistent_info.xml" targetPath="/shared_prefs/persistent_info.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/state_info.xml" targetPath="/shared_prefs/state_info.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/update_status.xml" targetPath="/shared_prefs/update_status.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.securitypermission" targetApkPath="/system_ext/app/SecurityPermission/SecurityPermission.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.securitypermission" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/permission.db" targetPath="/databases/permission.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/permission.db-journal" targetPath="/databases/permission.db-journal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/permissionrecord.db" targetPath="/databases/permissionrecord.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/permissionrecord.db-journal" targetPath="/databases/permissionrecord.db-journal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/privacy_default_permission_choice.xml" targetPath="/shared_prefs/privacy_default_permission_choice.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/request_install_packages_open.xml" targetPath="/shared_prefs/request_install_packages_open.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/rom_update.xml" targetPath="/shared_prefs/rom_update.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.apprecover" targetApkPath="/my_stock/priv-app/MDSService/MDSService.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.apprecover" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.romupdate" targetApkPath="/my_stock/app/RomUpdate/RomUpdate.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.nearme.romupdate" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.sau" targetApkPath="/system_ext/app/SystemAppUpdateService/SystemAppUpdateService.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.sau" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.battery" targetApkPath="/system_ext/app/Battery/Battery.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.oppoguardelf" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/BatteryStats.db" targetPath="/databases/BatteryStats.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/BatteryStats.db-journal" targetPath="/databases/BatteryStats.db-journal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/abnormal.db" targetPath="/databases/abnormal.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/abnormal.db-journal" targetPath="/databases/abnormal.db-journal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/DeepSleepSharepref.xml" targetPath="/shared_prefs/DeepSleepSharepref.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/BenchFlags.xml" targetPath="/shared_prefs/BenchFlags.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/pmScenario.xml" targetPath="/shared_prefs/pmScenario.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/high_temperature.xml" targetPath="/shared_prefs/high_temperature.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/hide_api_config.xml" targetPath="/shared_prefs/hide_api_config.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/power_settings_is_changed.xml" targetPath="/shared_prefs/power_settings_is_changed.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/superPowersaveSharePref.xml" targetPath="/shared_prefs/superPowersaveSharePref.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/sp_need_change_back_screen_rate.xml" targetPath="/shared_prefs/sp_need_change_back_screen_rate.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/sp_first_show_gt_dialog.xml" targetPath="/shared_prefs/sp_first_show_gt_dialog.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/sp_storage_do_not_show.xml" targetPath="/shared_prefs/sp_storage_do_not_show.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/PowerConsumptionOptimizationActivity.xml" targetPath="/shared_prefs/PowerConsumptionOptimizationActivity.xml" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.wallpapers" targetApkPath="/my_stock/app/Wallpapers/Wallpapers.apk" isSystemApp="false" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.wallpapers" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.coloros.wallpapers.setting_wallpaper_histories.xml" targetPath="/shared_prefs/com.oplus.wallpapers.setting_wallpaper_histories.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.android.launcher" targetApkPath="/system/system_ext/priv-app/OplusLauncher/OplusLauncher.apk" isSystemApp="true">
+        <mirrorSourcePkg sourcePkgName="com.oppo.launcher" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="true" fixPermissionWhenMig="false">
+                <renameActionAfterMigrate sourcePath="/shared_prefs/com.oppo.launcher_unique_shared_prefs.xml" targetPath="/shared_prefs/com.android.launcher_unique_shared_prefs.xml" fixPermissionWhenMig="true"/>
+                <renameActionAfterMigrate sourcePath="/shared_prefs/com.oppo.launcher_preferences.xml" targetPath="/shared_prefs/com.android.launcher_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameActionAfterMigrate sourcePath="/shared_prefs/com.android.launcher3.prefs.xml" targetPath="/shared_prefs/com.android.launcher3.prefs.xml" fixPermissionWhenMig="true"/>
+                <renameActionAfterMigrate sourcePath="/shared_prefs/com.android.launcher3.device.prefs.xml" targetPath="/shared_prefs/com.android.launcher3.device.prefs.xml" fixPermissionWhenMig="true"/>
+                <renameActionAfterMigrate sourcePath="/shared_prefs/com.coloros.recents.sharedpreference.xml" targetPath="/shared_prefs/com.oplus.recents.sharedpreference.xml" fixPermissionWhenMig="true"/>
+                <renameActionAfterMigrate sourcePath="/files/color" targetPath="/files/oplus" fixPermissionWhenMig="false"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.cosa" targetApkPath="/my_stock/app/COSA/COSA.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.gamespace" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/db_game_database" targetPath="/databases/db_game_database" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/db_game_database-shm" targetPath="/databases/db_game_database-shm" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/db_game_database-wal" targetPath="/databases/db_game_database-wal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/oplus_cosa_sp.xml" targetPath="/shared_prefs/oplus_cosa_sp.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/oplus_cosa_common_sp.xml" targetPath="/shared_prefs/oplus_cosa_common_sp.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/is_data_ready.xml" targetPath="/shared_prefs/is_data_ready.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/services_preferences.xml" targetPath="/shared_prefs/services_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/cosa_tgpa_preferences.xml" targetPath="/shared_prefs/cosa_tgpa_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.gamespace_feature_preferences.xml" targetPath="/shared_prefs/com.oplus.cosa_feature_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.gamespace_vibration_preferences.xml" targetPath="/shared_prefs/com.oplus.cosa_vibration_preferences.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.sauhelper" targetApkPath="/system_ext/app/SAUHelper/SAUHelper.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.sauhelper" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.melody" targetApkPath="/my_heytap/del-app/Melody/Melody.apk" isSystemApp="false" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.oppopods" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/oppopods.db" targetPath="/databases/ops_melody.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.oppopods_preferences.xml" targetPath="/shared_prefs/com.oplus.melody_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/wear_check_switch.xml" targetPath="/shared_prefs/wear_check_switch.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/oppo_comm_earphone_version.xml" targetPath="/shared_prefs/melody_comm_earphone_version.xml" fixPermissionWhenMig="true"/>
+
+                <renameAction sourcePath="/databases/device_info_v2.db" targetPath="/databases/device_info_v2.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/melody-model.db" targetPath="/databases/melody-model.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/melody-model.db-shm" targetPath="/databases/melody-model.db-shm" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/melody-model.db-wal" targetPath="/databases/melody-model.db-wal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/bluetooth_message_reject.xml" targetPath="/shared_prefs/bluetooth_message_reject.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/BtHeadsetBatteryInfoPreferences.xml" targetPath="/shared_prefs/BtHeadsetBatteryInfoPreferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/melody-model-settings.xml" targetPath="/shared_prefs/melody-model-settings.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.exsystemservice" targetApkPath="/system_ext/priv-app/OplusExSystemService/OplusExSystemService.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.exsystemservice" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/appmanager.db" targetPath="/databases/appmanager.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/appmanager.db-journal" targetPath="/databases/appmanager.db-journal" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.synergy" targetApkPath="/my_stock/priv-app/HeySynergy/HeySynergy.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.heytap.synergy" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com_shortcutcast_preference.xml" targetPath="/shared_prefs/com_shortcutcast_preference.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/local_config.xml" targetPath="/shared_prefs/local_config.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.engineercamera" targetApkPath="/system_ext/app/OplusEngineerCamera/OplusEngineerCamera.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.oppo.engineermode.camera" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.oppo.engineermode.camera_preferences.xml" targetPath="/shared_prefs/com.oplus.engineercamera.camera_preferences.xml" fixPermissionWhenMig="true" />
+                <renameAction sourcePath="/shared_prefs/com.oppo.engineermode.camera_preferences_0.xml" targetPath="/shared_prefs/com.oplus.engineercamera.camera_preferences_0.xml" fixPermissionWhenMig="true" />
+                <renameAction sourcePath="/shared_prefs/com.oppo.engineermode.camera_preferences_1.xml" targetPath="/shared_prefs/com.oplus.engineercamera.camera_preferences_1.xml" fixPermissionWhenMig="true" />
+                <renameAction sourcePath="/shared_prefs/CameraObVerifySp.xml" targetPath="/shared_prefs/CameraObVerifySp.xml" fixPermissionWhenMig="true" />
+                <renameAction sourcePath="/shared_prefs/whiteboard.xml" targetPath="/shared_prefs/whiteboard.xml" fixPermissionWhenMig="true" />
+                <renameAction sourcePath="/shared_prefs/sfr_sharepreference.xml" targetPath="/shared_prefs/sfr_sharepreference.xml" fixPermissionWhenMig="true" />
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.wirelesssettings" targetApkPath="/system_ext/priv-app/WirelessSettings/WirelessSettings.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.wirelesssettings" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/bluetooth_settings.xml" targetPath="/shared_prefs/bluetooth_settings.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.android.settings_preferences.xml" targetPath="/shared_prefs/com.android.settings_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com_coloros_wirelesssettings_preference.xml" targetPath="/shared_prefs/com_oplusos_wirelesssettings_preference.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/wlan_assistant_config.xml" targetPath="/shared_prefs/wlan_assistant_config.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/color_os_device_info.xml" targetPath="/shared_prefs/my_os_device_info.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/special_realme_header_list_file.xml" targetPath="/shared_prefs/special_header_list_file.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.wirelesssettings_preferences.xml" targetPath="/shared_prefs/com.oplus.wirelesssettings_preferences.xml" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.trafficmonitor" targetApkPath="/system_ext/priv-app/TrafficMonitor/TrafficMonitor.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.simsettings" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.coloros.simsettings_preferences.xml" targetPath="/shared_prefs/com.oplus.trafficmonitor_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/data_limit_value.xml" targetPath="/shared_prefs/data_limit_value.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/data_warning_value.xml" targetPath="/shared_prefs/data_warning_value.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/is_set_data_limit.xml" targetPath="/shared_prefs/is_set_data_limit.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/is_set_warning_limit.xml" targetPath="/shared_prefs/is_set_warning_limit.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/is_set_data_warning.xml" targetPath="/shared_prefs/is_set_data_warning.xml" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.notificationmanager" targetApkPath="/system_ext/app/NotificationCenter/NotificationCenter.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.notificationmanager" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.coloros.notificationmanager_preferences.xml" targetPath="/shared_prefs/com.oplus.notificationmanager_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/config.xml" targetPath="/shared_prefs/config.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/nearme_setting_com.coloros.notificationmanager.xml" targetPath="/shared_prefs/nearme_setting_com.oplus.notificationmanager.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/notification_channel.db" targetPath="/databases/notification_channel.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/notification_channel.db-journal" targetPath="/databases/notification_channel.db-journal" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.appplatform" targetApkPath="/system/priv-app/OplusAppPlatform/OplusAppPlatform.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.heytap.appplatform" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="heytap_secure.xml" targetPath="heytap_secure.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="heytap_system.xml" targetPath="heytap_system.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="heytap_global.xml" targetPath="heytap_global.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="heytap_nonpersist.xml" targetPath="heytap_nonpersist.xml" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem isSystemApp="true"
+        priority="10" targetApkPath="/my_stock/app/FileEncryption/FileEncryption.apk"
+        targetPkgName="com.oplus.encryption">
+        <mirrorSourcePkg deleteSourcePkg="true" sourcePkgName="com.coloros.encryption">
+            <ceFile fixPermissionWhenMig="false" migrateAllFromSource="false">
+                <renameAction fixPermissionWhenMig="true" sourcePath="/databases/encryption.db"  targetPath="/databases/encryption.db" />
+                <renameAction fixPermissionWhenMig="true" sourcePath="/shared_prefs/encryption_sp_file.xml"  targetPath="/shared_prefs/encryption_sp_file.xml" />
+                <renameAction fixPermissionWhenMig="true" sourcePath="/shared_prefs/fingerprint_preferences.xml" targetPath="/shared_prefs/fingerprint_preferences.xml" />
+                <renameAction fixPermissionWhenMig="true" sourcePath="/shared_prefs/merge_info.xml"  targetPath="/shared_prefs/merge_info.xml" />
+                <renameAction fixPermissionWhenMig="true" sourcePath="/shared_prefs/safe_record.xml"  targetPath="/shared_prefs/safe_record.xml" />
+                <renameAction fixPermissionWhenMig="true" sourcePath="/shared_prefs/br_old_password.xml"  targetPath="/shared_prefs/br_old_password.xml" />
+                <renameAction fixPermissionWhenMig="true" sourcePath="/shared_prefs/com.coloros.encryption_cloud_sync_info.xml" targetPath="/shared_prefs/com.oplus.encryption_cloud_sync_info.xml" />
+                <renameAction fixPermissionWhenMig="true"  sourcePath="/shared_prefs/com.coloros.encryption_preferences.xml" targetPath="/shared_prefs/com.oplus.encryption_preferences.xml" />
+                <renameAction fixPermissionWhenMig="false" sourcePath="/private" targetPath="/private" />
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.uxdesign" targetApkPath="/system_ext/app/UXDesign/UXDesign.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.uxdesign" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/icon.db" targetPath="/databases/icon.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/ICON_CONFIG_PREFERENCE.xml" targetPath="/shared_prefs/ICON_CONFIG_PREFERENCE.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/language_pack_info.xml" targetPath="/shared_prefs/language_pack_info.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.uxdesign_preferences.xml" targetPath="/shared_prefs/com.oplus.uxdesign_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/PERSONAL_CONFIG_PREFERENCE.xml" targetPath="/shared_prefs/PERSONAL_CONFIG_PREFERENCE.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/UXCOLOR_INFO_PREFERENCE.xml" targetPath="/shared_prefs/UXCOLOR_INFO_PREFERENCE.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/vector_preference.xml" targetPath="/shared_prefs/vector_preference.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.games" targetApkPath="/my_heytap/del-app/GameSpaceUI/GameSpaceUI.apk" isSystemApp="false" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.gamespaceui" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.coloros.gamespaceui_preferences.xml" targetPath="/shared_prefs/com.oplus.games_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.gamespaceui_preferences_suggest.xml" targetPath="/shared_prefs/com.oplus.games_preferences_suggest.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/game_dock_prefs.xml" targetPath="/shared_prefs/game_dock_prefs.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/gamespace_edge_panel_prefs.xml" targetPath="/shared_prefs/gamespace_edge_panel_prefs.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/services_preferences.xml" targetPath="/shared_prefs/services_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/applist.db" targetPath="/databases/applist.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/game_feature.db" targetPath="/databases/game_feature.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/game_feature.db-shm" targetPath="/databases/game_feature.db-shm" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/game_feature.db-wal" targetPath="/databases/game_feature.db-wal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/gameboard.db" targetPath="/databases/gameboard.db" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.statistics.rom" targetApkPath="/my_stock/priv-app/DCS/DCS.apk" isSystemApp="false" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.nearme.statistics.rom" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/nearme_statistics_rom.xml" targetPath="/shared_prefs/oplus_statistics_rom.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/nearme_statistic_rom" targetPath="/databases/oplus_statistic_rom" fixPermissionWhenMig="true"/>
+                    <renameAction sourcePath="/databases/nearme_statistic_rom-journal" targetPath="/databases/oplus_statistic_rom-journal" fixPermissionWhenMig="true"/>
+                    <renameAction sourcePath="/databases/nearme_statistic_rom-shm" targetPath="/databases/oplus_statistic_rom-shm" fixPermissionWhenMig="true"/>
+                    <renameAction sourcePath="/databases/nearme_statistic_rom-wal" targetPath="/databases/oplus_statistic_rom-wal" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.safecenter" targetApkPath="/system_ext/app/SafeCenter/SafeCenter.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.safecenter" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/record.db" targetPath="/databases/record.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/record.db-wal" targetPath="/databases/record.db-wal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/record.db-shm" targetPath="/databases/record.db-shm" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/safe.db" targetPath="/databases/safe.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/app_protect_sp_file.xml" targetPath="/shared_prefs/app_protect_sp_file.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.coloros.safecenter_preferences.xml" targetPath="/shared_prefs/com.oplus.safecenter_preferences.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.gesture" targetApkPath="/system_ext/app/OplusGestureUI/OplusGestureUI.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.gesture" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.coloros.gesture_preferences.xml" targetPath="/shared_prefs/com.oplus.gesture_preferences.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/default_black_gesture_switch.xml" targetPath="/shared_prefs/default_black_gesture_switch.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/blackactionDatebase.db" targetPath="/databases/blackactionDatebase.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/blackactionDatebase.db-journal" targetPath="/databases/blackactionDatebase.db-journal" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.videoeditor" targetApkPath="/my_stock/del-app/OppoVideoEditor/OppoVideoEditor.apk" isSystemApp="false" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.videoeditor" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="true" fixPermissionWhenMig="false">
+                <renameActionAfterMigrate sourcePath="/shared_prefs/com.coloros.videoeditor_preferences.xml" targetPath="/shared_prefs/com.oplus.videoeditor_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameActionAfterMigrate sourcePath="/shared_prefs/com.coloros.videoeditor.global.xml" targetPath="/shared_prefs/com.oplus.videoeditor.global.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+            <externalData migrateAllFromSource="true" fixPermissionWhenMig="false">
+            </externalData>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.sos" targetApkPath="/my_stock/priv-app/SOSHelper/SOSHelper.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.oppo.sos" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.oppo.sos.xml" targetPath="/shared_prefs/com.oplus.sos.xml"  fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.oppo.sos_preferences.xml" targetPath="/shared_prefs/com.oplus.sos_preferences.xml"  fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/huania_config.xml" targetPath="/shared_prefs/huania_config.xml"  fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/load_asset_config.xml" targetPath="/shared_prefs/load_asset_config.xml"  fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/my_emergency_contact_list.xml" targetPath="/shared_prefs/my_emergency_contact_list.xml"  fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/sent_confirm_message_emergency_contact_list.xml" targetPath="/shared_prefs/sent_confirm_message_emergency_contact_list.xml"  fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/lowbattery_contact_list.xml" targetPath="/shared_prefs/lowbattery_contact_list.xml"  fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/lowbattery_message_content_prefrence.xml" targetPath="/shared_prefs/lowbattery_message_content_prefrence.xml"  fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.pay" targetApkPath="/my_heytap/app/KeKePay/KeKePay.apk" isSystemApp="true" priority="10">
+        <migrateSourcePkg sourcePkgName="com.nearme.atlas" deleteSourcePkg="true">
+        </migrateSourcePkg>
+        <migrateSourcePkg sourcePkgName="com.finshell.atlas" deleteSourcePkg="true">
+        </migrateSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.blacklistapp" targetApkPath="/my_stock/priv-app/BlackListApp/BlackListApp.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.blacklistapp" deleteSourcePkg="true">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.coloros.blacklistapp_preferences.xml" targetPath="/shared_prefs/com.oplus.blacklistapp_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/blacklist.db" targetPath="/databases/blacklist.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/blacklist.db-journal" targetPath="/databases/blacklist.db-journal" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.healthservice" targetApkPath="/system_ext/app/HealthService/HealthService.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.healthservice" deleteSourcePkg="true">
+            <ceFile fixPermissionWhenMig="false" migrateAllFromSource="false">
+                <renameAction fixPermissionWhenMig="true" sourcePath="/databases/health_step.db" targetPath="/databases/health_step.db" />
+                <renameAction fixPermissionWhenMig="true" sourcePath="/databases/health_step.db-journal" targetPath="/databases/health_step.db-journal" />
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem isSystemApp="true" priority="10"
+        targetApkPath="/system_ext/app/LogKit/LogKit.apk"
+        targetPkgName="com.oplus.logkit">
+        <mirrorSourcePkg deleteSourcePkg="true" sourcePkgName="com.coloros.logkit">
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/pref_data.coreservice.LogCoreService.xml" targetPath="/shared_prefs/pref_data.coreservice.LogCoreService.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/pref_data.corservice.LogCoreService.xml" targetPath="/shared_prefs/pref_data.coreservice.LogCoreService.xml" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.deepthinker" targetApkPath="/system_ext/priv-app/DeepThinker/DeepThinker.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.coloros.deepthinker" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.qualityprotect" targetApkPath="/my_stock/app/OplusQualityProtect/OplusQualityProtect.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.oppo.qualityprotect" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.uiengine" targetApkPath="/my_stock/app/VariUIEngine/VariUIEngine.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.color.uiengine" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+    <!-- common config end -->
+
+    <!-- export config start -->
+    <crossUpdateMigrateItem targetPkgName="com.oplus.stdid" targetApkPath="/my_heytap/app/StdID/StdID.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.heytap.openid" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/openID.db" targetPath="/databases/id.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/openID.db-shm" targetPath="/databases/id.db-shm" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/openID.db-wal" targetPath="/databases/id.db-wal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/appData.xml" targetPath="/shared_prefs/appData.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.cota" targetApkPath="/my_stock/priv-app/Cota/Cota.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.oppo.cota" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/databases/cota.db" targetPath="/databases/cota.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/oppo_cota.xml" targetPath="/shared_prefs/oplus_cota.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.oppo.cota_preferences.xml" targetPath="/shared_prefs/com.oplus.cota_preferences.xml" fixPermissionWhenMig="true"/>
+            </ceFile>
+            <deFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.oppo.cota_preferences.xml" targetPath="/shared_prefs/com.oplus.cota_preferences.xml" fixPermissionWhenMig="true"/>
+            </deFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+
+    <crossUpdateMigrateItem targetPkgName="com.oplus.themestore" targetApkPath="/my_bigball/priv-app/KeKeThemeSpace/KeKeThemeSpace.apk" isSystemApp="true" priority="10" period="t">
+        <mirrorSourcePkg sourcePkgName="com.heytap.themestore" deleteSourcePkg="true">
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+    <!-- export config end -->
+
+    <!-- realme config start -->
+    <crossUpdateMigrateItem targetPkgName="com.oplus.camera" targetApkPath="/my_product/app/OplusCamera/OplusCamera.apk" isSystemApp="true" priority="10">
+        <mirrorSourcePkg sourcePkgName="com.oppo.camera" deleteSourcePkg="true">
+            <ceFile migrateAllFromSource="false" fixPermissionWhenMig="false">
+                <renameAction sourcePath="/shared_prefs/com.oppo.camera_preferences.xml" targetPath="/shared_prefs/com.oplus.camera_preferences.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.oppo.camera_preferences_0.xml" targetPath="/shared_prefs/com.oplus.camera_preferences_0.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/shared_prefs/com.oppo.camera_preferences_1.xml" targetPath="/shared_prefs/com.oplus.camera_preferences_1.xml" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/files/sticker" targetPath="/my_tmp/sticker" fixPermissionWhenMig="false"/>
+                <renameAction sourcePath="/databases/sticker.db" targetPath="/databases/sticker.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/sticker.db-journal" targetPath="/databases/sticker.db-journal" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/mode_data.db" targetPath="/databases/mode_data.db" fixPermissionWhenMig="true"/>
+                <renameAction sourcePath="/databases/mode_data.db-journal" targetPath="/databases/mode_data.db-journal" fixPermissionWhenMig="true"/>
+            </ceFile>
+        </mirrorSourcePkg>
+    </crossUpdateMigrateItem>
+    <!-- realme config end -->
+</migrateConfig>

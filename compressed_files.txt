@@ -1,0 +1,13 @@
+my_stock/priv-app/Games/Games.apk.xz
+odm/etc/fad/license.lic.xz
+odm/etc/camera/model/license.lic.xz
+odm/etc/camera/license_release_fdc.lic.xz
+my_bigball/app/Photos/Photos.apk.xz
+my_bigball/app/Browser/Browser.apk.xz
+system_ext/priv-app/Settings/Settings.apk.xz
+system_ext/priv-app/SystemUI/SystemUI.apk.xz
+my_heytap/priv-app/GmsCore/GmsCore.apk.xz
+my_heytap/priv-app/Velvet/Velvet.apk.xz
+my_heytap/app/Gmail2/Gmail2.apk.xz
+my_heytap/app/StdSP/StdSP.apk.xz
+my_heytap/app/WebViewGoogle/WebViewGoogle.apk.xz

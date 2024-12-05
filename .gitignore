@@ -1,0 +1,17 @@
+my_stock/priv-app/OppoGallery2/OppoGallery2.apk
+my_stock/priv-app/Games/Games.apk
+odm/etc/fad/license.lic
+odm/etc/camera/model/license.lic
+odm/etc/camera/license_release_fdc.lic
+odm/etc/camera/sensetime
+my_product/app/OplusCamera/OplusCamera.apk
+my_bigball/app/Photos/Photos.apk
+my_bigball/app/Browser/Browser.apk
+system_ext/apex/com.android.vndk.v30.apex
+system_ext/priv-app/Settings/Settings.apk
+system_ext/priv-app/SystemUI/SystemUI.apk
+my_heytap/priv-app/GmsCore/GmsCore.apk
+my_heytap/priv-app/Velvet/Velvet.apk
+my_heytap/app/Gmail2/Gmail2.apk
+my_heytap/app/StdSP/StdSP.apk
+my_heytap/app/WebViewGoogle/WebViewGoogle.apk

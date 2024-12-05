@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20220802</version>
+    <filter-name>android_dexopt_config</filter-name>
+    <highload-compiler name="install"     loading="80"  cpu="0,1,2,3,4,5,6"  thread="6" compiler="verify"/>
+    <highload-compiler name="install-dm"     loading="80"  cpu="0,1,2,3,4,5,6"  thread="6" compiler="speed-profile"/>
+
+    <sences name="highload-compiler" on="true"/>
+
+</filter-conf>

@@ -1,0 +1,12 @@
+{
+  "vibrator_aging":{
+    "aging_item_id":20007,
+    "aging_item_enable":false,
+    "aging_item_summary":"vibrator",
+    "aging_item_duration_per_round":0,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":false,
+    "vibrator_on_millis":2000,
+    "vibrator_off_millis":2000
+  }
+}

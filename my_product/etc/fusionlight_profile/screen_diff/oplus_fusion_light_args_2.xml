@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Attributes level="1">
+    <Project level="2" index="1">
+        <ProjectCode type="string">2269C</ProjectCode>
+        <Baseline type="string">MT6789</Baseline>
+        <Panel type="int" name="stk32600">2</Panel>
+        <LevelMax type="int">15</LevelMax>
+        <FileVersion type="int">1</FileVersion>
+    </Project>
+    <Args level="2" index="2">
+        <R level="3" index="1">
+            <RMax type="float">986.0f</RMax>
+            <RMaxCal type="float">986.0f</RMaxCal>
+            <RComp1 type="float">0.000015</RComp1>
+            <RComp2 type="float">0.01146</RComp2>
+            <RComp3 type="float">-0.032812</RComp3>
+            <RCompDel type="float">0</RCompDel>
+        </R>
+        <G level="3" index="2">
+            <GMax type="float">2356.0f</GMax>
+            <GMaxCal type="float">2356.0f</GMaxCal>
+            <GComp1 type="float">0.000043</GComp1>
+            <GComp2 type="float">0.015</GComp2>
+            <GComp3 type="float">2.62152</GComp3>
+            <GCompDel type="float">0</GCompDel>
+        </G>
+        <B level="3" index="3">
+            <BMax type="float">463.0f</BMax>
+            <BMaxCal type="float">463.0f</BMaxCal>
+            <BComp1 type="float">0.000004</BComp1>
+            <BComp2 type="float">0.00171</BComp2>
+            <BComp3 type="float">1.121794</BComp3>
+            <BCompDel type="float">0</BCompDel>
+        </B>
+        <W level="3" index="4">
+            <WMax type="float">3271.0f</WMax>
+            <WMaxCal type="float">534.0f</WMaxCal>
+            <WComp1 type="float">0.000014</WComp1>
+            <WComp2 type="float">0.0076</WComp2>
+            <WComp3 type="float">-0.754</WComp3>
+            <WCompDel type="float">0</WCompDel>
+        </W>
+        <Gray level="3" index="5">
+            <Grayscale1 type="float">0.27</Grayscale1>
+            <Grayscale2 type="float">0.55</Grayscale2>
+            <Grayscale3 type="float">0.18</Grayscale3>
+        </Gray>
+        <Cal level="3" index="6">
+            <LevelCalArg type="float">0.91</LevelCalArg>
+            <RawRouCoeLevel1 type="float">0.15</RawRouCoeLevel1>
+            <RawRouCoeLevel2 type="float">0.07</RawRouCoeLevel2>
+            <RawRouCoeLevel3 type="float">0.140</RawRouCoeLevel3>
+            <RawRouCoeLevel4 type="float">0.055</RawRouCoeLevel4>
+            <CalCoe type="float">900.0</CalCoe>
+        </Cal>
+        <RawArrays level="3" index="7">
+            <CheckRawLuxUpperLimit level="4" index="1">
+                <data1 type="float">6.0</data1>
+                <data2 type="float">13.0</data2>
+                <data3 type="float">30.0</data3>
+                <data4 type="float">50.0</data4>
+                <data5 type="float">700.0</data5>
+                <data6 type="float">1600.0</data6>
+                <data7 type="float">2940.0</data7>
+                <data8 type="float">5900.0</data8>
+                <data9 type="float">10000.0</data9>
+                <data10 type="float">20100.0</data10>
+                <data11 type="float">30100.0</data11>
+                <data12 type="float">40100.0</data12>
+                <data13 type="float">60100.0</data13>
+                <data14 type="float">100100.0</data14>
+                <data15 type="float">500000.0</data15>
+            </CheckRawLuxUpperLimit>
+            <CheckRawLuxLowerLimit level="4" index="2">
+                <data1 type="float">0.0</data1>
+                <data2 type="float">3.0</data2>
+                <data3 type="float">5.0</data3>
+                <data4 type="float">10.0</data4>
+                <data5 type="float">25.0</data5>
+                <data6 type="float">300.0</data6>
+                <data7 type="float">1000.0</data7>
+                <data8 type="float">2000.0</data8>
+                <data9 type="float">4000.0</data9>
+                <data10 type="float">9000.0</data10>
+                <data11 type="float">20000.0</data11>
+                <data12 type="float">30000.0</data12>
+                <data13 type="float">40000.0</data13>
+                <data14 type="float">60000.0</data14>
+                <data15 type="float">100000.0</data15>
+            </CheckRawLuxLowerLimit>
+            <RawAdjLuxLevel level="4" index="3">
+                <data1 type="float">8.0</data1>
+                <data2 type="float">41.0</data2>
+                <data3 type="float">65.0</data3>
+                <data4 type="float">117.0</data4>
+                <data5 type="float">196.0</data5>
+                <data6 type="float">312.0</data6>
+                <data7 type="float">478.0</data7>
+                <data8 type="float">596.0</data8>
+                <data9 type="float">842.0</data9>
+                <data10 type="float">1023.0</data10>
+                <data11 type="float">1086.0</data11>
+                <data12 type="float">1135.0</data12>
+                <data13 type="float">1255.0</data13>
+                <data14 type="float">1337.0</data14>
+                <data15 type="float">2047.0</data15>
+            </RawAdjLuxLevel>
+            <BaseRawLuxUpperLimit level="4" index="4">
+                <data1 type="float">6</data1>
+                <data2 type="float">13</data2>
+                <data3 type="float">30</data3>
+                <data4 type="float">50</data4>
+                <data5 type="float">700</data5>
+                <data6 type="float">1600</data6>
+                <data7 type="float">2940</data7>
+                <data8 type="float">5900</data8>
+                <data9 type="float">12000</data9>
+                <data10 type="float">20100</data10>
+                <data11 type="float">30100</data11>
+                <data12 type="float">40100</data12>
+                <data13 type="float">60100</data13>
+                <data14 type="float">100100</data14>
+                <data15 type="float">500000</data15>
+            </BaseRawLuxUpperLimit>
+            <BaseRawLuxLowerLimit level="4" index="5">
+                <data1 type="float">0</data1>
+                <data2 type="float">3</data2>
+                <data3 type="float">5</data3>
+                <data4 type="float">10</data4>
+                <data5 type="float">25</data5>
+                <data6 type="float">300</data6>
+                <data7 type="float">1000</data7>
+                <data8 type="float">2000</data8>
+                <data9 type="float">4000</data9>
+                <data10 type="float">9000</data10>
+                <data11 type="float">20000</data11>
+                <data12 type="float">30000</data12>
+                <data13 type="float">40000</data13>
+                <data14 type="float">60000</data14>
+                <data15 type="float">100000</data15>
+            </BaseRawLuxLowerLimit>
+        </RawArrays>
+        <BrightLevel level="3" index="8">
+            <BrightLevelValue level="4" index="6">
+                <data1 type="int">8</data1>
+                <data2 type="int">41</data2>
+                <data3 type="int">65</data3>
+                <data4 type="int">117</data4>
+                <data5 type="int">196</data5>
+                <data6 type="int">312</data6>
+                <data7 type="int">478</data7>
+                <data8 type="int">596</data8>
+                <data9 type="int">842</data9>
+                <data10 type="int">1023</data10>
+                <data11 type="int">1086</data11>
+                <data12 type="int">1135</data12>
+                <data13 type="int">1255</data13>
+                <data14 type="int">1337</data14>
+                <data15 type="int">2047</data15>
+            </BrightLevelValue>
+            <BrinhtLevelValueAdjLimit level="4" index="7">
+                <data1 type="int">0</data1>
+                <data2 type="int">9</data2>
+                <data3 type="int">16</data3>
+                <data4 type="int">35</data4>
+                <data5 type="int">360</data5>
+                <data6 type="int">1200</data6>
+                <data7 type="int">2250</data7>
+                <data8 type="int">4600</data8>
+                <data9 type="int">9999</data9>
+                <data10 type="int">20000</data10>
+                <data11 type="int">30000</data11>
+                <data12 type="int">40000</data12>
+                <data13 type="int">60000</data13>
+                <data14 type="int">100000</data14>
+                <data15 type="int">150000</data15>
+            </BrinhtLevelValueAdjLimit>
+        </BrightLevel>
+        <SeperateLux>
+            <RetType type="int">0</RetType>
+            <ParagraphCount type="int">5</ParagraphCount>
+            <SeperatePoint1 type="float">120</SeperatePoint1>
+            <SeperatePoint2 type="float">500</SeperatePoint2>
+            <SeperatePoint3 type="float">1030</SeperatePoint3>
+            <SeperatePoint4 type="float">1864</SeperatePoint4>
+            <SP1value1 type="float">0</SP1value1>
+            <SP1value2 type="float">0.15</SP1value2>
+            <SP2value1 type="float">-0.00013</SP2value1>
+            <SP2value2 type="float">0.165789</SP2value2>
+            <SP3value1 type="float">-0.000038</SP3value1>
+            <SP3value2 type="float">0.11868</SP3value2>
+            <SP4value1 type="float">-0.000012</SP4value1>
+            <SP4value2 type="float">0.09235</SP4value2>
+            <SP5value1 type="float">0</SP5value1>
+            <SP5value2 type="float">0.07</SP5value2>
+        </SeperateLux>
+        <FingerPrintFunction>
+            <AlphaFunctionType type="int">5</AlphaFunctionType>
+            <AlphaParagraphCount type="int">2</AlphaParagraphCount>
+            <FPSeperatePoint1 type="float">1000</FPSeperatePoint1>
+            <FPSeperatePoint2 type="float">0</FPSeperatePoint2>
+            <FPSeperatePoint3 type="float">0</FPSeperatePoint3>
+            <FPParameter1 type="float">1.1</FPParameter1>
+            <FPParameter2 type="float">0</FPParameter2>
+            <FPParameter3 type="float">8.5</FPParameter3>
+            <FPParameter4 type="float">-0.29</FPParameter4>
+            <FPParameter5 type="float">0</FPParameter5>
+            <FPParameter6 type="float">0</FPParameter6>
+        </FingerPrintFunction>
+        <DCFunction>
+            <DCFunctionType type="int">0</DCFunctionType>
+            <DCParagraphCount type="int">1</DCParagraphCount>
+            <DCSeperatePoint1 type="float">0</DCSeperatePoint1>
+            <DCSeperatePoint2 type="float">0</DCSeperatePoint2>
+            <DCSeperatePoint3 type="float">259</DCSeperatePoint3>
+            <DCParameter1 type="float">1</DCParameter1>
+            <DCParameter2 type="float">0</DCParameter2>
+            <DCParameter3 type="float">0</DCParameter3>
+            <DCParameter4 type="float">0</DCParameter4>
+            <DCParameter5 type="float">0</DCParameter5>
+            <DCParameter6 type="float">0</DCParameter6>
+        </DCFunction>
+        <PWMFunction>
+            <PWMFunctionType type="int">8</PWMFunctionType>
+            <PWMParagraphCount type="int">2</PWMParagraphCount>
+            <PWMSeperatePoint1 type="float">600</PWMSeperatePoint1>
+            <PWMSeperatePoint2 type="float">0</PWMSeperatePoint2>
+            <PWMSeperatePoint3 type="float">0</PWMSeperatePoint3>
+            <PWMRlimit type="float">0</PWMRlimit>
+            <PWMGlimit type="float">0</PWMGlimit>
+            <PWMBlimit type="float">0</PWMBlimit>
+            <PWMParameter1 type="float">2</PWMParameter1>
+            <PWMParameter2 type="float">-0.08</PWMParameter2>
+            <PWMParameter3 type="float">4.2</PWMParameter3>
+            <PWMParameter4 type="float">-0.2</PWMParameter4>
+            <PWMParameter5 type="float">0</PWMParameter5>
+            <PWMParameter6 type="float">0</PWMParameter6>
+        </PWMFunction>
+        <SpecialCustom>
+            <HighLightReport type="int">0</HighLightReport>
+            <LowLightReport type="int">1</LowLightReport>
+            <ZeroReport type="int">0</ZeroReport>
+            <LowLightStable type="int">0</LowLightStable>
+            <SmoothQueue type="int">1</SmoothQueue>
+            <MaxLevel type="float">2047</MaxLevel>
+            <DCLevelMax type="float">2047</DCLevelMax>
+            <ScreenDiff type="float">0</ScreenDiff>
+            <ApolloLight type="float">0</ApolloLight>
+            <ApolloMaxBrightness type="int">2047</ApolloMaxBrightness>
+            <LowLightAccuracy type="float">3.0</LowLightAccuracy>
+        </SpecialCustom>
+    </Args>
+</Attributes>

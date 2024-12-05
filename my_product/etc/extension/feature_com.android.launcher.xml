@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- luoyongliang@ANDROID.PERFORMANCE, 2023/03/23, add for whether use gesture to slide up light animation -->
+    <app_feature name="com.android.launcher.home_gesture_light_animation" />
+</extend_features>

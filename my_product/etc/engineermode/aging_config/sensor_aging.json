@@ -1,0 +1,31 @@
+{
+  "sensor_aging":{
+    "aging_item_id":20003,
+    "aging_item_enable":false,
+    "aging_item_summary":"sensor",
+    "aging_item_independence_thread":true,
+    "aging_item_duration_per_round":0,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":false,
+    "aging_sensor_items":[
+      {
+        "accelerometer":{
+          "aging_sensor_item_enable":true,
+          "need_switch_sensor_delay":true
+        }
+      },
+      {
+        "magnetic_field":{
+          "aging_sensor_item_enable":true,
+          "need_switch_sensor_delay":true
+        }
+      },
+      {
+        "gyroscope":{
+          "aging_sensor_item_enable":true,
+          "need_switch_sensor_delay":true
+        }
+      }
+    ]
+  }
+}

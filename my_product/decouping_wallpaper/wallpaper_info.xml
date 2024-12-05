@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<res>
+    <versionCode>1200005</versionCode>
+
+    <wallpaper_file_name_array>
+        <item>product_wallpaper</item>
+        <item>product_wallpaper2</item>
+        <item>inlay_wallpaper1</item>
+        <item>inlay_wallpaper2</item>
+        <item>inlay_wallpaper3</item>
+        <item>inlay_wallpaper4</item>
+        <item>inlay_wallpaper5</item>
+        <item>inlay_wallpaper6</item>
+        <item>inlay_wallpaper7</item>
+        <item>inlay_wallpaper8</item>
+        <item>inlay_wallpaper9</item>
+        <item>inlay_wallpaper10</item>
+    </wallpaper_file_name_array>
+
+    <wallpaper_file_name_array_id>
+        <item>inlay_wallpaper_id</item>
+        <item>product_wallpaper</item>
+        <item>product_wallpaper2</item>
+        <item>inlay_wallpaper1</item>
+        <item>inlay_wallpaper2</item>
+        <item>inlay_wallpaper3</item>
+        <item>inlay_wallpaper4</item>
+        <item>inlay_wallpaper5</item>
+        <item>inlay_wallpaper6</item>
+        <item>inlay_wallpaper7</item>
+        <item>inlay_wallpaper8</item>
+        <item>inlay_wallpaper9</item>
+        <item>inlay_wallpaper10</item>
+    </wallpaper_file_name_array_id>
+
+</res>

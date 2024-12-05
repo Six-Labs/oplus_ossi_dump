@@ -1,0 +1,16 @@
+{
+  "aging_init":{
+    "aging_item_id":10002,
+    "aging_item_enable":false,
+    "aging_item_summary":"log and dump",
+    "aging_item_duration_per_round":60,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":true,
+    "aging_log_switch":true,
+    "aging_dump_switch":true,
+    "aging_sub_sys_dump_switch":false,
+    "aging_sub_sys_option":[],
+    "battery_capacity_limit":60,
+    "high_temp_limit":55
+  }
+}

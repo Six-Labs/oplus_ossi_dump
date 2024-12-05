@@ -1,0 +1,27 @@
+<oplus-config>
+    <!-- Wanghui@NETWORK.REG.8745, 2020/07/13, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.air_interface_detect_support" />
+    <oplus-feature name="oplus.software.radio.sar.earpiece.detect.support" />
+    <!-- Asiga@NETWORK.POWER.26376, 2020/04/27, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_app_network_monitor_switch_enable" />
+    <oplus-feature name="oplus.software.radio.disable_nw_limit_notify" />
+
+    <!-- ZhaoWeican@NETWORK.RF., 2021/12/02, add for use SarService via STS -->
+    <oplus-feature name="oplus.software.radio.sar_via_sts_support" />
+
+    <!-- ifndef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Zhangbiqiang@NETWORK.IMS.4208871, 2022/08/19, delete for old platform diagnosis -->
+    <!-- Mingyu.Yang@NETWORK.IMS.3400074, 2022/04/25, add for old platform diagnosis -->
+    <!--<oplus-feature name="oplus.software.radio.diagnosis_old_platform"/> -->
+    <!-- endif OPLUS_BUG_COMPATIBILITY -->
+    <!-- ifndef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Zhangbiqiang@NETWORK.IMS.4201359, 2022/09/05, add for paging support -->
+    <oplus-feature name="oplus.software.radio.new_pa_aging_support"/>
+    <!-- endif OPLUS_BUG_COMPATIBILITY -->
+
+    <!-- Wujiaxing@NETWORK.RF.3841844, 2022/06/20, add for legacy PA aging config -->
+    <oplus-feature name="oplus.software.radio.pa_aging_for_lte_b41_legacy" />
+
+    <!-- ChenChunping@NETWORK.CALL.4981100, 2023/01/14, Add for disabled cached UID -->
+    <oplus-feature name="oplus.software.radio.disabled_cached_uid" />
+</oplus-config>

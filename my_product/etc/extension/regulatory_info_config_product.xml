@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--Only for RMX phone !!! -->
+
+<LegalInfos version="1.0">
+
+    <MODEL_RMX3311>
+        <CE/>
+        <MAS/>
+        <THA number="B38661-21-1590"/>
+        <PHI number="2107159"/>
+        <MEX r_old_style="true"/>
+        <KSA number="2022-220" new_style="true"/>
+        <INA number="80462" year="2022" made_in_number="6813"/>
+    </MODEL_RMX3311>
+
+    <MODEL_RMX3396>
+        <CE/>
+        <PHI number="2207427"/>
+    </MODEL_RMX3396>
+
+    <MODEL_RMX3521>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <PHI number="2207316"/>
+        <KSA number="2022-830" new_style="true"/>
+        <elabel brand="Realme" factory_no="IN-ODM-WT-02" region="India"/>
+        <INA number="81038/R" year="2022" made_in_number="6813" made_in_place="none"/>
+    </MODEL_RMX3521>
+
+    <MODEL_RMX3563>
+        <CE/>
+        <INA number="82636" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3563>
+
+    <MODEL_RMX3571>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3571>
+
+    <MODEL_RMX3572>
+        <CE/>
+        <INA number="81615" year="2022" made_in_number="6813" made_in_place="none"/>
+        <PHI number="2207467"/>
+    </MODEL_RMX3572>
+
+    <MODEL_RMX3630>
+        <CE/>
+        <KSA number="2022-2360" new_style="true"/>
+        <INA number="84687" year="2022" made_in_number="6813" made_in_place="none"/>
+        <MEX r_old_style="true"/>
+        <MAS/>
+    </MODEL_RMX3630>
+
+    <MODEL_RMX3686>
+        <INA number="84912" year="2022" made_in_number="6813" made_in_place="none"/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <CE/>
+        <KSA number="2022-2766" new_style="true"/>
+    </MODEL_RMX3686>
+
+    <MODEL_RMX3661>
+        <MAS/>
+        <CE/>
+        <INA number="85538" year="2022" made_in_number="6813" made_in_place="none"/>
+    </MODEL_RMX3661>
+
+    <MODEL_RMX3710>
+        <CE/>
+        <MAS/>
+        <INA number="86978" year="2022" made_in_number="6813" made_in_place="none"/>
+        <MEX r_old_style="true"/>
+        <KSA number="2023-39" new_style="true"/>
+    </MODEL_RMX3710>
+
+    <MODEL_RMX3709>
+        <CE/>
+        <KSA number="2023-643" new_style="true"/>
+        <MAS/>
+    </MODEL_RMX3709>
+
+    <MODEL_RMX3741>
+        <CE/>
+        <MAS/>
+        <INA number="90236" year="2023" made_in_number="6813" made_in_place="none"/>
+        <MEX r_old_style="true"/>
+        <KSA number="2023-1034" new_style="true"/>
+    </MODEL_RMX3741>
+
+    <MODEL_RMX3771>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <INA number="90237" year="2023" made_in_number="6813" made_in_place="none"/>
+        <KSA number="2023-1155" new_style="true"/>
+    </MODEL_RMX3771>
+
+    <MODEL_RMX3636>
+        <CE/>
+        <INA number="91333" year="2023" made_in_number="6813" made_in_place="none"/>
+    </MODEL_RMX3636>
+
+    <MODEL_RMP2204>
+        <CE/>
+        <MAS/>
+    </MODEL_RMP2204>
+
+    <MODEL_RMP2205>
+        <CE/>
+        <MEX r_old_style="true"/>
+    </MODEL_RMP2205>
+
+    <MODEL_RMX3780>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <KSA number="2023-1520" new_style="true"/>
+    </MODEL_RMX3780>
+
+    <MODEL_RMX3785>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <KSA number="2023-2507" new_style="true"/>
+    </MODEL_RMX3785>
+
+    <MODEL_RMX3612>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <INA number="83184" year="2022" made_in_number="6813" made_in_place="none"/>
+        <KSA number="2022-1634" new_style="true"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3612>
+
+    <MODEL_RMX3561>
+        <MAS/>
+        <CE/>
+        <PHI number="2207382"/>
+        <KSA number="2022-974" new_style="true"/>
+        <INA number="81039" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3561>
+
+    <MODEL_RMX3701>
+        <CE/>
+    </MODEL_RMX3701>
+
+    <MODEL_RMX3371>
+        <CE/>
+        <MAS/>
+        <INA number="81648" year="2022" made_in_number="6813" made_in_place="none"/>
+        <elabel brand="Realme" factory_no="IN-04" region="India"/>
+    </MODEL_RMX3371>
+
+    <MODEL_RMX3840>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <INA number="95520" year="2023" made_in_number="6813" made_in_place="none"/>
+        <KSA number="2023-2780" new_style="true"/>
+    </MODEL_RMX3840>
+
+    <MODEL_RMX3842>
+        <CE/>
+        <KSA number="2023-2787" new_style="true"/>
+    </MODEL_RMX3842>
+
+    <MODEL_RMX3867>
+        <CE/>
+        <MAS/>
+        <MEX r_old_style="true"/>
+        <INA number="96327" year="2023" made_in_number="6813" made_in_place="none"/>
+        <KSA number="2024-24" new_style="true"/>
+    </MODEL_RMX3867>
+
+    <MODEL_RMX3999>
+        <CE/>
+        <MEX r_old_style="true"/>
+        <MAS/>
+    </MODEL_RMX3999>
+</LegalInfos>

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20221017</version>
+    <toggle>1</toggle>
+    <features>
+        <!-- <feature name="BindCore" enable="1"> -->
+            <!-- big core index, start from 0 -->
+            <!-- <bigcore_id>4</bigcore_id> -->
+            <!-- <bigcore_id>5</bigcore_id> -->
+            <!-- <bigcore_id>6</bigcore_id> -->
+            <!-- <bigcore_id>7</bigcore_id> -->
+        <!-- </feature> -->
+
+        <feature name="OplusDEE" enable="1">
+            <DC>enable</DC>
+        </feature>
+        <feature name="osie" enable="1">
+            <!-- osie start -->
+            <!-- instagram -->
+            <application name="com.instagram.android">
+                <scene type="ExactLayer">
+                    <layer>com.instagram.android</layer>
+                    <layer>KHCD</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.zhiliaoapp.musically">
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+            </application>
+            <!-- 快手 -->
+            <application name="com.smile.gifmaker">
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>ReviewActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>MyProfileActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <layer>UserProfileActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>3</targetLayerIndex>
+                    </action>
+                </scene>
+            </application>
+            <!-- 微视 -->
+            <application name="com.tencent.weishi">
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MaterialDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>FeedActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>FeedActivity</layer>
+                    <layer>FeedActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>Toast</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <layer>Toast</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.tencent.weishi</layer>
+                    <layer>VideoLiteEditorActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+            </application>
+            <!-- 抖音 -->
+            <application name="com.ss.android.ugc.aweme">
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>PopupWindow</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>LiveDetailActivity</layer>
+                    <layer>LiveDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MusicDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <!-- scenes for old app version -->
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MusicDetailActivity</layer>
+                    <layer>MusicDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MusicDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SearchResultActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>UserProfileActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>VideoPublishActivity</layer>
+                    <layer>VideoPublishPreviewActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.ss.android.ugc.aweme</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.ss.android.ugc.aweme</layer>
+                    <layer>com.ss.android.ugc.aweme</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.ss.android.ugc.aweme</layer>
+                    <layer>HotSpotDetailActivity</layer>
+                    <layer>HotSpotDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HotSpotDetailActivity</layer>
+                    <layer>HotSpotDetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>LiveBroadcastActivity</layer>
+                    <layer>LiveBroadcastActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+            </application>
+            <!-- tiktok -->
+            <application name="com.ss.android.ugc.trill">
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.mm">
+                <scene type="ExactLayer">
+                    <layer>mm</layer>
+                    <layer>SnsOnlineVideoActivity</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SnsTimeLineUI</layer>
+                    <layer>SnsBrowseUI</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SnsGalleryUI</layer>
+                    <action>
+                        <mode>PQ</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+    </features>
+</filter-conf>

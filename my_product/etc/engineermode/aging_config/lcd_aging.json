@@ -1,0 +1,19 @@
+{
+  "lcd_aging":{
+    "aging_item_id":10003,
+    "aging_item_enable":false,
+    "aging_item_summary":"lcd",
+    "aging_item_duration_per_round":300,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":false,
+    "lcd_display_test_switch_delay":2,
+    "lcd_vddi_aging_switch":true,
+    "lcd_vddr_aging_switch":true,
+    "lcd_vddx_voltage_switch_cycle_times":5,
+    "lcd_display_mode_switch":true,
+    "lcd_frequency_mode_two_cycle_times":2,
+    "lcd_frequency_switch_delay":1,
+    "lcd_frequency_mode_switch":true,
+    "lcd_drive_voltage_switch":true
+  }
+}

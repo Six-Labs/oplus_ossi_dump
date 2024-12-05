@@ -1,0 +1,8 @@
+<oplus-config>
+    <!-- Wumingzhi@MULTIMEDIA.VIDEOSERVER.FRAMEWORK, 2022/07/08, Add for convert to JPEG format menu -->
+    <oplus-feature name="oplus.software.camera.heic_support" />
+     <!-- WuXiaolong@MULTIMEDIA.DISPLAYSERVER.FRAMEWORK, 2022/08/22, Add for app reduce brightness feature -->
+    <oplus-feature name="oplus.software.display.reduce_brightness_rm"/>
+    <!-- taoguiyuan@MULTIMEDIA.AUDIOSERVER.BASE, 2023/12/12, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+</oplus-config>

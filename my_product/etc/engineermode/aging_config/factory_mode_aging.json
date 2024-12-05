@@ -1,0 +1,21 @@
+{
+  "factory_mode_aging":{
+    "aging_item_id":10007,
+    "aging_item_enable":false,
+    "aging_item_summary":"factory mode",
+    "aging_item_duration_per_round":7200,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":true,
+    "factory_mode_sbl_switch":true,
+    "factory_mode_ddr_switch":true,
+    "factory_mode_flash_switch":true,
+    "ddr_aging_duration":0,
+    "ddr_aging_policy":0,
+    "ddr_fix_freq_policy":0,
+    "flash_aging_duration":0,
+    "flash_full_fill_times":0,
+    "flash_aging_policy":0,
+    "flash_reserve_space":0,
+    "force_flash_policy":0
+  }
+}

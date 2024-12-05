@@ -1,0 +1,22 @@
+{
+  "aging_pre_test":{
+    "aging_item_id":10001,
+    "aging_item_enable":false,
+    "aging_item_summary":"pre_test",
+    "aging_item_duration_per_round":60,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":true,
+    "aging_pre_test_interrupt_mode":false,
+    "item_switch_wifi":true,
+    "item_switch_bt":true,
+    "item_switch_gps":true,
+    "item_switch_touch_panel":true,
+    "item_switch_fingerprint":true,
+    "item_switch_camera":true,
+    "item_switch_sensor":true,
+    "item_switch_small_board":true,
+    "item_switch_mic":true,
+    "item_switch_smart_pa":true,
+    "item_switch_air_interface":true
+  }
+}

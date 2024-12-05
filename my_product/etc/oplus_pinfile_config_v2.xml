@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pin_file_config_v2>
+    <!-- default -->
+    <group>
+        <item>/system/framework/arm/boot-mediatek-framework.vdex</item>
+        <item>/system/lib/libhidltransport.so</item>
+        <item>/system/framework/arm/boot-ext.vdex</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+    </group>
+    <group mem="4">
+        <item>/system/lib64/libhwui.so</item>
+        <item>/system_ext/lib64/libhwuiextimpl.so</item>
+        <item>/system/lib64/libinputflinger.so</item>
+        <item>/system/lib64/libinput.so</item>
+        <item>/system/lib64/libinputreader.so</item>
+        <item>/system_ext/lib64/libinputflingerextimpl.so</item>
+        <item>/system/lib64/libinputflinger_base.so</item>
+    </group>
+    <group mem="6">
+        <item>/system/lib64/libhwui.so</item>
+        <item>/system_ext/lib64/libhwuiextimpl.so</item>
+        <item>/system/lib64/libinputflinger.so</item>
+        <item>/system/lib64/libinput.so</item>
+        <item>/system/lib64/libinputreader.so</item>
+        <item>/system_ext/lib64/libinputflingerextimpl.so</item>
+        <item>/system/lib64/libinputflinger_base.so</item>
+    </group>
+
+    <group mem="8">
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/system/lib64/libhwui.so</item>
+        <item>/system_ext/lib64/libhwuiextimpl.so</item>
+        <item>/system/lib64/libinputflinger.so</item>
+        <item>/system/lib64/libinput.so</item>
+        <item>/system/lib64/libinputreader.so</item>
+        <item>/system_ext/lib64/libinputflingerextimpl.so</item>
+        <item>/system/lib64/libinputflinger_base.so</item>
+    </group>
+</pin_file_config_v2>

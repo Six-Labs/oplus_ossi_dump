@@ -1,0 +1,12 @@
+{
+  "global":{
+    "high_temp_limit":55,
+    "battery_capacity_limit":69,
+    "battery_i2c_err_monitor":true,
+    "aging_interrupt_mode":false,
+    "aging_log_switch":true,
+    "aging_dump_switch":true,
+    "aging_sub_sys_dump_switch":false,
+    "aging_sub_sys_option":[]
+  }
+}

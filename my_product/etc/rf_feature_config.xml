@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feature id="0">
+    <function>FIX Asdiv</function>
+    <atcmd index="0"><!--838-->
+        <!--AT + ETXANT= 1, RAT , ANT, ,WRITE TO NVRAM-->
+        <!--GSM(GEN93)-->
+        <cmd>AT+ETXANT=1,1,1,,0</cmd>
+        <!--UMTS-->
+        <cmd>AT+ETXANT=1,2,1,,0</cmd>
+        <!--LTE-->
+        <cmd>AT+ETXANT=1,3,1,,0</cmd>
+    </atcmd>
+    <atcmd index="1"><!--818-->
+        <!--AT + ETXANT= 1, RAT , ANT, ,WRITE TO NVRAM-->
+        <!--GSM(GEN93)-->
+        <cmd>AT+ETXANT=1,1,0,,0</cmd>
+        <!--UMTS-->
+        <cmd>AT+ETXANT=1,2,0,,0</cmd>
+        <!--LTE-->
+        <cmd>AT+ETXANT=1,3,0,,0</cmd>
+    </atcmd>
+</feature>

@@ -1,0 +1,12 @@
+{
+  "camera_auto_aging":{
+    "aging_item_id":10008,
+    "aging_item_enable":false,
+    "aging_item_summary":"camera_auto",
+    "aging_item_duration_per_round":300,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":false,
+    "aging_item_external_item":true,
+    "auto_aging_mode":"common"
+  }
+}

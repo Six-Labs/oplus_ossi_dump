@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <!--xiaodong.du@ANDROID.UPDATABILITY, 2020/12/30, Add for all in one -->
+    <app_feature name="com.oplus.ota.component_update_url" args="String:https://component-ota-sg.allawnos.com"/>
+    <!--contributors_url ,default:""-->
+    <app_feature name="com.oplus.ota.contributors_url" args="String:https://icontributor-service-sg.allawnos.com/contributor/home"/>
+    <!--new appointment_url ,default:""-->
+    <app_feature name="com.oplus.ota.new_appointment_url" args="String:https://ota-recruit-sg.allawnos.com/recruit/url"/>
+    <!--new rlm_appointment_url ,default:""-->
+    <app_feature name="com.oplus.ota.new_rlm_appointment_url" args="String:https://ota-recruit-sg.allawnos.com/recruit/url"/>
+    <!--recruit_promote_url ,default:""-->
+    <app_feature name="com.oplus.ota.recruit_promote_url" args="String:https://ota-recruit-sg.allawnos.com"/>
+    <!--component update cryptoSDK pubkey ,default:""-->
+    <app_feature name="com.oplus.ota.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkA980wxi+eTGcFDiw2I6RrUeO4jL/Aj3Yw4dNuW7tYt+O1sRTHgrzxPD9SrOqzz7G0KgoSfdFHe3JVLPN+U1waK+T0HfLusVJshDaMrMiQFDUiKajb+QKr+bXQhVofH74fjat+oRJ8vjXARSpFk4/41x5j1Bt/2bHoqtdGPcUizZ4whMwzap+hzVlZgs7BNfepo24PWPRujsN3uopl+8u4HFpQDlQl7GdqDYDj2zNOHdFQI2UpSf0aIeKCKOpSKF72KDEESpJVQsqO4nxMwEi2jMujQeCHyTCjBZ+W35RzwT9+0pyZv8FB3c7FYY9FdF/+lvfax5mvFEBd9jO+dpMQIDAQAB"/>
+    <!--component update cryptoSDK pubkey version ,default:""-->
+    <app_feature name="com.oplus.ota.pubkey_ver" args="String:1615895993238"/>
+</extend_features>

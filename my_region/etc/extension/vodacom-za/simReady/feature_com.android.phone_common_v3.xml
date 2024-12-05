@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.phone.show_notification_when_register_vowifi" />
+    <app_feature name="com.android.phone.simsettings.customize_vowifi_notification_dynamic" args="StringList:value">
+        <StringList name="value" args="key_title;viwifi_notification_title_za" />
+        <StringList name="value" args="key_message;vodafone_vowifi_notification_content" />
+    </app_feature>
+</extend_features>

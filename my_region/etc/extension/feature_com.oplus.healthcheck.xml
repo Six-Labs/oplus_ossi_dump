@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="feature_after_sale_url_exp" args="String:https://support.oppo.com/id/service-center/" />
+</extend_features>

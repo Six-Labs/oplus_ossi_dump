@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!--old feature: com.oplus.bootreg_region_id-->
+    <app_feature name="com.oplus.bootreg.complete_animation" />
+</extend_features>

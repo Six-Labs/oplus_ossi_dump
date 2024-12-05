@@ -1,0 +1,16 @@
+<oplus-config>
+    <!-- HeZhihui@NETWORK.REG.8515, 2020/06/12, modify for Feature Toggle -->
+    <!-- <oplus-feature name="oplus.software.radio.signal_smooth_disabled"/> -->
+    <!-- <unavailable-oplus-feature name="oplus.software.radio.nr_icon_optimized_enabled"/> -->
+	<!-- PengHao@NETWORK.DATA.8124, 2020/05/08, Add for network quality evaluation.OPLUS_FEATURE_DATA_EVAL -->
+
+    <oplus-feature name="oplus.software.radio.data_eval" />
+
+    <!-- Luobiao@NETWORK.DATA, 2021/07/14, bugid:276081 -->
+    <oplus-feature name="oplus.software.radio.dds_switch"/>
+
+    <!-- ShiQianhua@NETWORK.DATA.8615, 2020/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.data_fast_recovery" />
+    <!-- Tanzhengpeng@NETWORK.TECH.8615, 2022/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nhs_disabled_restricted" />
+</oplus-config>

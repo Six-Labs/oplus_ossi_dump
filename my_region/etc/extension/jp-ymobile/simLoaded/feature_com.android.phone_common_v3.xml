@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.phone.need_aggregation_network_lists_dynamic" />
+    <app_feature name="com.android.phone.no_need_ecc_retry_dynamic" args="StringList:cause">
+        <StringList name="cause" args="4" />
+    </app_feature>
+</extend_features>

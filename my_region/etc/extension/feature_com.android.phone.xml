@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!--UserId:742474-->
+    <app_feature name="com.android.phone.exp_uaprofile_url" args="String:https://ua-prof-sg.allawnofs.com/resource/ua-PROF/"/>
+
+    <app_feature name="com.android.phone.simsettings.domestic_demand_region" args="String:ID" />
+</extend_features>

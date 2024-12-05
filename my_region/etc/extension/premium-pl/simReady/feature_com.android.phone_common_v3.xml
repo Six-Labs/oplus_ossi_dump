@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.phone.replace_network_title_dynamic" args="StringList:type">
+        <StringList name="type" args="4G;LTE"/>
+    </app_feature>
+</extend_features>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature args="StringList:type" name="com.android.phone.customize_network_name_list_5g_dynamic">
+        <StringList args="oplus_5g_lte_3g_2g_auto" name="type"/>
+        <StringList args="oplus_lte_3g_2g_auto" name="type"/>
+        <StringList args="oplus_3g_2g_auto" name="type"/>
+        <StringList args="oplus_2g_only" name="type"/>
+    </app_feature>
+
+    <app_feature args="StringList:type" name="com.android.phone.customize_network_value_list_5g_dynamic">
+        <StringList args="33" name="type"/>
+        <StringList args="20" name="type"/>
+        <StringList args="18" name="type"/>
+        <StringList args="1" name="type"/>
+    </app_feature>
+
+    <app_feature args="StringList:type" name="com.android.phone.customize_network_name_list_dynamic">
+        <StringList args="oplus_lte_3g_2g_auto" name="type"/>
+        <StringList args="oplus_3g_2g_auto" name="type"/>
+        <StringList args="oplus_2g_only" name="type"/>
+    </app_feature>
+
+    <app_feature args="StringList:type" name="com.android.phone.customize_network_value_list_dynamic">
+        <StringList args="20" name="type"/>
+        <StringList args="18" name="type"/>
+        <StringList args="1" name="type"/>
+    </app_feature>
+    <app_feature name="com.android.phone.network_mode_customize_5G_4G_3G_2G" args="String:oplus_5g_lte_3g_2g_auto" />
+    <app_feature name="com.android.phone.network_mode_customize_4G_3G_2G" args="String:oplus_lte_3g_2g_auto" />
+    <app_feature name="com.android.phone.network_mode_customize_3G_2G" args="String:oplus_3g_2g_auto" />
+    <app_feature name="com.android.phone.network_mode_customize_2G_only" args="String:oplus_2g_only" />
+</extend_features>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.phone.simsettings.data_roaming_domestic_on_switch_control_national_dynamic" />
+    <app_feature name="com.android.phone.need_aggregation_network_lists_dynamic" />
+    <app_feature name="com.android.phone.simsettings.disable_vowifi_on_airplaneon_dynamic" />
+    <app_feature name="com.android.phone.simsettings.wifi_calling_hint_dynamic" args="String:wifi_calling_hint"/>
+</extend_features>

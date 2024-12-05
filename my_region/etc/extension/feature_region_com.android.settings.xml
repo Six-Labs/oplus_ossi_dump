@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.android.settings.kernel_version_for_id" />
+    <!-- replace com.android.settings.kernel_version_for_id, but should not delete kernel_version_for_id -->
+    <app_feature name="com.android.settings.kernel_version_with_wib" />
+    <app_feature name="com.android.settings.kernel_version_show_time" />
+</extend_features>

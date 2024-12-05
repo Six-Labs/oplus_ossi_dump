@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.phone.simsettings.customize_vowifi_title_dynamic" args="StringList:value">
+        <StringList name="value" args="key_vowifi_language;hr" />
+        <StringList name="value" args="key_vowifi_title;vowifi_title_for_DT" />
+    </app_feature>
+</extend_features>

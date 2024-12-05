@@ -1,0 +1,3 @@
+<extend_features>
+   <app_feature name="com.oplus.uxiconui.id_region_support" args="boolean:true"/>
+</extend_features>

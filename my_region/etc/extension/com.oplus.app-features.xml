@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.eap.anr_crash.statistics.switch" args="boolean:true"/>
+	<app_feature name="com.oplus.eap.anr_crash.logfile.switch" args="boolean:true"/>
+	<app_feature name="com.oplus.eap.release_host" args="String:https://moa-upload-sg.allawnos.com"/>
+	<app_feature name="com.oplus.eap.cloud_storage_release_host" args="String:https://ostorage-ocloud-sg.allawnos.com"/>
+	<app_feature name="com.oplus.eap.cloud_storage_release_host_v3" args="String:https://ostorage-ocloud-sg.allawnos.com"/>
+	<app_feature name="com.oplus.smartsidebar.scene_rules_url" args="String:https://sidebar-apps-sg.allawnos.com"/>
+</extend_features>
+<!-- Timestamp 2023-08-28T19:38:54 #42317 -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.radio.sa_tac_control"/>
+	<oplus-feature name="oplus.software.radio.sa_apm_control"/>
+</oplus-config>
+<!-- Timestamp 2023-11-06T21:57:21 #62706 -->

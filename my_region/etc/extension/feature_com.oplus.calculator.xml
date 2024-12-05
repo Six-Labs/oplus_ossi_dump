@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.oplus.calculator.rate_address" args="String:https://calculator-api-sg.allawnos.com/"/>
+</extend_features>

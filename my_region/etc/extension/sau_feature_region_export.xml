@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <!-- WangGuorui@ANDROID.UPDATABILITY, 2020/10/30 ,Add for change to oplusos -->
+    <app_feature name="com.oplusos.sau.url" args="String:https://sau-server-sg.allawnos.com/post/"/>
+    <!--SAU update cryptoSDK pubkey ,default:""-->
+    <app_feature name="com.oplus.sau.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvK7Gwto8ZITjm1tEtlanG07Ire6UOBL4kgxjVU9vwnNDyGla5K1wP79bhJJHk0ADSpzSK6O0Cv/cAYlvd7oL4n/98M0O5AtpXOD/mOWTY++5FNNXtmzDMvzKVShLGKQ+IGS5b1pctqPyLamjPBN51s7mRbgUL5D0GPChTf2YMjht4D0suzCEQNLPAAGNmasndcj9dbE3CmvZXi/Nnhgt5SokNqUNTiPCNC7iGoiskShCbJSkfW5RuLSE/eAum3wQ+CjYSrvHd5sAHgDjsqs28Yi4E3QYj1RFjmOioq+5C+Itp8xkOiNA/fKa6+txQZn0RZq5ytSV+p15lHhnU0SSzQIDAQAB"/>
+    <!--SAU update cryptoSDK pubkey version ,default:""-->
+    <app_feature name="com.oplus.sau.pubkey_ver" args="String:1621324219339"/>
+    <!--xinqi.liu@ANDROID.UPDATABILITY, 2021/11/01, Add for sau opex -->
+    <app_feature name="com.oplusos.sau.opex.url" args="String:https://opex-service-sg.allawnos.com/"/>
+    <app_feature name="com.oplusos.sau.opex.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmsGhAIeXjkAqPW08T18ynlLOBOfDEzNz4MEvDmecfmrGnlxGpucThpLPC+Zwr7H+ZjIPSBReN5a3g+urA8X9WXZTeb9nC5aAjd3jAV/2iWSaN9D4t20jMg58E01xgEQGPwEMnAkQ/2AR74GQocQVYcz4ouOVfNxeb266hGMKydwubxaV2JtnIzacvUCIpm6tdSqUktbqKlzHCVdPCkJYSfcgsmO6f5kgsLAnOJpTEvCkh8m8x7X113hhHdu4FamSAM7NrOQFtYsndhDu7ISD13TEZcKJokxjUWwNix02NrZhDVlspnTr6yQ0+lAyVtjoTXJlpVoUtcSYbEvNjxIj5QIDAQAB"/>
+    <app_feature name="com.oplusos.sau.opex.pubkey_ver" args="String:1631001988895"/>
+</extend_features>

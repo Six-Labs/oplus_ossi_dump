@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.oplusos.deepthinker.apptype.host" args="String:classify-app-sg.allawnos.com"/>
+</extend_features>

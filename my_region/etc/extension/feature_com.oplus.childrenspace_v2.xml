@@ -1,0 +1,4 @@
+<extend_features>
+    <!--show wallpaper for Indonesia-->
+    <app_feature name="com.oplus.childrenspace.indonesia" />
+</extend_features>

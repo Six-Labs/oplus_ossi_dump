@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- Liukun@ROM.CommApp.Contacts, 2022/10/12, Add for Bug-Fix 4544330 -->
+    <app_feature name="com.android.contacts.cloud_sync_server_domain" args="String:heytapmobile.com"/>
+    <app_feature name="com.android.contacts.cloud_sync_privacy_statement" args="String:https://static-sg01a.ocloud.heytapmobi.com/heytapprivacystatement.html"/>
+</extend_features>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.phone.hide_cancel_all_call_barring_dynamic" />
+    <app_feature name="com.android.phone.simsettings.bearer_not_show_cdma_dynamic" />
+    <app_feature name="com.android.phone.simsettings.show_vilte_switch_dynamic" />
+</extend_features>

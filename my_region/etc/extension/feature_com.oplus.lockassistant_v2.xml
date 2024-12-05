@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.oplus.lockassistant.lockcard_server_url" args="String:https://ilockcardf.apps.coloros.com/post/"/>
+    <app_feature name="com.oplus.lockassistant.lockcard_server_url_realme" args="String:https://ilockcardf.realme.com/post/"/>
+    <app_feature name="com.oplus.lockassistant.lockcard_region" args="String:ID" />
+</extend_features>

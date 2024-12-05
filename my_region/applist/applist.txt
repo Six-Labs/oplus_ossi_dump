@@ -1,0 +1,3 @@
+com.oplus.logkit.plugin.upload:LogKitUploadPlugin.apk::false
+com.oplus.safecenter.config_plugin:SafeCenterConfigPlugin.apk::false
+com.nearme.instant.platform:Instant.apk::false

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- The lock screen interface needs to display PIN, PUK remaining times  -->
+    <app_feature name="com.android.systemui.keyguard_show_pinpukremains" />
+    <app_feature name="com.android.systemui.keyguard_show_operatornotice" />
+    <app_feature name="com.android.systemui.show.pinpuk_func_support_carrier" args="String:vodafone"/>
+    <!-- Status bar UE icon icon display requirements  -->
+    <app_feature name="com.android.systemui.show_g_for_gprs" />
+    <app_feature name="com.android.systemui.show_g_for_2g" />
+</extend_features>

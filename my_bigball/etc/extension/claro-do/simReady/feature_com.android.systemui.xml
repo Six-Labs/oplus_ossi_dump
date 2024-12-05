@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>  
+    <!-- Status bar UE icon icon display requirements  -->
+	<app_feature name="com.android.systemui.show_g_for_gprs"/>
+	<app_feature name="com.android.systemui.show_4dot5g_for_4gplus"/>
+</extend_features>

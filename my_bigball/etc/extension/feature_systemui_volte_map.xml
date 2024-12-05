@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<extend_features>
+
+	<app_feature name="com.android.systemui.hide_volte_list" args="StringList:gemini" >
+	   <StringList name="gemini" args="26201"/>
+	   <StringList name="gemini" args="26202"/>
+	   <StringList name="gemini" args="26203"/>
+	   <StringList name="gemini" args="26206"/>
+	   <StringList name="gemini" args="26207"/>
+	   <StringList name="gemini" args="26209"/>
+	   <StringList name="gemini" args="20801"/>
+	   <StringList name="gemini" args="20810"/>
+	   <StringList name="gemini" args="20827"/>
+	   <StringList name="gemini" args="23801"/>
+	   <StringList name="gemini" args="23802"/>
+	   <StringList name="gemini" args="23806"/>
+	   <StringList name="gemini" args="23820"/>
+	   <StringList name="gemini" args="23830"/>
+	   <StringList name="gemini" args="21403"/>
+	   <StringList name="gemini" args="310160"/>
+	   <StringList name="gemini" args="310200"/>
+	   <StringList name="gemini" args="310210"/>
+	   <StringList name="gemini" args="310220"/>
+	   <StringList name="gemini" args="310230"/>
+	   <StringList name="gemini" args="310240"/>
+	   <StringList name="gemini" args="310250"/>
+	   <StringList name="gemini" args="310260"/>
+	   <StringList name="gemini" args="310270"/>
+	   <StringList name="gemini" args="310490"/>
+	   <StringList name="gemini" args="310660"/>
+	   <StringList name="gemini" args="310800"/>
+	   <StringList name="gemini" args="311490"/>
+	   <StringList name="gemini" args="311660"/>
+	   <StringList name="gemini" args="311882"/>
+	   <StringList name="gemini" args="312250"/>
+       <StringList name="gemini" args="21401"/>
+	</app_feature>
+</extend_features>

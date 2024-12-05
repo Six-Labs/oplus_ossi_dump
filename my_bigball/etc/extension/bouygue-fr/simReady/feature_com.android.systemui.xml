@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<extend_features>
+	<app_feature name="com.android.systemui.show_g_for_gprs" />
+	<app_feature name="com.android.systemui.show_3gplus_for_h" />
+</extend_features>

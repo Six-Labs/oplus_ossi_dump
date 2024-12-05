@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>  
+    <app_feature name="com.android.systemui.hide_volte_icon" />
+    <app_feature name="com.android.systemui.hide_vowifi_icon" />
+</extend_features>

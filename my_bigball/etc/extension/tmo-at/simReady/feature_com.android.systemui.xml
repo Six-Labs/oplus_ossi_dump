@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>  
+    <!-- Status bar UE icon icon display requirements  -->
+    <app_feature name="com.android.systemui.hide_volte_icon"/>
+	
+	<app_feature name="com.android.systemui.show_lte_for_4gplus"  />
+	<app_feature name="com.android.systemui.show_lte_for_4g"/>
+	<app_feature name="com.android.systemui.show_2g_for_e"/>
+	<app_feature name="com.android.systemui.show_3g_for_h"/>
+	
+	<app_feature name="com.android.settings.need_show_2g3g"/>
+</extend_features>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- ad region glance2.1 support feature -->
+    <app_feature name="com.coloros.bootreg_new_glance_agreements" args="String:https://glance.com/eula?region=ID"/>
+    <app_feature name="com.coloros.bootreg_new_glance_privacy_policy" args="String:https://glance.com/privacy-policy?region=ID"/>
+    <!-- ad region support feature -->
+    <app_feature name="com.coloros.video.ad_support"/>
+    <app_feature name="com.oplus.video.ad_support"/>
+    <!-- ad region support feature -->
+    <app_feature name="com.oplus.filemanager.ad_support"/>
+    <!-- ad region support feature -->
+    <app_feature name="com.realme.securitycheck.ad_support"/>
+    <!-- ad region support feature -->
+    <app_feature name="com.oppo.launcher.ad_support" args="String:tools,more"/>
+    <app_feature name="com.android.launcher.ad_support" args="String:tools,more"/>
+    <!-- ad region support feature -->
+    <app_feature name="com.oplus.weather.ad_support"/>
+    <!-- ad region support feature -->
+    <app_feature name="com.oplus.phonemanager.ad_support"/>
+    <app_feature name="com.coloros.phonemanager.ad_support"/>
+    <app_feature name="com.android.launcher.REGION_NAME" args="String:ID" />
+
+    <!-- ad region support feature -->
+    <app_feature name="com.coloros.bootreg_glan_agreements_network_server_url" args="String:https://glance.com/eula"/>
+    <app_feature name="com.coloros.bootreg_glan_privacy_policy_network_server_url" args="String:https://glance.com/privacy-policy"/>
+
+    <!-- ad region Branch support feature -->
+    <app_feature name="com.coloros.bootreg_branch_agreements_network_server_url" args="String:https://legal.poweredbybranch.com/#disco-ts-cs"/>
+    <app_feature name="com.coloros.bootreg_branch_privacy_policy_network_server_url" args="String:https://legal.poweredbybranch.com/#disco-privacypolicy"/>
+    <!-- branch feature url -->
+    <app_feature name="com.android.launcher.BRANCH_DISCOVERY_NAVIGATOR" args="StringList:url">
+        <StringList name="url" args="https://legal.poweredbybranch.com/#disco-ts-cs;https://legal.poweredbybranch.com/#disco-privacypolicy"/>
+    </app_feature>
+
+    <app_feature name="com.android.systemui.support_id_red_clock"/>
+</extend_features>

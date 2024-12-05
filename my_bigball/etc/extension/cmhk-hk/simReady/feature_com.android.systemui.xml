@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- show dialog for wifi calling tip when click gps tile -->
+    <app_feature name="com.android.systemui.gps_tile_vowifi_dialog"/>
+</extend_features>

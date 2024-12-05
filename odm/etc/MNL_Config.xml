@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mnl_config version="19100901.6.00.99" type="gps">
+
+    <feature>L1Only
+        <version>1.0</version>
+        <config>1</config>
+        <format>L1 only: 1</format>
+        <setting>1</setting>
+    </feature>
+</mnl_config>

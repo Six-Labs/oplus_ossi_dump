@@ -1,0 +1,32 @@
+[
+    {
+        "brand":"realme",
+        "project":"2269C",
+        "name":"t2",
+        "product":"RMX3630T2",
+        "device":"RE8DDCL1",
+        "model":"RMX3630",
+		"first_api_level" : "31",
+		"manufacturer":"realme",
+        "base_oses": [
+            {
+              "13": "realme/RMX3630T2/RE8DDCL1:13/TP1A.220905.001/S.15b571f_1:user/release-keys"
+            }
+        ]
+    }, 
+    {
+        "brand":"realme",
+        "project":"2269C",
+        "name":"default",
+        "product":"RMX3630",
+        "device":"RE8DDCL1",
+        "model":"RMX3630",
+		"first_api_level" : "31",
+		"manufacturer":"realme",
+        "base_oses": [
+            {
+              "13": "realme/RMX3630/RE8DDCL1:13/TP1A.220905.001/S.15b571f_1:user/release-keys"
+            }
+        ]
+    }
+]

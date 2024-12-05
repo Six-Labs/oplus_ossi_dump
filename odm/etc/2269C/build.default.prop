@@ -1,0 +1,44 @@
+
+# InitEnv
+
+# Build.java
+ro.build.id=SP1A.210812.016
+ro.product.manufacturer=realme
+ro.product.brand=realme
+ro.product.model=RMX3630
+ro.product.name=RMX3630
+ro.product.device=RE8DDCL1
+ro.product.first_api_level=31
+ro.board.first_api_level=31
+ro.build.version.incremental=S.17193e6_a151
+ro.build.version.release=13
+ro.build.fingerprint=realme/RMX3630/RE8DDCL1:13/SP1A.210812.016/S.17193e6_a151:user/release-keys
+ro.odm.build.fingerprint=realme/RMX3630/RE8DDCL1:13/SP1A.210812.016/S.17193e6_a151:user/release-keys
+ro.odm.build.version.incremental=S.17193e6_a151
+ro.product.odm.brand=realme
+ro.product.odm.manufacturer=realme
+ro.product.odm.model=RMX3630
+ro.product.odm.device=RE8DDCL1
+ro.product.odm.name=RMX3630
+ro.odm.build.date=Thu Mar 21 15:13:43 CST 2024
+ro.odm.build.date.utc=1711005223
+ro.bootimage.build.fingerprint=realme/RMX3630/RE8DDCL1:13/SP1A.210812.016/S.17193e6_a151:user/release-keys
+ro.bootimage.build.version.incremental=S.17193e6_a151
+ro.product.bootimage.brand=realme
+ro.product.bootimage.manufacturer=realme
+ro.product.bootimage.model=RMX3630
+ro.product.bootimage.device=RE8DDCL1
+ro.product.bootimage.name=RMX3630
+ro.bootimage.build.date=Thu Mar 21 15:13:43 CST 2024
+ro.bootimage.build.date.utc=1711005223
+ro.vendor.build.fingerprint=realme/RMX3630/RE8DDCL1:13/SP1A.210812.016/S.17193e6_a151:user/release-keys
+ro.vendor.build.version.incremental=S.17193e6_a151
+ro.product.vendor.brand=realme
+ro.product.vendor.manufacturer=realme
+ro.product.vendor.model=RMX3630
+ro.product.vendor.device=RE8DDCL1
+ro.product.vendor.name=RMX3630
+ro.vendor.build.date=Thu Mar 21 15:13:43 CST 2024
+ro.vendor.build.date.utc=1711005223
+
+# OPPO

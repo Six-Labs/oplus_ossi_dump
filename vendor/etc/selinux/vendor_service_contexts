@@ -1,0 +1,65 @@
+#line 1 "device/mediatek/sepolicy/bsp/non_plat/service_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+android.hardware.neuralnetworks.IDevice/mtk-gpu_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-dsp_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-mdla_shim   u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-neuron_shim u:object_r:hal_neuralnetworks_service:s0
+#line 1 "vendor/oplus/system/sepolicy/vendor/service_contexts"
+#ifdef OPLUS_FEATURE_WIFI_SNIFFER
+#LiangXiao@CONNECTIVITY.WIFI.BASIC.3631197, 2022/05/15, Add for oplus wifi aidl hal service on Android T
+vendor.oplus.hardware.wifi.IOplusWifiService/default  u:object_r:oplus_wifi_aidl_hal_service:s0
+#endif /* OPLUS_FEATURE_WIFI_SNIFFER */
+
+#ifdef OPLUS_FEATURE_WIFI_SUPPLICANTAIDL
+#FanBingqi@CONNECTIVITY.WIFI.CONNECTION.CONNECT.3631233, 2022/06/20, Add for oplus supplicant hal service on Android T
+vendor.oplus.hardware.wifi.supplicant.IOplusSupplicant/default  u:object_r:oplus_supplicant_aidl_hal_service:s0
+#endif /*OPLUS_FEATURE_WIFI_SUPPLICANTAIDL*/
+
+#ifdef OPLUS_FEATURE_ESIM
+#ChenGuoyao@NETWORK.ARCH.3631218, 2022/06/06, Add for hidl2aidl
+vendor.oplus.hardware.esim.IOplusEsim/default u:object_r:hal_esim_service:s0
+#endif OPLUS_FEATURE_ESIM
+
+#Ruijiagui@Network.ARCH, 2020/10/22, add for subsys-hal
+vendor.oplus.hardware.subsys_interface.subsys.ISubsys/default             u:object_r:hal_subsys_service:s0
+vendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot1    u:object_r:hal_subsys_service:s0
+vendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot2    u:object_r:hal_subsys_service:s0
+#Ruijiagui@Network.ARCH, 2020/10/22, end add for subsys-hal
+
+#ifdef OPLUS_FEATURE_ORMS
+#Xiehuilong@GAME.ORMS, 2022/06/07, Add for oplus orms aidl hal service on Android T
+vendor.oplus.hardware.ormsHalService.IOrmsAidlHalService/default  u:object_r:oplus_orms_aidl_hal_service:s0
+#endif /* OPLUS_FEATURE_ORMS */
+
+#ifdef OPLUS_FEATURE_OSENSE
+#Xiehuilong@GAME.ORMS, 2022/09/07, Add for oplus osense aidl hal service on Android T
+vendor.oplus.hardware.osense.client.IOsenseAidlHalReporter/default  u:object_r:fwk_osense_aidl_service:s0
+#endif /* OPLUS_FEATURE_OSENSE */
+
+#ifdef OPLUS_FEATURE_RPMH
+#Zhigao.Zhang@BSP.Kernel.No.2.Standby, 2022/07/22, for rpmh aidl service.
+vendor.oplus.hardware.rpmh.IRpmh/default    u:object_r:hal_oplus_rpmh_aidl_service:s0
+#endif /* OPLUS_FEATURE_RPMH */
+
+#Kezhi.Zhu@Kernel.Sched, 2022/07/26, Add for IPerformance aidl service
+vendor.oplus.hardware.performance.IPerformance/default u:object_r:hal_oplus_performance_aidl_service:s0
+
+vendor.oplus.hardware.power.powermonitor.IPowerMonitor/default u:object_r:hal_oplus_powermonitor_aidl_service:s0
+
+#Lixueming@Network.ARCH, 2022/08/02, add for OplusRadio-AIDL
+vendor.oplus.hardware.radio.IRadioStable/OplusRadio0  u:object_r:hal_radio_service:s0
+vendor.oplus.hardware.radio.IRadioStable/OplusRadio1  u:object_r:hal_radio_service:s0
+
+#ifdef OPLUS_FEATURE_GAMEOPT
+#satoshi@GameEco.Game, 2022/06/21, Add for gameopt aidl
+vendor.oplus.hardware.gameopt.IGameOptHalService/default    u:object_r:hal_gameopt_aidl_service:s0
+#endif /*OPLUS_FEATURE_GAMEOPT*/
+
+#ifdef OPLUS_FEATURE_MIDAS
+#Faquan.Yao@BSP.Power, 2022/09/08, add for handlefactory
+vendor.oplus.hardware.handlefactory.IHandleFactory/default  u:object_r:hal_oplus_handle_factory_service:s0
+#endif /* OPLUS_FEATURE_MIDAS */
+

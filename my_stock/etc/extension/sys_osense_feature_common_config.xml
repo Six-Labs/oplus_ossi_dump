@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <!-- <project>8350R</project> -->
+        <version>2023112301</version>
+        <filter-name>sys_osense_feature_common_config</filter-name>
+    </filter-conf>
+
+    <feature name="AppMng">
+        <config name="policyEnabled_config" type="bundle">
+            <item name="POLICY_CLEAN" type="bool" value="true"/>
+            <item name="POLICY_OFREEZER" type="bool" value="true"/>
+            <item name="POLICY_PRELOAD" type="bool" value="true"/>
+        </config>
+
+        <config name="appmngBqConfig" type="bundle">
+            <item name="maxHistoryFiles" type="int" value="30"/>
+            <item name="eventSize" type="int" value="3000"/>
+            <item name="tuningSwitch" type="bool" value="false"/>
+            <item name="DCSLog" type="bool" value="true"/>
+            <item name="zipTrigger" type="bool" value="false"/>
+            <item name="version" type="int" value="1"/>
+        </config>
+
+        <config name="defaultBigAppList_config" type="stringList">
+            <item name="com.oplus.camera"/>
+        </config>
+
+        <config name="requestConfig" type="bundle">
+            <item name="dcsThreshold" type="int" value="300"/>
+            <item name="dcsPeriod" type="int" value="600000"/>
+        </config>
+		
+		<config name= "atomicCleanProcessWhiteList" type="stringList">
+            <item name="com.coloros.smartsidebar:edgepanel"/>
+            <item name="com.xunmeng.pinduoduo:titan"/>
+            <item name="com.tencent.mm:push"/>
+            <item name="com.taobao.taobao:channel"/>
+			<item name="com.oplus.trafficmonitor:network_control"/>
+        </config>
+    </feature>
+    <feature name="Memory">
+	    <config name="psiConfig" type="bundle">
+            <item name="memConfig" type="string" value="0 50000 0 70000 1 50000 1 70000"/>
+            <item name="ioConfig" type="string" value="0 30000 0 50000 1 30000"/>
+        </config>
+    </feature>
+    <feature name="CPU">
+    </feature>
+    <feature name="IO">
+    </feature>
+</resources>

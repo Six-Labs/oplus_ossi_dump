@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.key_quickoperate_torch"/>
+	<oplus-feature name="oplus.software.resolver_share_email"/>
+	<oplus-feature name="oplus.software.uxicon_exp"/>
+	<oplus-feature name="oplus.software.notify_wellbeing"/>
+	<oplus-feature name="oplus.software.pms_install_statistics_no_silent"/>
+	<oplus-feature name="oplus.software.pms_device_owner_uninstall_policy"/>
+	<oplus-feature name="oplus.software.pms_mainline_preodex_enabled"/>
+	<oplus-feature name="oplus.software.multiapp_support_rlm"/>
+	<unavailable-oplus-feature name="os.tool.midas"/>
+</oplus-config>
+<!-- Timestamp 2024-01-30T16:01:44 #88937 -->

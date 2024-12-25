@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.oplus.aiwidgets" priority="10"/>
+  <disable pkg="com.oplus.vdc" priority="10"/>
+</app>

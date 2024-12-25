@@ -1,0 +1,6 @@
+<settings_provider_config>
+
+    <!-- Nan.Lu, 2022.01.27, Add to export for RSA new requirement from realme ROM group -->
+    <settings_item name="nfc_payment_default_component"  value="com.google.android.gms/com.google.android.gms.tapandpay.hce.service.TpHceService" category="secure"/>
+
+</settings_provider_config>

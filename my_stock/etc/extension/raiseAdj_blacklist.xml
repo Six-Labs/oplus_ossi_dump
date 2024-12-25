@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20240118</version>
+    <isOpen>1</isOpen>
+    <filter-name>raiseAdj_blacklist</filter-name>
+    <rabl>YW5kcm9pZC5vcy5jdHMuYXV0b3Jldm9rZXNhcHA=</rabl>
+    <rabl>YW5kcm9pZC5vcy5jdHMuYXV0b3Jldm9rZXJhcHA=</rabl>
+    <rabl>YW5kcm9pZC5oaWJlcm5hdGlvbi5jdHMuYXV0b3Jldm9rZXJhcHA=</rabl>
+    <rabl>YW5kcm9pZC5oaWJlcm5hdGlvbi5jdHMuYXV0b3Jldm9rZXNhcHA=</rabl>
+    <rabl>YW5kcm9pZC5hcHAuc3R1YnM=</rabl>
+    <rabl>YW5kcm9pZC5hcHAuc3R1YnM6aGJhY3Q=</rabl>
+    <rabl>Y29tLmFuZHJvaWQubGF1bmNoZXI=</rabl>
+    <rabl>Y29tLmFuZHJvaWQuY2hyb21l</rabl>
+    <rabl>YW5kcm9pZC5zZXJ2ZXIud20uYXBw</rabl>
+</filter-conf>

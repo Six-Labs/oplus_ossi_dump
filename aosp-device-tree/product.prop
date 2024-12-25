@@ -1,0 +1,5 @@
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
+ro.dalvik.vm.enable_uffd_gc=true
+ro.oplus.image.product.version=.1a94600c
+ro.product.ab_ota_partitions=boot,product,system,system_ext,vendor
+ro.product.cpu.pagesize.max=4096

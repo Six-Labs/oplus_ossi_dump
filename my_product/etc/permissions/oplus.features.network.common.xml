@@ -1,0 +1,10 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.radio.ntp_preferred"/>
+    <!-- ZhuNian@NETWORK.DATA, 2013/06/17, modify for OPLUS_FEATURE_HIDESMS_SYSTEMAPP -->
+    <oplus-feature name="oplus.software.radio.sms_exp"/>
+    <!-- CynricZhao@NETWORK.DATA, 2021/08/20, Add for optimate onlinemeeting -->
+    <oplus-feature name="oplus.software.radio.scene_mode" />
+    <oplus-feature name="oplus.software.radio.online_meeting" />
+    <!-- Tanzhoumei@NETWORK.DATA.8515, 2020/09/05, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.ntp_preferred"/>
+</oplus-config>

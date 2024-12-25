@@ -1,0 +1,6 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.inputmethod.sogou.default" />
+    <oplus-feature name="oplus.software.inputmethod.baidu.enabled" />
+    <oplus-feature name="oplus.software.inputmethod.sogou.enabled" />
+    <oplus-feature name="oplus.software.inputmethod.ifly.enabled" />
+</oplus-config>

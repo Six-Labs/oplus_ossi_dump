@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.radio.data_eval3"/>
+	<oplus-feature name="oplus.software.view.spring_over_scroller"/>
+	<oplus-feature name="oplus.software.view.rgbnormalize"/>
+	<oplus-feature name="oplus.software.enable_startup_manager"/>
+</oplus-config>
+<!-- Timestamp 2024-01-18T21:17:37 #86802 -->

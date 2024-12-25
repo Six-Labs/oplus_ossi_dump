@@ -1,0 +1,11 @@
+{
+  "idle_aging":{
+    "aging_item_id":10010,
+    "aging_item_enable":false,
+    "aging_item_summary":"idle",
+    "aging_item_duration_per_round":300,
+    "aging_item_cycle_times":1,
+    "idle_ratio_threshold":50,
+    "aging_item_exclusive_item":true
+  }
+}

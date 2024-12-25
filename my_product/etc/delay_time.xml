@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <app>com.tencent.tmgp.sgame</app>
+    <app>com.tencent.tmgp.sgamece</app>
+    <app>com.tencent.tmgp.pubgmhd</app>
+    <app>com.miHoYo.Yuanshen</app>
+    <app>com.miHoYo.ys.bilibili</app>
+    <app>com.miHoYo.ys.mi</app>
+    <app>com.miHoYo.GenshinImpact</app>
+    <app>com.tencent.lolm</app>
+    <app>com.tencent.tmgp.speedmobile</app>
+    <app>com.tencent.ig</app>
+    <app>com.pubg.imobile</app>
+    <app>com.mobile.legends</app>
+    <app>com.mobile.legends:UnityKillsMe</app>
+    <app>com.oplus.camera</app>
+</filter-conf>

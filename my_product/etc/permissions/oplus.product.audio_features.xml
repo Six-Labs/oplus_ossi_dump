@@ -1,0 +1,19 @@
+<oplus-config>
+    <!-- yang.y.liu@GAMEECO.Touch, 2020/09/07, Add for touch adjuster feature start -->
+    <oplus-feature name="oplus.software.game.touch_adjuster_support"/>
+    <!-- end -->
+    <!-- yang.y.liu@GAMEECO.Touch, 2020/11/30, Add for touch adjuster feature start -->
+    <oplus-feature name="oplus.software.game.touch_adjuster_support"/>
+    <!-- end -->
+    <!-- Yao.Yongming@MULTIMEDIA.AUDIOSERVER.EFFECT.2021/1/6. Add for surround_effect_support start-->
+    <oplus-feature name="oplus.software.effect.surround_effect_support"/>
+    <!-- Yao.Yongming@MULTIMEDIA.AUDIOSERVER.EFFECT.2021/1/6. Add for surround_effect_support end-->
+    <!-- wangqidong@MULTIMEDIA.AUDIO.SUPER.VOLUME.2021/1/6. Add for super_volume start-->
+    <oplus-feature name="oplus.software.audio.super_volume"/>
+    <!-- wangqidong@MULTIMEDIA.AUDIO.SUPER.VOLUME.2021/1/6. Add for super_volume end-->
+    <!-- wangqidong@MULTIMEDIA.AUDIO.DUALHEADPHONE.2021/1/6. Add for DUALHEADPHONE start-->
+    <oplus-feature name="oplus.software.audio.dualheadphone"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone.lite"/>
+    <!-- wangqidong@MULTIMEDIA.AUDIO.DUALHEADPHONE.2021/1/6. Add for DUALHEADPHONE end-->
+</oplus-config>
+

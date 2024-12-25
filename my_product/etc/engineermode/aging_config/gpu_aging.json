@@ -1,0 +1,11 @@
+{
+  "gpu_aging":{
+    "aging_item_id":10006,
+    "aging_item_enable":false,
+    "aging_item_summary":"gpu",
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":false,
+    "gpu_aging_open_gl_version":2,
+    "gpu_aging_object_amount":1000
+  }
+}

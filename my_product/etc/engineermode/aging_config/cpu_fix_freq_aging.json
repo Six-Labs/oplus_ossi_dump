@@ -1,0 +1,13 @@
+{
+  "cpu_fix_freq_aging":{
+    "aging_item_id":10015,
+    "aging_item_enable":false,
+    "aging_item_summary":"cpu_fix_freq",
+    "aging_item_duration_per_round":300,
+    "aging_item_cycle_times":1,
+    "cpu_set_policy":3,
+    "cpu_fix_freq_ratio":6,
+    "test_on_min_max_setting":1,
+    "low_freq_number":2
+  }
+}

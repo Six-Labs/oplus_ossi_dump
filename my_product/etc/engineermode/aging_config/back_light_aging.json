@@ -1,0 +1,12 @@
+{
+  "back_light_aging":{
+    "aging_item_id":20001,
+    "aging_item_enable":false,
+    "aging_item_summary":"back light",
+    "aging_item_independence_thread":false,
+    "aging_item_duration_per_round":0,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":false,
+    "back_light_switch_delay":5
+  }
+}

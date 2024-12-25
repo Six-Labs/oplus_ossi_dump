@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.opus.systemui.disable_qs_list" args="String:weixinpay,osie,lris"/>
+	<app_feature name="com.android.launcher.phone_manager_entrance"/>
+</extend_features>
+<!-- Timestamp 2024-08-26T14:48:59 #205289 -->

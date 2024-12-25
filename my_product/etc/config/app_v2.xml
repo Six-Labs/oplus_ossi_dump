@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <disable pkg="com.coloros.assistantscreen" priority="7"/>
+  <disable pkg="com.coloros.colordirectservice" priority="7"/>
+  <disable pkg="com.coloros.directui" priority="7"/>
+  <disable pkg="com.coloros.ocrscanner" priority="7"/>
+  <disable pkg="com.coloros.sceneservice" priority="7"/>
+  <disable pkg="com.coloros.smartdrive" priority="7"/>
+  <disable pkg="com.coloros.smartlock" priority="7"/>
+  <disable pkg="com.coloros.systemclone" priority="7"/>
+  <disable pkg="com.magiear.handsfree.assistant" priority="7"/>
+  <disable pkg="com.mediatek.voicecommand" priority="7"/>
+  <disable pkg="com.oplus.nhs" priority="7" memory="4"/>
+  <disable pkg="com.oplus.onetrace" priority="7"/>
+  <disable pkg="com.oplus.aiunit" priority="7"/>
+  <disable pkg="com.oplus.qualityprotect" priority="7"/>
+</app>

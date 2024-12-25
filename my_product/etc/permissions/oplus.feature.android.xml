@@ -1,0 +1,26 @@
+<oplus-config>
+   <!-- Guofu.Yang@ANDROID.WMS.2458273, 2020/08/13, Add for app resolution switch -->
+   <oplus-feature name="oplus.software.app_resolution_switch" />
+   <oplus-feature name="oplus.software.app_resolution_auto" />
+
+   <!-- Haiqiang.Liu@ODM_HQ.AD.PERFORMANCE, 2022/05/31, add for service/provider bind small core  -->
+   <oplus-feature name="oplus.software.bind_small_core" />
+   <!-- Haiqiang.Liu@ODM_HQ.AD.PERFORMANCE, 2022/05/31, add end -->
+   <oplus-feature name="oplus.software.reduce.task_snapshot" />
+   <!-- steve.shen@OPTI, 2021/03/12, Add for animation scroll opt -->
+   <oplus-feature name="oplus.software.scroll.animation_opt" />
+   <!-- #Fei.Ma@PSW.AD.Memory, 2022/08/22, Disable delayed kill cached processes to
+   reduce the impact on boot memory. -->
+   <oplus-feature name="oplus.software.ams.disable_delay_mcp_kill" />
+   
+    <!-- YaFeng.Geng@ANDROID.AMS, 2023/05/31, add for serviceDelay in Lowmemory -->
+    <oplus-feature name="oplus.software.service.restrat_duration_low" />
+
+    <!-- Fangwenjie@ANDROID.WMS, 2023/06/13, add for set low frame rate when panel expened -->
+    <oplus-feature name="oplus.software.low_framerate_panel_expened" />
+    <!-- Fangwenjie@ANDROID.WMS, 2023/06/13, add end -->
+
+    <!-- Jingcheng.Shi@ANDROID.POWER, 2023/09/22, Add for keep game screen on during call -->
+    <oplus-feature name="oplus.software.game.keep_screen_on_during_call" />
+    <!-- Jingcheng.Shi@ANDROID.POWER, 2023/09/22, Add for keep game screen on during call end -->
+</oplus-config>

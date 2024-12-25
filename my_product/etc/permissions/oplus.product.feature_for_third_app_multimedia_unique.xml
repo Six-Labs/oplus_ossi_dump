@@ -1,0 +1,6 @@
+<!-- Adds the feature indicating support for the third party app-->
+<permissions>
+    <!--yanweibo@MULTIMEDIA.AUDIOSERVER.BASE,2021/12/28,add for super volume start-->
+    <feature name="oplus.software.audio.super_volume"/>
+    <!--yanweibo@MULTIMEDIA.AUDIOSERVER.BASE,2021/12/28,add for super volume end-->
+</permissions>

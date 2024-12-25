@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2023090900</version>
+    <filter-name>sys_athena_hybrid_swap_config</filter-name>
+			<hybrid_swap_config>
+				<scene name="boot">
+			    <ram value="4">
+				    <hybrid_swap_action_config label="110" action="10" cgroup="#" value="2200 2000 2200 1536" />
+				    <hybrid_swap_action_config label="122" action="22" cgroup="#" value="3 0 99 0 0 0 100 399 80 0 0 400 499 80 0 0" />
+				    <hybrid_swap_action_config label="128" action="28" cgroup="#" value="2000 100" />
+			    </ram>
+        </scene>
+
+        <scene name="normal">
+			    <ram value="4">
+				    <hybrid_swap_action_config label="110" action="10" cgroup="#" value="200 100 200 512" />
+				    <hybrid_swap_action_config label="122" action="22" cgroup="#" value="3 0 99 0 0 0 100 399 60 0 0 400 499 60 0 0" />
+				    <hybrid_swap_action_config label="128" action="28" cgroup="#" value="2000 50" />
+			    </ram>
+        </scene>
+
+			  <config key="hybrid_swap_boot_delay" type="Long" value="20000"/>
+			  <config key="hybrid_swap_normal_delay" type="Long" value="180000"/>
+			</hybrid_swap_config>
+</filter-conf>

@@ -1,0 +1,8 @@
+<oplus-config>
+
+
+    <oplus-feature name="oplus.software.notification.envelope_assistant_enable" />
+    <oplus-feature name="oplus.software.multiuser_entry_disabled"/>
+    <oplus-feature name="oplus.software.windowanimaiton.light" />
+
+</oplus-config>

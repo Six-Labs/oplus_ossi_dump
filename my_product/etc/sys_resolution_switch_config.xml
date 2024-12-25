@@ -1,0 +1,22 @@
+<!-- resolutionID的值，智能切换为1,低分辨率为2，高分辨率为3 -->
+<!-- idmask = 1 左移 resolutionID值的结果  -->
+<!-- 不支持分辨率切换的机器，只有智能模式生效 -->
+<!-- 固定density的app不能添加到智能分辨率名单中  -->
+<!--Display Compat mode-->
+<sys_resolution_switch_config version="20220531" filemagic="androidS" screenwidth="1080" >
+<!-- 1080 * 0.75 = 720,480 * 0.75 = 320 -->
+<scaleinfo value="1.5,0.666667,320" />
+<!-- auto or qhd+  force to low resolution example -->
+<item package="com.example.force" idmask="1010" />  <!-- xxx -->
+<!-- auto  example -->
+<item package="com.example.test1" idmask="0010"  scaleinfo="1.5,0.6666667,420" />  <!-- xxx -->
+<item package="com.happyelements.AndroidAnimal" idmask="0010" />  <!-- 开心消消乐 -->
+<item package="com.kiloo.subwaysurf" idmask="0010" />  <!-- 地铁跑酷 -->
+<item package="com.imangi.templerun2" idmask="0010" />  <!-- 神庙逃亡2 -->
+<item package="com.miHoYo.Yuanshen" idmask="0010" originscalemode="true" />  <!-- 原神 -->
+<item package="com.netease.dwrg.nearme.gamecenter" idmask="0010" originscalemode="true" />  <!-- 第五人格 -->
+
+<!--<item package="com.tencent.tmgp.sgame" idmask="0010" /> --> <!---ALM-3471470 王者荣耀-->
+<!--<item package="com.netease.sky.nearme.gamecente" idmask="0010" /> --> <!---ALM-3471470 光遇-->
+</sys_resolution_switch_config>
+

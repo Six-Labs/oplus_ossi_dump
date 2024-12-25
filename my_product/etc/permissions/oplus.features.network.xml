@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.radio.air_interface_detect_support"/>
+	<oplus-feature name="oplus.software.radio.sar.earpiece.detect.support"/>
+	<oplus-feature name="oplus.software.radio.nwpower_app_network_monitor_switch_enable"/>
+	<oplus-feature name="oplus.software.radio.disable_nw_limit_notify"/>
+	<oplus-feature name="oplus.software.radio.sar_via_sts_support"/>
+	<oplus-feature name="oplus.software.radio.new_pa_aging_support"/>
+	<oplus-feature name="oplus.software.radio.pa_aging_for_lte_b41_legacy"/>
+	<oplus-feature name="oplus.software.radio.disabled_cached_uid"/>
+	<oplus-feature name="oplus.software.radio.nwpower_supprese_signal_report_enable"/>
+	<oplus-feature name="oplus.software.radio.nwpower_static_netcontroller_enabled"/>
+	<oplus-feature name="oplus.software.radio.comm_scene_switch_enable"/>
+</oplus-config>

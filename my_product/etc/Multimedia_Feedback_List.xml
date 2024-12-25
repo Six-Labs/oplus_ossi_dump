@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<filter-conf>
+  <version>20210805</version>
+  <isOpen>true</isOpen>
+  <totalAudioLogs>20</totalAudioLogs>
+    <perAudioLogs>2</perAudioLogs>
+
+  <totalVideoLogs>20</totalVideoLogs>
+    <perVideoLogs>4</perVideoLogs>
+
+  <totalDisplayLogs>20</totalDisplayLogs>
+    <perDisplayLogs>0</perDisplayLogs>
+
+  <totalDefaultLogs>20</totalDefaultLogs>
+    <perDefaultLogs>0</perDefaultLogs>
+  <filter-name>Multimedia_Feedback_List</filter-name>
+
+    <!-- audio event id" -->
+    <event id="10001" diagid="090001" ison="11" region="all" buildType="all" reportFreq="300" logInterval="3600" logType="3" desc="audio adsp crash"/>
+    <event id="10002" diagid="090002" ison="11" region="all" buildType="all" reportFreq="120" logInterval="3600" logType="F" desc="audio server crash"/>
+    <event id="10008" diagid=""       ison="10" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="3" desc="audio hal MTK assert"/>
+    <event id="10009" diagid="090009" ison="11" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="3" desc="audio headset detection err"/>
+    <event id="10034" diagid="090034" ison="11" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="B" desc="audio server TimecheckTimeout"/>
+    <event id="10035" diagid="090035" ison="11" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="B" desc="audio server record data err"/>
+    <event id="10036" diagid="090036" ison="11" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="B" desc="audio server track exhaustion"/>
+    <event id="10037" diagid="090037" ison="11" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="B" desc="audio server outOfMemory"/>
+    <event id="10038" diagid=""       ison="11" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="7f" desc="audio bad wake lock"/>
+    <event id="10041" diagid=""       ison="10" region="all" buildType="all" reportFreq="60" logInterval="3600" logType="3" desc="audio speaker or PA err"/>
+</filter-conf>

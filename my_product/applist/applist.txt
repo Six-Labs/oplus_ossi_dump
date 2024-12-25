@@ -1,0 +1,3 @@
+com.coloros.oshare:OShare.apk::false
+com.oplus.camera:OplusCamera.apk::false
+com.oplus.audio.effectcenter:AudioEffectCenter.apk::false

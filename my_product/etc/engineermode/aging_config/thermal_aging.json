@@ -1,0 +1,11 @@
+{
+  "thermal_aging":{
+    "aging_item_id":20005,
+    "aging_item_enable":false,
+    "aging_item_summary":"thermal",
+    "aging_item_duration_per_round":0,
+    "aging_item_cycle_times":1,
+    "aging_item_exclusive_item":true,
+    "battery_temperature_range":55
+  }
+}

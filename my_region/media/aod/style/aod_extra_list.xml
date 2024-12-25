@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+    <aodlist titleResource="aod_style_text_image" viewIndex="2">
+        <item aodType="005" id="3004001" folder="tiger" imageResource="tiger/aod_internal_style_aod_pic_indonesia.png" version="0"/>
+    </aodlist>
+</resource>

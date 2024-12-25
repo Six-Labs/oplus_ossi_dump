@@ -1,0 +1,2 @@
+name="Instant.apk" info_1="482148f6ce1df170984f233431262f72" info_2="282c9282cb51cc5da8bb2509f2c41d85" location="app/Instant/Instant.apk"
+name="OplusCallRecorder.apk" info_1="358829b84345a1a9341a8942b02a1e28" info_2="fb7f4d11b060a7b640335bff58cbc94b" location="priv-app/OplusCallRecorder/OplusCallRecorder.apk"

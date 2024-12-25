@@ -1,0 +1,191 @@
+#line 1 "device/mediatek/sepolicy/bsp/non_plat/service_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+android.hardware.neuralnetworks.IDevice/mtk-gpu_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-dsp_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-mdla_shim   u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-neuron_shim u:object_r:hal_neuralnetworks_service:s0
+#line 1 "vendor/oplus/system/sepolicy/vendor/service_contexts"
+# danny@camera.drv, 2022/10/26, add for sendextcamcmd interface
+vendor.oplus.hardware.sendextcamcmd.ISendExtCamCmdService/default u:object_r:hal_sendextcamcmd_service:s0
+
+#ifdef OPLUS_FEATURE_WIFI_SNIFFER
+#LiangXiao@CONNECTIVITY.WIFI.BASIC.3631197, 2022/05/15, Add for oplus wifi aidl hal service on Android T
+vendor.oplus.hardware.wifi.IOplusWifiService/default  u:object_r:oplus_wifi_aidl_hal_service:s0
+#endif /* OPLUS_FEATURE_WIFI_SNIFFER */
+
+#ifdef OPLUS_FEATURE_WIFI_SUPPLICANTAIDL
+#FanBingqi@CONNECTIVITY.WIFI.CONNECTION.CONNECT.3631233, 2022/06/20, Add for oplus supplicant hal service on Android T
+vendor.oplus.hardware.wifi.supplicant.IOplusSupplicant/default  u:object_r:oplus_supplicant_aidl_hal_service:s0
+#endif /*OPLUS_FEATURE_WIFI_SUPPLICANTAIDL*/
+
+#ifdef OPLUS_FEATURE_ESIM
+#ChenGuoyao@NETWORK.ARCH.3631218, 2022/06/06, Add for hidl2aidl
+vendor.oplus.hardware.esim.IOplusEsim/default u:object_r:hal_esim_service:s0
+#endif OPLUS_FEATURE_ESIM
+
+#Ruijiagui@Network.ARCH, 2020/10/22, add for subsys-hal
+vendor.oplus.hardware.subsys_interface.subsys.ISubsys/default             u:object_r:hal_subsys_service:s0
+vendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot1    u:object_r:hal_subsys_service:s0
+vendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot2    u:object_r:hal_subsys_service:s0
+#Ruijiagui@Network.ARCH, 2020/10/22, end add for subsys-hal
+
+#ifdef OPLUS_FEATURE_ENGINEERTOOLS
+#Wei.Dai@BSP.Security.Basic, 2022/10/25, Add for engineer aidl
+vendor.oplus.hardware.engineer.IEngineer/default              u:object_r:oplus_hal_engineer_service:s0
+#endif /* OPLUS_FEATURE_ENGINEERTOOLS */
+
+#ifdef OPLUS_FEATURE_ORMS
+#Xiehuilong@GAME.ORMS, 2022/06/07, Add for oplus orms aidl hal service on Android T
+vendor.oplus.hardware.ormsHalService.IOrmsAidlHalService/default  u:object_r:oplus_orms_aidl_hal_service:s0
+#endif /* OPLUS_FEATURE_ORMS */
+
+#ifdef OPLUS_VIRTUAL_MODEM_COMM
+#Tanzhengpeng@NETWORK.ARCH, 2022/04/29, Add for virtual modem communication
+vendor.oplus.hardware.communicationcenter.IDmtpService/default                   u:object_r:hal_commcenter_service:s0
+#endif /* OPLUS_VIRTUAL_MODEM_COMM */
+
+#ifdef OPLUS_FEATURE_OSENSE
+#Xiehuilong@GAME.ORMS, 2022/09/07, Add for oplus osense aidl hal service on Android T
+vendor.oplus.hardware.osense.client.IOsenseAidlHalReporter/default  u:object_r:fwk_osense_aidl_service:s0
+#endif /* OPLUS_FEATURE_OSENSE */
+
+#ifdef OPLUS_FEATURE_DCS
+#Liang.Zhengli@ANDROID.UPDATABILITY, 2022/10/07, Add for commondcs aidl hal service on Android T
+vendor.oplus.hardware.commondcs.ICommonDcsAidlHalService/default  u:object_r:commondcs_aidl_service:s0
+#endif OPLUS_FEATURE_DCS
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Wei.Dai@BSP.Security.Basic, 2022/09/24, Add for fingerprintpay aidl
+vendor.oplus.hardware.biometrics.fingerprintpay.IFingerprintPay/default     u:object_r:hal_fingerprintpay_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#ifdef OPLUS_FEATURE_RPMH
+#Zhigao.Zhang@BSP.Kernel.No.2.Standby, 2022/07/22, for rpmh aidl service.
+vendor.oplus.hardware.rpmh.IRpmh/default    u:object_r:hal_oplus_rpmh_aidl_service:s0
+#endif /* OPLUS_FEATURE_RPMH */
+
+#Kezhi.Zhu@Kernel.Sched, 2022/07/26, Add for IPerformance aidl service
+vendor.oplus.hardware.performance.IPerformance/default u:object_r:hal_oplus_performance_aidl_service:s0
+
+vendor.oplus.hardware.power.powermonitor.IPowerMonitor/default u:object_r:hal_oplus_powermonitor_aidl_service:s0
+
+#Lixueming@Network.ARCH, 2022/08/02, add for OplusRadio-AIDL
+vendor.oplus.hardware.radio.IRadioStable/OplusRadio0  u:object_r:hal_radio_service:s0
+vendor.oplus.hardware.radio.IRadioStable/OplusRadio1  u:object_r:hal_radio_service:s0
+
+#zhoulanlin@Network.IMS, 2022/11/01, add for OplusAppRadio-AIDL
+vendor.oplus.hardware.appradioaidl.IAppRadioStable/OplusAppRadio0  u:object_r:hal_radio_service:s0
+vendor.oplus.hardware.appradioaidl.IAppRadioStable/OplusAppRadio1  u:object_r:hal_radio_service:s0
+
+#ifdef OPLUS_FEATURE_GAMEOPT
+#satoshi@GameEco.Game, 2022/06/21, Add for gameopt aidl
+vendor.oplus.hardware.gameopt.IGameOptHalService/default    u:object_r:hal_gameopt_aidl_service:s0
+#endif /*OPLUS_FEATURE_GAMEOPT*/
+
+#ifdef OPLUS_FEATURE_PANELCHAPLIN
+#GaryGuo@DISPLAY,Oct/19/2022, add for PanelChaplin
+vendor.oplus.hardware.display.MixLut3D.IMixLut3D/default u:object_r:hal_oplus_display_MixLut3D_service:s0
+#endif OPLUS_FEATURE_PANELCHAPLIN
+
+#ifdef OPLUS_FEATURE_MIDAS
+#Faquan.Yao@BSP.Power, 2022/09/08, add for handlefactory
+vendor.oplus.hardware.handlefactory.IHandleFactory/default  u:object_r:hal_oplus_handle_factory_service:s0
+#endif /* OPLUS_FEATURE_MIDAS */
+
+#ifdef OPLUS_FEATURE_CAMMIDASSERVICE
+#dongmeihan@camera, 2022/10/19, add for cammidasservice aidl
+vendor.oplus.hardware.cammidasservice.IMIDASService/default   u:object_r:hal_oplus_cammidasservice_aidl_service:s0
+#endif /* OPLUS_FEATURE_CAMMIDASSERVICE */
+
+#ifdef OPLUS_FEATURE_DRM_HDCP
+#QinLing@MULTIMEDIA.MEDIASERVER.DRM, 2022/09/28, add for HDCP.
+vendor.oplus.hardware.hdcp.IHdcp/default  u:object_r:hal_oplus_hdcp_service:s0
+#endif OPLUS_FEATURE_DRM_HDCP
+
+#ifdef OPLUS_FEATURE_TP_BASIC
+#pengwei@BSP.misc, 2022/11/10, add for misc factory aidl
+vendor.oplus.hardware.misc.IOplusMisc/default u:object_r:hal_oplus_misc_aidl_service:s0
+#endif /* OPLUS_FEATURE_TP_BASIC*/
+
+#ifdef OPLUS_FEATURE_CAMERA_COMMON
+#li.hong@camera 2022/10/18 for cameraextension aidl interface
+vendor.oplus.hardware.cameraextension.ICameraExtensionService/default u:object_r:hal_cameraextension_aidl_service:s0
+#endif /* OPLUS_FEATURE_CAMERA_COMMON */
+
+#ifdef OPLUS_FEATURE_OLC
+#Yange.zhang@DFT, 2022/10/10, Add for olc hal
+vendor.oplus.hardware.olc2.IOplusLogCore/default u:object_r:hal_olc_aidl_service:s0
+#endif /* OPLUS_FEATURE_OLC */
+
+#ifdef OPLUS_FEATURE_CHG_BASIC
+#Jianchao.Shi@BSP.CHG.BASIC, 2022/11/07, add for charger aidl
+vendor.oplus.hardware.charger.ICharger/default u:object_r:hal_charger_service:s0
+#endif /* OPLUS_FEATURE_CHG_BASIC */
+
+#ifdef OPLUS_FEATURE_TP_BASIC
+#Sheng.Zhu@BSP.touch, 2022/09/29, add for touch factory aidl
+vendor.oplus.hardware.touch.IOplusTouch/default u:object_r:hal_oplus_touch_aidl_service:s0
+#endif /* OPLUS_FEATURE_TP_BASIC*/
+#ifdef OPLUS_FEATURE_CAMERA_COMMON
+vendor.oplus.hardware.camera.slogan.ISlogan/default u:object_r:hal_aidlslogan_service:s0
+#endif /* OPLUS_FEATURE_CAMERA_COMMON */
+
+#ifdef OPLUS_FEATURE_OPROJECT
+#You.Li@BSP.Stability, 2022/09/28, add for oplus_project
+vendor.oplus.hardware.stability.oplus_project.IOplusProject/default  u:object_r:hal_project_aidl_service:s0
+#endif /* OPLUS_FEATURE_OPROJECT */
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Bin.Lv@BSP.Security.Basic, 2022/09/24, Add for fido2 aidl
+vendor.oplus.hardware.fido.fido2ca.IFidoDaemon/default                   u:object_r:hal_fido2_service:s0
+#Wei.Dai@BSP.Security.Basic 2022/07/11 add for eid aidl
+vendor.oplus.hardware.eid.IEidDevice/default                             u:object_r:hal_eid_service:s0
+#Wei.Dai@BSP.SECURTIY.BASIC add for cryptoeng aidl
+vendor.oplus.hardware.cryptoeng.ICryptoeng/default                       u:object_r:hal_cryptoeng_service:s0
+#Jin.Wang@BSP.SECURTIY.BASIC add for trustonic soter aidl
+vendor.trustonic.hardware.soter.ITrustonicSoter/default                  u:object_r:hal_soter_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Shilei.Song@BSP.Fingerprint.Secure, 2022/11/28, add for riskdetect
+vendor.oplus.hardware.riskdetect.IRiskDetect/default u:object_r:hal_riskdetect_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Bin.Lv@BSP.Security.Basic, 2022/09/24, Add for fido aidl
+vendor.oplus.hardware.fido.fidoca.IFidoDaemon/default                   u:object_r:hal_fido_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#ifdef OPLUS_ARCH_NFC
+#LiuWenjie@CONNECTIVITY.NFC.ARCH, 2022/10/18, Add for: oplus nfc Aidl
+vendor.oplus.hardware.nfc.IOplusNfc/default  u:object_r:hal_oplus_nfc_service:s0
+#endif /* OPLUS_ARCH_NFC */
+
+#ifdef OPLUS_FEATURE_NFC_EXTNS
+#XiaoShengtao@CONNECTIVITY.NFC.BASIC, 2022/10/10, Add for nfcextns aidl.
+vendor.oplus.hardware.nfcExtns.INfcExtns/default       u:object_r:hal_nfcextns_service:s0
+#endif /* OPLUS_FEATURE_NFC_EXTNS */
+
+#ifdef OPLUS_FEATURE_OPLUS_SENSOR
+#pei.lu@BSP.sensor, 2022/09/29, add for sensor factory aidl
+vendor.oplus.hardware.oplusSensor.ISensorFeature/default u:object_r:hal_oplusSensor_aidl_service:s0
+#endif /* OPLUS_FEATURE_OPLUS_SENSOR *
+
+#ifdef OPLUS_FEATURE_TP_BASIC
+#Sheng.Zhu@BSP.touch, 2022/09/29, add for touch factory aidl
+vendor.oplus.hardware.touch.IOplusTouch/default u:object_r:hal_oplus_touch_aidl_service:s0
+#endif /* OPLUS_FEATURE_TP_BASIC*/
+
+#ifdef OPLUS_FEATURE_CPU_UAH_SUPPORT
+#Fei Xiongjun@BSP.Kernel.CPU, 2023-07-13 add for uah enable
+urccclientservice                             u:object_r:urcc_client_service:s0
+vendor.oplus.hardware.urcc.IUrcc/default       u:object_r:hal_urcc_service:s0
+#endif /* OPLUS_FEATURE_CPU_UAH_SUPPORT */
+
+#ifdef OPLUS_FEATURE_DOLBY_VISION
+#liuxiaofo@MULTIMEDIA.MMSERVER.PLAYER, 2022/11/16, Add for dolby vision integration
+com.dolby.DolbyVisionService                         u:object_r:dsv_service:s0
+#endif OPLUS_FEATURE_DOLBY_VISION

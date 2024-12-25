@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<privapp-permissions package="com.oplus.wallpapers">
+		<permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+		<permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+		<permission name="android.permission.CHANGE_CONFIGURATION"/>
+	</privapp-permissions>
+	<privapp-permissions package="com.android.mms">
+		<permission name="android.permission.TURN_SCREEN_ON"/>
+	</privapp-permissions>
+</permissions>
+<!-- Timestamp 2024-02-01T09:25:09 #89160 -->

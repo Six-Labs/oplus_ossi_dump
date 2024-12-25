@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pathConfig>
+    <item id="Log">
+        <path dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/persist_log/backup/OTRTA" pattern="^((?!manually_traces).)*$" option="cp" latest="SIZE500" targetpath="common/assistlog/backup/OTRTA"></path>
+        <path dir="/data/persist_log/DCS/de/psw_multimedia_perf" pattern=".*" option="mv" latest="NUM3" targetpath="display/psw_multimedia_perf"></path>
+    </item>
+    <item id="system_experience">
+        <!-- private log -->
+        <path dir="/sdcard/Documents/app_dump" pattern="sysui_dump.*.gz" option="mv" latest="0" targetpath="sysui_dump"></path>
+        <path dir="/sdcard/Android/data/com.coloros.assistantscreen/files/xlog" pattern=".*" option="mv" latest="TIME120" targetpath="xlog"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/sf" pattern=".*" option="mv" latest="TIME120" targetpath="display/sf"></path>
+      </item>
+    <item id="launcher">
+        <!-- common/wm -->
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <!-- launcher -->
+        <path dir="/data/persist_log" pattern="launcher.*" option="cp" latest="0" targetpath="launcher"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/sf" pattern=".*" option="mv" latest="TIME120" targetpath="display/sf"></path>
+      </item>
+    <item id="screen_shot">
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="clock">
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="note">
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="thirdpart">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/debugging" pattern="anr_binder_info" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/sdcard/Android/data/com.tencent.mm/MicroMsg" pattern="xlog" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mm"></path>
+        <path dir="/sdcard/Android/data/com.tencent.mm/MicroMsg" pattern="crash" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mm"></path>
+        <path dir="/storage/emulated/999/Android/data/com.tencent.mm/MicroMsg" pattern="xlog" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mm/sub_user"></path>
+        <path dir="/sdcard/Android/data/com.tencent.mobileqq/files/tencent/msflogs/com/tencent" pattern="mobileqq" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mobileqq"></path>
+        <path dir="/storage/emulated/999/Android/data/com.tencent.mobileqq/files/tencent/msflogs/com/tencent" pattern=".*" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mobileqq/sub_user"></path>
+        <path dir="/sdcard/kugou" pattern="log" option="cp" latest="TIME120" targetpath="thirdpart/kugou"></path>
+        <path dir="/sdcard/Android/data/com.tencent.qqlive/files" pattern="log" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.qqlive"></path>
+        <path dir="/sdcard/Android/data/com.yx" pattern=".*" option="cp" latest="TIME120" targetpath="thirdpart/com.yx"></path>
+        <path dir="/sdcard/Android/data/com.duowan.mobile/files/yymobile" pattern="logs" option="cp" latest="TIME120" targetpath="thirdpart/com.duowan.mobile"></path>
+        <path dir="/sdcard/Tencent/WeixinWor" pattern="src_log" option="cp" latest="TIME120" targetpath="thirdpart/WeixinWor"></path>
+        <path dir="/sdcard/Android/data/com.tencent.tmgp.cf/cache/Cache" pattern="Log" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.tmgp.cf"></path>
+    </item>
+    <item id="inputmethod">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+          <!-- private log to added -->
+        <path dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="flog" option="cp" latest="TIME120" targetpath="inputmethod/baidu"></path>
+        <path dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="BALog" option="cp" latest="TIME120" targetpath="inputmethod/baidu"></path>
+        <path dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="ime" option="cp" latest="TIME120" targetpath="inputmethod/baidu"></path>
+        <path dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="logcat" option="cp" latest="TIME120" targetpath="inputmethod/baidu"></path>
+        <path dir="/data/data/com.baidu.input/shared_prefs" pattern=".*" option="cp" latest="TIME120" targetpath="inputmethod/baidu/sp"></path>
+        <path dir="/data/user/0/com.baidu.input_oppo/databases" pattern="*.db" option="cp" latest="TIME120" targetpath="inputmethod/baidu"></path>
+        <path dir="/data/user/0/com.baidu.input_oppo/databases" pattern="flywheel" option="cp" latest="TIME120" targetpath="inputmethod/baidu"></path>
+        <path dir="/sdcard/Android/data/com.sohu.inputmethod.sogouoem/files/sogou" pattern="corelog" option="cp" latest="TIME120" targetpath="inputmethod/sogou"></path>
+    </item>
+    <item id="touch">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/vendor/touch" pattern=".*" option="mv" latest="0" targetpath="touch"></path>
+        <path dir="/sdcard/tp_debug_info" pattern=".*" option="mv" latest="0" targetpath="touch"></path>
+        <path dir="/sdcard/tp_debug_info1" pattern=".*" option="mv" latest="0" targetpath="touch"></path>
+        <path dir="/sdcard/TpTestReport" pattern=".*" option="mv" latest="0" targetpath="touch"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="display">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/sf" pattern="SKP" option="mv" latest="0" targetpath="display"></path>
+        <!-- skp log to be added-->
+    </item>
+    <item id="brightness">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="call">
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="stamp" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/vendor/aee_exp" pattern=".*" option="cp" latest="0" targetpath="data_vendor/vendor_aee"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/debugging" pattern="EfsFiles" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern=".*" option="mv" latest="TIME120" targetpath="display/sf"></path>
+    </item>
+    <item id="network">
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="stamp" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/vendor/aee_exp" pattern=".*" option="cp" latest="0" targetpath="data_vendor/vendor_aee"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/debugging" pattern="EfsFiles" option="mv" latest="0" targetpath="common"></path>
+    </item>
+    <item id="wifi">
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/DCS/de/network_logs" pattern="wifi" option="cp" latest="0" targetpath="wifi/DCS"></path>
+        <path dir="/data/persist_log/DCS/de/network_logs" pattern="wifiSwitch" option="cp" latest="0" targetpath="wifi/DCS"></path>
+        <path dir="/data/persist_log/DCS/de/network_logs" pattern="wifi_dump" option="cp" latest="0" targetpath="wifi/DCS"></path>
+        <path dir="/data/persist_log/DCS/de/network_logs" pattern="stp_dump" option="cp" latest="0" targetpath="wifi/DCS"></path>
+        <path dir="/data/debugging" pattern="netconfig" option="mv" latest="0" targetpath="wifi"></path>
+        <path dir="/data/vendor/wifi/logs" pattern=".*" option="mv" latest="0" targetpath="data_vendor"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+         <!-- YuanZhiqiang Add for collect stability log-->
+        <path dir="/data/aee_exp" pattern=".*" option="cp" latest="0" targetpath="stability/data_aee"></path>
+        <path dir="/data/persist_log" pattern="oplusreserve" option="cp" latest="0" targetpath="stability/oplusreserve2"></path>
+        <!-- Laixin Add for collect bt log-->
+        <path dir="/data/misc/bluetooth" pattern="logs" option="mv" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluetooth" pattern="cached_hci" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bthci" pattern=".*" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluedroid" pattern="^((?!bt_config\.).)+" option="cp" latest="0" targetpath="bluetooth/bluedroid"></path>
+        <path dir="/data/misc/bt_log" pattern=".*" option="mv" latest="0" targetpath="bluetooth"></path>
+    </item>
+    <item id="bluetooth">
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/misc/bluetooth" pattern="logs" option="mv" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluetooth" pattern="cached_hci" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bthci" pattern=".*" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluedroid" pattern="^((?!bt_config\.).)+" option="cp" latest="0" targetpath="bluetooth/bluedroid"></path>
+        <path dir="/data/misc/bt_log" pattern=".*" option="mv" latest="0" targetpath="bluetooth"></path>
+        <path dir="/data/user_de/0/com.android.bluetooth/shared_prefs" pattern="absolute_volume_blacklist.*" option="cp" latest="0" targetpath="bluetooth"></path>
+        <path dir="/data/bt_log" pattern=".*" option="mv" latest="0" targetpath="bluetooth/bt_log"></path>
+        <path dir="/data/persist_log/DCS/de/network_logs" pattern="bt_switch_log" option="cp" latest="0" targetpath="bluetooth/DCS"></path>
+        <path dir="/data/persist_log/DCS/de/network_logs" pattern="bt_fw_dump" option="cp" latest="0" targetpath="bluetooth/DCS"></path>
+        <path dir="/data/persist_log/DCS/de/network_logs" pattern="bt_hci_log" option="cp" latest="0" targetpath="bluetooth/DCS"></path>
+        <!-- Laixin Add for collect wifi log-->
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="netconfig" option="cp" latest="0" targetpath="wifi"></path>
+        <path dir="/data/vendor/wifi/logs" pattern=".*" option="cp" latest="0" targetpath="data_vendor"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="cp" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="cp" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <!-- Laixin Add for collect audio log-->
+        <path dir="/data/persist_log/TMP" pattern="pcm_dump" option="cp" latest="0" targetpath="audio"></path>
+        <path dir="/data/vendor/audiohal/audio_dump" pattern=".*" option="cp" latest="0" targetpath="audio/audio_dump"></path>
+        <path dir="/data/vendor/audiohal/aurisys_dump" pattern=".*" option="cp" latest="0" targetpath="audio/aurisys_dump"></path>
+        <path dir="/data/vendor/mmdump/adsp" pattern=".*" option="cp" latest="0" targetpath="audio/mmdump"></path>
+        <!-- Wangfei Add for collect qcom bluetooth hidl log-->
+        <path dir="/data/vendor/ssrdump/" pattern="qcom_hidl*.*" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+    </item>
+    <item id="gps">
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="gps" option="cp" latest="0" targetpath="gps/DCS"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="signal">
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="stamp" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/vendor/aee_exp" pattern=".*" option="cp" latest="0" targetpath="data_vendor/vendor_aee"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="nfc">
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="media">
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="pcm_dump" option="mv" latest="0" targetpath="audio"></path>
+        <path dir="/data/vendor/audiohal/audio_dump" pattern=".*" option="mv" latest="0" targetpath="audio/audio_dump"></path>
+        <path dir="/data/vendor/audiohal/aurisys_dump" pattern=".*" option="mv" latest="0" targetpath="audio/aurisys_dump"></path>
+        <path dir="/data/vendor/aee_exp" pattern=".*" option="cp" latest="0" targetpath="data_vendor/vendor_aee"></path>
+        <path dir="/data/vendor/mmdump/adsp" pattern=".*" option="cp" latest="0" targetpath="audio/mmdump"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="audio" option="cp" latest="0" targetpath="audio/DCS"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+          <!-- Laixin Add for collect bt log-->
+        <path dir="/data/misc/bluetooth" pattern="logs" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluetooth" pattern="cached_hci" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bthci" pattern=".*" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluedroid" pattern="^((?!bt_config\.).)+" option="cp" latest="0" targetpath="bluetooth/bluedroid"></path>
+        <path dir="/data/misc/bt_log" pattern=".*" option="cp" latest="0" targetpath="bluetooth"></path>
+        <!-- thirdpart -->
+        <path dir="/sdcard/Android/data/com.tencent.mm/MicroMsg" pattern="xlog" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mm"></path>
+        <path dir="/sdcard/Android/data/com.tencent.mm/MicroMsg" pattern="crash" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mm"></path>
+        <path dir="/storage/emulated/999/Android/data/com.tencent.mm/MicroMsg" pattern="xlog" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mm/sub_user"></path>
+        <path dir="/sdcard/Android/data/com.tencent.mobileqq/files/tencent/msflogs/com/tencent" pattern="mobileqq" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mobileqq"></path>
+        <path dir="/storage/emulated/999/Android/data/com.tencent.mobileqq/files/tencent/msflogs/com/tencent" pattern=".*" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.mobileqq/sub_user"></path>
+        <path dir="/sdcard/kugou" pattern="log" option="cp" latest="TIME120" targetpath="thirdpart/kugou"></path>
+        <path dir="/sdcard/Android/data/com.tencent.qqlive/files" pattern="log" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.qqlive"></path>
+        <path dir="/sdcard/Android/data/com.yx" pattern=".*" option="cp" latest="TIME120" targetpath="thirdpart/com.yx"></path>
+        <path dir="/sdcard/Android/data/com.duowan.mobile/files/yymobile" pattern="logs" option="cp" latest="TIME120" targetpath="thirdpart/com.duowan.mobile"></path>
+        <path dir="/sdcard/Tencent/WeixinWor" pattern="src_log" option="cp" latest="TIME120" targetpath="thirdpart/WeixinWor"></path>
+        <path dir="/sdcard/Android/data/com.tencent.tmgp.cf/cache/Cache" pattern="Log" option="cp" latest="TIME120" targetpath="thirdpart/com.tencent.tmgp.cf"></path>
+        <!-- DingGe Add for screenshot dumpsys-->
+        <path dir="/data/persist_log/TMP" pattern="audio_dumpsys" option="mv" latest="0" targetpath="audio"></path>
+    </item>
+    <item id="video">
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/vendor/videodump" pattern=".*" option="mv" latest="0" targetpath="video/videodump"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="video" option="cp" latest="0" targetpath="video/DCS"></path>
+        <path dir="/data/persist_log" pattern="video" option="mv" latest="0" targetpath="video"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/sf" pattern=".*" option="mv" latest="TIME120" targetpath="display/sf"></path>
+      </item>
+    <item id="heat">
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/oplus/psw" pattern="powermonitor" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/oplus/psw" pattern="powermonitor_backup" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/oplus/psw/powermonitor_backup_large" pattern="oloud_log" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/misc/midas/xlog" pattern=".*" option="mv" latest="0" targetpath="systemapp/com.oplus.obrain"></path>
+        <path dir="/data/misc/ostats/xlog" pattern=".*.pb.trace" option="mv" latest="0" targetpath="systemapp/com.oplus.ostats"></path>
+    </item>
+    <item id="power">
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/oplus/psw" pattern="powermonitor" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/oplus/psw" pattern="powermonitor_backup" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/oplus/psw/powermonitor_backup_large" pattern="oloud_log" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/misc/midas/xlog" pattern=".*" option="mv" latest="0" targetpath="systemapp/com.oplus.obrain"></path>
+        <path dir="/data/misc/ostats/xlog" pattern=".*.pb.trace" option="mv" latest="0" targetpath="systemapp/com.oplus.ostats"></path>
+    </item>
+    <item id="charge">
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/vendor/battery" pattern=".*" option="cp" latest="0" targetpath="charge/battery"></path>
+        <path dir="/data/debugging" pattern="anr_binder_info" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="junk">
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/sf" pattern=".*" option="mv" latest="TIME120" targetpath="display/sf"></path>
+      </item>
+    <item id="storage">
+        <path dir="/mnt/oplus/op2" pattern="fs_mgr_log" option="cp" latest="0" targetpath="storage"></path>
+        <path dir="/data/persist_log" pattern="storage" option="mv" latest="0" targetpath="storage"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="camera">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/camera" pattern=".*" option="mv" latest="0" targetpath="camera"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="camera" option="cp" latest="0" targetpath="camera/DCS"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="camera_hal" option="cp" latest="0" targetpath="camera/DCS"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/sf" pattern=".*" option="mv" latest="TIME120" targetpath="display/sf"></path>
+      </item>
+    <item id="fingerprint">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/persist_log/sf" pattern="SKP" option="mv" latest="0" targetpath="display"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/vendor/fingerprint" pattern=".*" option="mv" latest="0" targetpath="fingerprint/data"></path>
+        <path dir="/mnt/vendor/persist/fingerprint" pattern=".*" option="cp" latest="0" targetpath="fingerprint/mnt"></path>
+        <path dir="/data/vendor_de/0/faceunlock" pattern=".*" option="mv" latest="0" targetpath="faceunlock"></path>
+        <path dir="/data/vendor/touch" pattern=".*" option="mv" latest="0" targetpath="touch"></path>
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="security" option="mv" latest="0" targetpath="security"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="sensor">
+        <path dir="/data/debugging" pattern="sslog" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/debugging" pattern="security" option="mv" latest="0" targetpath="security"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="interconnection">
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/misc/bluetooth" pattern="logs" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluetooth" pattern="cached_hci" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bthci" pattern=".*" option="cp" latest="0" targetpath="bluetooth/btsnoop_hci"></path>
+        <path dir="/data/misc/bluedroid" pattern="^((?!bt_config\.).)+" option="cp" latest="0" targetpath="bluetooth/bluedroid"></path>
+        <path dir="/data/misc/bt_log" pattern=".*" option="cp" latest="0" targetpath="bluetooth"></path>
+        <path dir="/data/debugging" pattern="netlog" option="cp" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/vendor/wifi/logs" pattern=".*" option="cp" latest="0" targetpath="data_vendor"></path>
+        <path dir="/data/persist_log/TMP" pattern="pcm_dump" option="mv" latest="0" targetpath="audio"></path>
+        <path dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/debugging/diag_logs" pattern=".*" option="mv" latest="0" targetpath="diag_logs"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="mv" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="fold_screen">
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+      </item>
+    <item id="stability">
+        <path dir="/cache/recovery" pattern=".*" option="mv" latest="0" targetpath="recovery"></path>
+        <path dir="/data/persist_log/recovery_log" pattern=".*" option="mv" latest="0" targetpath="recovery"></path>
+        <path dir="/data/persist_log" pattern="hprofdump" option="cp" latest="0" targetpath="stability"></path>
+        <path dir="/data/aee_exp" pattern=".*" option="cp" latest="0" targetpath="stability/data_aee"></path>
+        <path dir="/data/vendor/aee_exp" pattern=".*" option="cp" latest="0" targetpath="data_vendor/vendor_aee"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="AEE_DB" option="cp" latest="0" targetpath="stability/DCS"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="minidump" option="cp" latest="0" targetpath="stability/DCS"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="stability_monitor" option="cp" latest="0" targetpath="stability/DCS"></path>
+        <path dir="/data/persist_log" pattern="oplusreserve" option="cp" latest="0" targetpath="stability/oplusreserve2"></path>
+        <path dir="/data/persist_log/expdb" pattern=".*" option="mv" latest="0" targetpath="stability/expdb"></path>
+        <path dir="/data/persist_log/oplusreserve1" pattern=".*" option="mv" latest="0" targetpath="stability/oplusreserve1"></path>
+        <path dir="/data/persist_log/oplusreserve3" pattern=".*" option="mv" latest="0" targetpath="stability/oplusreserve3"></path>
+        <path dir="/data/persist_log/oplusreserve5" pattern=".*" option="mv" latest="0" targetpath="stability/oplusreserve5"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/persist_log" pattern="criticallog" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <path dir="/data/persist_log/DCS/de/theia" pattern=".*" option="cp" latest="TIME5" targetpath="theia"></path>
+        <!-- YuanZhiqiang Add for collect wifi driver log-->
+        <path dir="/data/vendor/wifi/logs" pattern=".*" option="cp" latest="0" targetpath="data_vendor"></path>
+        <path dir="/data/persist_log/sf" pattern=".*" option="mv" latest="TIME120" targetpath="display/sf"></path>
+    </item>
+
+    <!-- save for temp -->
+    <item id="other">
+        <!-- common -->
+        <path dir="/data/system/users" pattern="0" option="cp" latest="0" targetpath="common/user_0"></path>
+        <path dir="/sdcard/Android/data/com.oplus.olc" pattern="trigger" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging" pattern="wm" option="mv" latest="0" targetpath="common"></path>
+        <path dir="/data/debugging/tcpdump" pattern="netlog" option="mv" latest="SIZE500" targetpath="common"></path>
+        <path dir="/data/persist_log" pattern="criticallog" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="pstore" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="stamp" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="crashbox" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="modem_log" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="ovmsAudio" option="cp" latest="0" targetpath="common/assistlog"></path>
+        <path dir="/data/persist_log" pattern="launcher.*" option="cp" latest="0" targetpath="common/assistlog/launcher"></path>
+        <path dir="/data/persist_log/backup" pattern="^((?!OTRTA).)*$" option="cp" latest="0" targetpath="common/assistlog/backup"></path>
+        <path dir="/data/persist_log/TMP" pattern="OTRTA" option="mv" latest="SIZE500" targetpath="common/assistlog"></path>
+        <!-- performance -->
+        <path dir="/data/local/traces" pattern=".*.perfetto-trace" option="mv" latest="0" targetpath="performance/systrace"></path>
+        <!-- power -->
+        <path dir="/data/oplus/psw" pattern="powermonitor" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/oplus/psw" pattern="powermonitor_backup" option="cp" latest="0" targetpath="power"></path>
+        <path dir="/data/system/thermal" pattern="dcs" option="cp" latest="0" targetpath="power/thermalrec"></path>
+        <path dir="/data/system" pattern="thermalstats.bin" option="cp" latest="0" targetpath="power/thermalrec"></path>
+        <!-- recovery : be ralated to property of ro.build.ab_update-->
+        <path dir="/cache/recovery" pattern=".*" option="mv" latest="0" targetpath="recovery"></path>
+        <path dir="/data/persist_log/recovery_log" pattern=".*" option="mv" latest="0" targetpath="recovery"></path>
+        <!-- stability -->
+        <path dir="/data/persist_log" pattern="hprofdump" option="cp" latest="0" targetpath="stability"></path>
+        <path dir="/data/aee_exp" pattern=".*" option="cp" latest="0" targetpath="stability/data_aee"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="AEE_DB" option="cp" latest="0" targetpath="stability/DCS"></path>
+        <path dir="/data/persist_log/DCS/de" pattern="stability_monitor" option="cp" latest="0" targetpath="stability/DCS"></path>
+        <path dir="/data/persist_log" pattern="oplusreserve" option="cp" latest="0" targetpath="stability/oplusreserve2"></path>
+        <path dir="/data/persist_log/expdb" pattern=".*" option="mv" latest="0" targetpath="stability/expdb"></path>
+        <path dir="/data/persist_log/oplusreserve1" pattern=".*" option="mv" latest="0" targetpath="stability/oplusreserve1"></path>
+        <path dir="/data/persist_log/oplusreserve3" pattern=".*" option="mv" latest="0" targetpath="stability/oplusreserve3"></path>
+        <path dir="/data/persist_log/oplusreserve5" pattern=".*" option="mv" latest="0" targetpath="stability/oplusreserve5"></path>
+        <!-- security -->
+        <path dir="/data/debugging" pattern="security" option="mv" latest="0" targetpath="security"></path>
+        <!-- systemapp -->
+        <path dir="/sdcard/Android/data/com.heytap.pictorial/files" pattern="xlog" option="cp" latest="0" targetpath="systemapp/com.heytap.pictorial"></path>
+        <path dir="/sdcard/Android/data/com.heytap.browser/files" pattern="xlog" option="cp" latest="0" targetpath="systemapp/com.heytap.browser"></path>
+        <path dir="/data/misc/midas/xlog" pattern=".*" option="mv" latest="0" targetpath="systemapp/com.oplus.obrain"></path>
+        <path dir="/data/misc/ostats/xlog" pattern=".*.pb.trace" option="mv" latest="0" targetpath="systemapp/com.oplus.ostats"></path>
+        <path dir="/sdcard/Android/data/com.heytap.yoli/files/yoliVideo" pattern="xlog" option="cp" latest="0" targetpath="systemapp/com.heytap.yoli"></path>
+
+        <!-- display -->
+        <path dir="/data/persist_log/sf" pattern="raw" option="mv" latest="0" targetpath="display/RAW"></path>
+        <path dir="/data/persist_log/sf" pattern="SKP" option="mv" latest="0" targetpath="display"></path>
+
+        <!-- YuanZhiqiang Add for collect wifi driver log-->
+        <path dir="/data/vendor/wifi/logs" pattern=".*" option="cp" latest="0" targetpath="data_vendor"></path>
+    </item>
+</pathConfig>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<path>
+  <path name="/data/ramdump"/>
+  <path name="/data/persist_log/DCS/de/modemdump"/>
+  <path name="/data/persist_log/DCS/de/mdmlog"/>
+  <path name="/data/vendor/radio/"/>
+  <path name="/data/vendor/olog/"/>
+  <path name="/data/oplus/psw/logback/LocalSave"/>
+  <path name="/data/oplus/psw/powermonitor_backup_large/ocloud_log"/>
+</path>

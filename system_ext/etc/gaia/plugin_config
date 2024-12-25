@@ -1,0 +1,32 @@
+plugins:27
+LogWorkManager[thread:logworkmanager]: static
+ApLog[thread:ap_log]: static
+DynamicLog[]: static
+ScreenRecord[]: static
+RedScreenAssert[]: static
+BtHciLog[]: static
+MtkLogger[]: static
+StabilityLog[]: static
+CameraLog[]: static
+TransferLog[]: static
+DumpLog[thread:dumplog]: static
+CompressLog[thread:compresslog]: static
+FinishLog[]: static
+DisplayLog[]: static
+BrightnessLog[]: static
+WlanLogger[]: static
+AudioLog[]: static
+TouchScreenLog[]: static
+GpsLog[]: static
+BiometricsLog[]: static
+RegularLog[]: static
+LogkitSwitch[]: static
+LogkitSwitchCommon[]: static
+Systrace[]: static
+QXDMLog[]: static
+VideoLog[]: static
+ModemLog[]: static
+pipelines:1
+logCorePipeline:LogWorkManager LogkitSwitchCommon LogkitSwitch ApLog Systrace ScreenRecord QXDMLog BtHciLog RegularLog DynamicLog BiometricsLog ModemLog RedScreenAssert WlanLogger GpsLog StabilityLog CameraLog BrightnessLog DisplayLog AudioLog VideoLog TouchScreenLog MtkLogger DumpLog TransferLog CompressLog FinishLog
+eventsources:1
+CommonEventSource:logCorePipeline

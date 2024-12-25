@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsys-config>
+  <plugins>
+    <plugin name="com.oplus.subsys.OcloudPlugin"
+         module="ocloud"
+         loaded="false"
+         path="/system_ext/priv-app/OcloudApp/OcloudApp.apk"/>
+  </plugins>
+  <components>
+    <component name="com.oplus.virtualcomm.VirtualCommServiceLoader"
+            category = "base">
+    </component>
+    <component name="com.oplus.tai.ModelRunner"
+            category = "base">
+    </component>
+    <component name="com.oplus.clusters.QtiClusterLoader"
+            category = "qti">
+    </component>
+    <component name="com.oplus.clusters.MtkClusterLoader"
+            category = "mtk">
+    </component>
+  </components>
+  <cluster>
+    <module name="com.oplus.cluster.rfdesense.RFDesenseManager"
+            category = "qti">
+    </module>
+    <module name="com.oplus.cluster.rfdesense.RFDesenseManager"
+            category = "mtk">
+    </module>
+  </cluster>
+  <aiservices>
+    <service name="com.oplus.tai.score.DataScoreModel">
+    </service>
+    <service name="com.oplus.tai.bandwidth.BandwidthModel">
+    </service>
+  </aiservices>
+</subsys-config>

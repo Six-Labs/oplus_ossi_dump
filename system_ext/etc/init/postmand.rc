@@ -1,0 +1,8 @@
+service postmand /system/system_ext/bin/postmand
+    class main
+    user root
+    group root system
+    socket postmand stream 0666 system system
+
+on post-fs-data
+    mkdir /data/persist_log/postman 0777 system system

@@ -1,0 +1,3 @@
+libSloganJni.oplus.so
+libsuperNight.oplus.so
+libAPSClient-cmd-jni-extension.oplus.so

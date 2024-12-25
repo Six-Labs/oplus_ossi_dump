@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ********************************************************************************
+ ** Copyright (C) 2018-2023 Oplus. All rights reserved.
+ ** All rights reserved.
+ **
+ ** File: - pms-default-local-list.xml
+ ** Description:
+ **     local attributes of pms pms-default-local-list.xml
+ **
+ ** Version: 1.0
+ ** Date: 2023-06-06
+ ** Author: Yuanxi.Zeng@ANDROID.PMS
+ **
+ ** <author>                        <data>       <version>   <desc>
+  ** Yuanxi.Zeng@ANDROID.PMS       2023-06-06   1.0         Create this file
+ ********************************************************************************/
+  -->
+
+<!--  #Yuanxi.Zeng@ANDROID.PMS, 2023/06/05, Add for hard code change of special secure pay app name -->
+<secure-pay-pkg>com.tencent.mm</secure-pay-pkg>

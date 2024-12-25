@@ -1,0 +1,10 @@
+service oplus_gaia /system/system_ext/bin/oplus_gaia
+    class main
+    user root
+    group system root log ext_data_rw media_rw readproc cache radio bluetooth wifi everybody audio sdcard_rw
+
+on post-fs-data
+    mkdir /data/log 0770
+    mkdir /data/log/gaia 0770 system system
+    mkdir /data/log/ap_log 0770 system system
+

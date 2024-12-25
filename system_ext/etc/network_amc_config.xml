@@ -1,0 +1,256 @@
+<!-- OPLUS_FEATURE_AMC -->
+<!-- Asiga@NETWORK.POWER.5059947, 2023-01-05. -->
+<AmcConfig>
+    <amc_version>20231031</amc_version>
+
+    <policy id="1">
+        <name>temp_ccuf</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=foreground,per_day=1000,execute_gap=300,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>temp_ge_44000_0,or=true</in_1>
+        <out_1>charge_on,temp_le_42000_0,fgapplist0_on,airplane_on,simswitch_off,or=true</out_1>
+        <check_1>charge_off,fgapplist0_off,signal_ge_-100_0,call_off,or=false</check_1>
+        <action_name>ccctrl_0</action_name>
+    </policy>
+
+    <policy id="2">
+        <name>batter_ccuf</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=foreground,per_day=1000,execute_gap=300,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>battery_le_20_0,or=true</in_1>
+        <out_1>charge_on,fgapplist0_on,battery_ge_21_0,airplane_on,simswitch_off,or=true</out_1>
+        <check_1>charge_off,fgapplist0_off,signal_ge_-100_0,call_off,or=false</check_1>
+        <action_name>ccctrl_0</action_name>
+    </policy>
+
+    <policy id="5">
+        <name>temp_mimou</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=foreground,per_day=1000,execute_gap=300,trigger_valid_gap=900,monitor_only=false</param>
+        <in_trigger>temp_ge_45000_0,or=true</in_trigger>
+        <out_trigger>charge_on,temp_le_43000_0,fgapplist0_on,airplane_on,simswitch_off,or=true</out_trigger>
+        <check_condition>charge_off,fgapplist0_off,signal_ge_-100_0,call_off,or=false</check_condition>
+        <action_name>ulmimo_3</action_name>
+    </policy>
+
+    <policy id="6">
+        <name>batter_mimou</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=foreground,per_day=1000,execute_gap=300,trigger_valid_gap=900,monitor_only=false</param>
+        <in_trigger>battery_le_20_0,or=true</in_trigger>
+        <out_trigger>charge_on,battery_ge_21_0,fgapplist0_on,airplane_on,simswitch_off,or=true</out_trigger>
+        <check_condition>charge_off,fgapplist0_off,signal_ge_-100_0,call_off,or=false</check_condition>
+        <action_name>ulmimo_3</action_name>
+    </policy>
+
+    <policy id="8">
+        <name>idle_bgnr</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=standby,per_day=100,execute_gap=0,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>nbgsrcht_ge_180_1800,or=true</in_1>
+        <out_1>screen_on,inactive_off,oos_on,airplane_on,simswitch_on,or=true</out_1>
+        <check_1>screen_off,inactive_on,call_off,oos_off,or=false</check_1>
+        <link>nbgsrcht_ge_180_1800</link>
+        <gain>radiosleept_ge_10_300</gain>
+        <action_name>bgsrchnr_0,bgsrchnr_1</action_name>
+    </policy>
+
+   <policy id="9">
+        <name>idle_bglte</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=standby,per_day=100,execute_gap=0,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>ebgsrcht_ge_180_1800,or=true</in_1>
+        <out_1>screen_on,inactive_off,oos_on,airplane_on,simswitch_on,or=true</out_1>
+        <check_1>screen_off,inactive_on,call_off,oos_off,or=false</check_1>
+        <link>ebgsrcht_ge_180_1800</link>
+        <gain>radiosleept_ge_10_300</gain>
+        <action_name>bgsrchlte_0,bgsrchlte_1</action_name>
+    </policy>
+
+    <policy id="10">
+        <name>oos_light</name>
+        <version>20231031</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=standby,per_day=100,execute_gap=0,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>screen_off,oos_on,psnoregt_ge_100_300,csnoregt_ge_100_300,or=true</in_1>
+        <out_1>screen_on,airplane_on,simswitch_on,or=true</out_1>
+        <check_1>oos_on,screen_off,call_off,simcount_gt_0_0,or=false</check_1>
+        <gain>radiosleept_ge_10_300</gain>
+        <action_name>mtkooscfg_0</action_name>
+    </policy>
+
+    <policy id="11">
+        <name>oos_deep</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=standby,per_day=100,execute_gap=0,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>inactive_on,or=true</in_1>
+        <out_1>screen_on,inactive_off,airplane_on,simswitch_on,or=true</out_1>
+        <check_1>oos_on,call_off,simcount_gt_0_0,or=false</check_1>
+        <gain>radiosleept_ge_10_300</gain>
+        <action_name>mtkooscfg_1</action_name>
+    </policy>
+
+    <policy id="12">
+        <name>oos_light2</name>
+        <version>20231031</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=standby,per_day=100,execute_gap=0,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>screen_off,oos_on,psnoregt_ge_100_300,csnoregt_ge_100_300,or=true</in_1>
+        <out_1>screen_on,airplane_on,or=true</out_1>
+        <check_1>call_off,screen_off,simcount_eq_0_0,or=false</check_1>
+        <gain>radiosleept_ge_10_300</gain>
+        <action_name>mtkooscfg_2</action_name>
+    </policy>
+
+    <policy id="13">
+        <name>oos_deep2</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=standby,per_day=100,execute_gap=0,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>inactive_on,or=true</in_1>
+        <out_1>screen_on,inactive_off,airplane_on,simswitch_on,or=true</out_1>
+        <check_1>call_off,simcount_eq_0_0,or=false</check_1>
+        <gain>radiosleept_ge_10_300</gain>
+        <action_name>mtkooscfg_3</action_name>
+    </policy>
+
+    <policy id="14">
+        <name>oos_qrxlv</name>
+        <version>20231020</version>
+        <enabled>true</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=standby,per_day=100,execute_gap=0,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>inactive_on</in_1>
+        <out_1>screen_on,inactive_off,airplane_on,simswitch_on,or=true</out_1>
+        <gain>radiosleept_ge_10_300</gain>
+        <check_1>call_off,signal_le_-100_0,simcount_gt_0_0,or=false</check_1>
+        <action_name>mtkqrxlv_0</action_name>
+    </policy>
+
+    <policy id="15">
+        <name>pa_txpower</name>
+        <version>20231020</version>
+        <enabled>false</enabled>
+        <platform>mtk</platform>
+        <multi_phone>true</multi_phone>
+        <param>type=foreground,per_day=1000,execute_gap=300,trigger_valid_gap=900,monitor_only=false</param>
+        <in_1>temp_ge_53000_0,or=true</in_1>
+        <out_1>temp_le_51000_0,call_on,score_le_70_0,fgapplist3_off,airplane_on,simswitch_off,or=true</out_1>
+        <check_1>temp_le_51000_0,score_ge_90_0,fgapplist3_on,call_off,fold_on,highpwrt_ge_90_180,or=false</check_1>
+        <link>score_ge_90_0,score_le_80_0</link>
+        <gain>temp_le_51000_0</gain>
+        <action_name>pcmaxoffset_0,pcmaxoffset_1,pcmaxoffset_2,</action_name>
+    </policy>
+
+    <fgapplist>
+        <version>20230821</version>
+        <list_0>org.zwanoo.android.speedtest,com.huawei.genexcloud.speedtest</list_0>
+        <list_1>com.tencent.tmgp.sgame</list_1>
+        <list_2>com.tencent.mm,com.ss.android.ugc.aweme,com.smile.gifmaker,com.xunmeng.pinduoduo,com.baidu.searchbox,com.tencent.qqlive,tv.danmaku.bili,com.dragon.read,com.ss.android.article.news
+,com.taobao.taobao</list_2>
+        <list_3>com.xingin.xhs,com.ss.android.ugc.aweme</list_3>
+    </fgapplist>
+
+    <action id="1">
+        <name>broadcast</name>
+        <version>20230908</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=uaitype:0 op:1 uaidl:0 uaiul:0 uaicount:10 uaigap:1,cancel=none</args_0>
+        <args_1>execute=multiplier:12,cancel=none</args_1>
+        <args_2>execute=op:13 pref:true actflag:false sbp:true ooslv1:360 ooslv2:240 ooslv3:120 ooslv4:90 ooslv5:60 shorttimerlv1:5 shorttimerlv2:15 shorttimerlv3:30 watchtimer:1 repeatunit:2 longtimer:60 enterscreen:1 exitscreen:1 enterinactivemode:1 exitinactivemode:0,cancel=none</args_2>
+        <args_3>execute=op:17 pref:true actflag:false sbp:true lstimerlv1:10 lstimerlv2:12 lstimerlv3:15 lswatchtimer:1 lsrepeatunit:2 lsdurlv:30,cancel=none</args_3>
+    </action>
+
+    <action id="2">
+        <name>ccctrl</name>
+        <version>20230720</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=uaitype:0 op:1 uaidl:0 uaiul:0 uaicount:100 uaigap:1,cancel=uaitype:0 op:0 uaidl:0 uaiul:0 uaicount:100 uaigap:0</args_0>
+        <args_1>execute=uaitype:0 op:1 uaidl:0 uaiul:0 uaicount:100 uaigap:0,cancel=uaitype:0 op:0 uaidl:0 uaiul:0 uaicount:100 uaigap:0</args_1>
+    </action>
+
+    <action id="3">
+        <name>ulmimo</name>
+        <version>20230821</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=uaiType:1 op:1 uaidl:-1 uaiul:0 uaicount:100 uaigap:1,cancel=uaitype:1 op:0 uaidl:-1 uaiul:1 uaicount:100 uaigap:0</args_0>
+        <args_1>execute=uaiType:1 op:1 uaidl:-1 uaiul:0 uaicount:100 uaigap:0,cancel=uaitype:1 op:0 uaidl:-1 uaiul:1 uaicount:100 uaigap:0</args_1>
+        <args_2>execute=uaiType:1 op:1 uaidl:1 uaiul:0 uaicount:100 uaigap:1,cancel=uaitype:1 op:0 uaidl:3 uaiul:1 uaicount:100 uaigap:0</args_2>
+        <args_3>execute=uaiType:1 op:1 uaidl:1 uaiul:0 uaicount:100 uaigap:0,cancel=uaitype:1 op:0 uaidl:3 uaiul:1 uaicount:100 uaigap:0</args_3>
+    </action>
+
+    <!--
+    -@param enable      true:close, false:open
+    -@param type        0:nr, 1:lte
+    -->
+    <action id="5">
+        <name>bgsrchnr</name>
+        <version>20230908</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=rat:0 sibEnable:false ratEnable:true,cancel=rat:0 sibEnable:true ratEnable:true</args_0>
+        <args_1>execute=rat:0 sibEnable:false ratEnable:false,cancel=rat:0 sibEnable:true ratEnable:true</args_1>
+    </action>
+
+    <action id="6">
+        <name>bgsrchlte</name>
+        <version>20230908</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=rat:1 sibEnable:false ratEnable:true,cancel=rat:1 sibEnable:true ratEnable:true</args_0>
+        <args_1>execute=rat:1 sibEnable:false ratEnable:false,cancel=rat:1 sibEnable:true ratEnable:true</args_1>
+    </action>
+
+    <action id="7">
+        <name>mtkooscfg</name>
+        <version>20230908</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=sbp_enable:true feature_option:1 recovery_timer_lv1:40 recovery_timer_lv2:90 recovery_timer_lv3:120 recovery_timer_lv4:180 recovery_timer_lv5:480,cancel=sbp_enable:true feature_option:1 recovery_timer_lv1:20 recovery_timer_lv2:60 recovery_timer_lv3:90 recovery_timer_lv4:90 recovery_timer_lv5:360</args_0>
+        <args_1>execute=sbp_enable:true feature_option:2 pref:true recovery_threshold:2 inactive_fullband_timer:600 inactive_sniffer_timer:90 inactive_scan_timer:90 inactive_sleep_timer:600,cancel=sbp_enable:true feature_option:2 recovery_threshold:5 inactive_fullband_timer:360 inactive_sniffer_timer:30 inactive_scan_timer:180 inactive_sleep_timer:480</args_1>
+        <args_2>execute=sbp_enable:true feature_option:1 recovery_timer_lv1:40 recovery_timer_lv2:90 recovery_timer_lv3:120 recovery_timer_lv4:180 recovery_timer_lv5:480,cancel=sbp_enable:true feature_option:1 recovery_timer_lv1:20 recovery_timer_lv2:60 recovery_timer_lv3:90 recovery_timer_lv4:90 recovery_timer_lv5:360</args_2>
+        <args_3>execute=sbp_enable:true feature_option:2 pref:true recovery_threshold:2 inactive_fullband_timer:600 inactive_sniffer_timer:90 inactive_scan_timer:90 inactive_sleep_timer:600,cancel=sbp_enable:true feature_option:2 recovery_threshold:5 inactive_fullband_timer:360 inactive_sniffer_timer:30 inactive_scan_timer:180 inactive_sleep_timer:480</args_3>
+    </action>
+
+    <action id="8">
+        <name>mtkqrxlv</name>
+        <version>20230908</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=sbp_enable:true feature_option:17 lte_qrx_lv_good:-63 lte_qrx_lv_bad:-70 lte_qrx_lv_val:-64 nr_qrx_lv_good:-62 nr_qrx_lv_bad:-70 nr_qrx_lv_val:-62 nr_qqual_good:-12 nr_qqual_bad:-43 nr_qqual_val:-20,cancel=sbp_enable:false feature_option:17 lte_qrx_lv_good:-63 lte_qrx_lv_bad:-70 lte_qrx_lv_val:-61 nr_qrx_lv_good:0 nr_qrx_lv_bad:0 nr_qrx_lv_val:0 nr_qqual_good:0 nr_qqual_bad:0 nr_qqual_val:0 </args_0>
+    </action>
+
+    <action id="9">
+        <name>pcmaxoffset</name>
+        <version>20230908</version>
+        <lock_time>0</lock_time>
+        <args_0>execute=uaiType:200 rat:2 db_offset:1 uaicount:100 uaigap:1,cancel=uaiType:200 rat:2 db_offset:0 uaicount:100 uaigap:1</args_0>
+        <args_1>execute=uaiType:200 rat:2 db_offset:2 uaicount:100 uaigap:1,cancel=uaiType:200 rat:2 db_offset:0 uaicount:100 uaigap:1</args_1>
+        <args_2>execute=uaiType:200 rat:2 db_offset:3 uaicount:100 uaigap:1,cancel=uaiType:200 rat:2 db_offset:0 uaicount:100 uaigap:1</args_2>
+    </action>
+
+</AmcConfig>

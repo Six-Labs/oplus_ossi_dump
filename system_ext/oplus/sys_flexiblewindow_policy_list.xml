@@ -1,0 +1,8 @@
+<window-policy>
+    <version>20220105</version>
+    <filter-name>sys_flexiblewindow_policy_list</filter-name>
+    <policy scenario="1" scale="0.7" cornerRadius="62" shadowRadiusFocused="20" shadowRadiusUnfocused="6" isAlwaysOnTop="true"/>
+    <policy scenario="2" scale="1" cornerRadius="33" supportEmbedded="true" isAlwaysOnTop="true"/>
+    <!-- Don't config scale -->
+    <policy scenario="3" simulatedWidth="960" />
+</window-policy>

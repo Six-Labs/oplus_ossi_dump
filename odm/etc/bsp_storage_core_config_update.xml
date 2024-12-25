@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<storage_feature>
+		<version>2023-12-15-01-01-01</version>
+		<compress_cfg>
+			<app_enable>0</app_enable>
+			<dedup_enable>0</dedup_enable>
+		</compress_cfg>
+		<feature_path ismulti="1" addr="/sys/fs/f2fs/">
+			<appboost>0</appboost>
+		</feature_path>
+</storage_feature>

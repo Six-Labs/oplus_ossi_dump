@@ -1,0 +1,10 @@
+#================================audio related start========================================
+#ifdef OPLUS_BUG_COMPATIBILITY
+#Haiping.Bai@PSW.MM.AudioDriver, 2022/8/3, Add for SIXTH
+on post-fs-data
+    chown system audio /dev/sipa_up
+    chmod 0666 /dev/sipa_up
+    chown system audio /dev/sipa_down
+    chmod 0666 /dev/sipa_down
+#enif
+#================================audio related end==========================================

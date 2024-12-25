@@ -1,0 +1,8 @@
+{
+"PinLibs": [
+"/odm/lib64/libFilterWrapper.so",
+"/odm/lib64/libAlgoProcess.so",
+"/odm/lib64/libPolarrRender.so"
+]
+
+}

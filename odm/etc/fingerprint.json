@@ -1,0 +1,22 @@
+[
+    {
+        "brand":"realme",
+        "project":"2269C",
+        "name":"t2",
+        "product":"RMX3630T2",
+        "device":"RE8DDCL1",
+        "model":"RMX3630",
+		"first_api_level" : "31",
+		"manufacturer":"realme"
+    }, 
+    {
+        "brand":"realme",
+        "project":"2269C",
+        "name":"default",
+        "product":"RMX3630",
+        "device":"RE8DDCL1",
+        "model":"RMX3630",
+		"first_api_level" : "31",
+		"manufacturer":"realme"
+    }
+]

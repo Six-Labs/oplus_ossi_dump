@@ -1,0 +1,114 @@
+{
+    "2269C_2269D_2269E_22687_22688_22689":{
+        "platform_config":{
+            "sensor_arch":"mtk_sensor_arch_2_0"
+        },
+        "sensor_config":{
+            "android.sensor.accelerometer":{
+                "type":1,
+                "support":"true",
+                "module":"module_ignore",
+                "module_ignore":{
+                    "mode":"batch_cali|factory_cali",
+                    "offset_x": 0.0,
+                    "offset_y": 0.0,
+                    "offset_z": 0.0
+                }
+            },
+            "android.sensor.magnetic_field":{
+                "type":2,
+                "support":"true",
+                "module":"mmc5603|af6133e|akm09919|mxg4300",
+                "af6133e":{
+                    "mode":"batch_cali"
+                },
+                "mmc5603":{
+                    "mode":"batch_cali"
+                },
+                "akm09919":{
+                    "mode":"batch_cali"
+                },
+                "mxg4300":{
+                    "mode":"batch_cali"
+                }
+            },
+            "android.sensor.step_counter":{
+                "type":19,
+                "support":"true"
+            },
+            "android.sensor.gyroscope": {
+                "type": 4,
+                "support": "true",
+                "module": "module_ignore",
+                "module_ignore": {
+                    "mode": "virtual_sensor"
+                }
+            },
+            "android.sensor.proximity":{
+                "type":8,
+                "support":"true",
+                "module":"tcs3701",
+                "tcs3701":{
+                    "mode":"ignore_mean|micro_gap|factory_cali",
+                    "delta_threshold":150,
+                    "ps0_offset": 0,
+                    "ps0_distance_delta":110,
+                    "ps1_offset": 0,
+                    "ps1_distance_delta": 0
+                }
+            },
+            "android.sensor.light":{
+                "type":5,
+                "support":"true"
+            },
+            "oplus.sensor.side_panel_fusion_light":{
+				"type":33171103,
+				"support":"true",
+				"module":"module_ignore",
+				"module_ignore":{
+					"mode":"factory_cali",
+					"cali_para": 1000,
+					"R_MAX": 0,
+					"G_MAX": 0,
+					"B_MAX": 0,
+					"W_MAX": 0
+				}
+			},
+            "android.sensor.wise_light": {
+				"type": 65627,
+				"support": "true",
+				"module": "tcs3701",
+				"tcs3701": {
+					"mode":"factory_cali",
+					"cali_para": 1000,
+					"R_MAX": 0,
+					"G_MAX": 0,
+					"B_MAX": 0,
+                    "W_MAX": 0
+                }
+			},
+			"qti.sensor.rgb_rear": {
+				"type": 33171052,
+				"support": "false",
+				"module": "tcs3408",
+				"tcs3408": {
+					"mode": "factory_cali",
+					"R_cali": 1000,
+					"G_cali": 1000,
+					"B_cali": 1000,
+					"C_cali": 1000,
+					"W_cali": 1000,
+					"F_cali": 1000
+				}
+			},
+            "android.sensor.sar":{
+				"type":65608,
+				"support":"false",
+				"module":"module_ignore",
+				"module_ignore":{
+					"mode":"triple_channel"
+				}
+            }
+        }
+    }
+}

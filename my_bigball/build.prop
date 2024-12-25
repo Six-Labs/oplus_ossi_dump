@@ -1,0 +1,9 @@
+import /mnt/vendor/my_bigball/etc/region/build.prop
+# build porp start
+ro.oplus.image.my_bigball.type=export_2269C_realme-Light_ID_NA
+ro.oplus.image.my_bigball.date=2024-11-06 22:07:01
+ro.oplus.image.my_bigball.date.utc=1730902021
+ro.oplus.image.my_bigball.version_name=my_bigball2269C_1400_U.0.0
+ro.oplus.server_url_1=https://fourier-newds01-sg.allawnos.com/autotime/dateandtime.xml?number=
+ro.oplus.server_url_2=https://fourier-newds02-sg.allawnos.com/autotime/dateandtime.xml?number=
+ro.oplus.image.my_bigball.version=2269C_1400_U.0.0.2024110622032828177332.5fb19dae

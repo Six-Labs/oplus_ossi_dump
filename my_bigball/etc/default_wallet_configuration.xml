@@ -1,0 +1,4 @@
+<wallet-config>
+    <!-- CaiChunchun@ANDROID.INPUT, 2023/01/30, Add for wallet -->
+	<item package="com.fintech.life" action="fintech.life.intent.action.OPEN" uri="content://fintech.life.quickstart.flag.provider.open/CARD_BAG_FLAG" extras="" />
+</wallet-config>

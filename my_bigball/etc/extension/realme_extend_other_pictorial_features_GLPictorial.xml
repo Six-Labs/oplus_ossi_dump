@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.systemui.other_pictorial_support" args="String:com.glance.internet"/>
+    <app_feature name="com.coloros.bootreg.other_pictorial_support" args="String:com.glance.internet"/>
+
+    <app_feature name="com.android.systemui.other_pictorial_support_locations">
+        <StringList args="IN;ID" />
+    </app_feature>
+    <app_feature name="com.coloros.bootreg.other_pictorial_support_locations">
+        <StringList args="IN;ID" />
+    </app_feature>
+
+    <!-- Glance url config: http://alm.adc.com/realme/realmeCommonFeature/_git/Realme_ROM_bigball_Config?path=%2F&version=GBrelease -->
+
+    <app_feature name="com.android.systemui.use_chrome_country"/>
+    <app_feature name="com.android.systemui.use_chrome_opreator"/>
+</extend_features>

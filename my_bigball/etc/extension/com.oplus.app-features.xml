@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.fintech.life.hce_accesscard" args="boolean:true"/>
+</extend_features>
+<!-- Timestamp 2024-02-28T10:27:46 #93779 -->
